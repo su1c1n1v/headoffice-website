@@ -406,7 +406,6 @@ kubeconfig.yaml
 /report
 
 /node_modules
-package-lock.json
 
 # testing
 /coverage

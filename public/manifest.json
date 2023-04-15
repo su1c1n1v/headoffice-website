@@ -1,0 +1,9 @@
+{
+  "short_name": "Head Office",
+  "name": "HO - Head Office",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FFE000",
+  "background_color": "#4BDBC5"
+}

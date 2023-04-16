@@ -8,18 +8,7 @@ export default function Index() {
 
   return (
     <>
-      <div className="text-center text-5xl font-bold">{t('welcome')}</div>
-      <div className="text-center my-3">
-        <Button
-          onClick={() =>
-            i18n.changeLanguage(i18n.language == 'en-US' ? 'pt-PT' : 'en-US')
-          }
-          title={i18n.language == 'en-US' ? 'pt-PT' : 'en-US'}
-          vartiant={'submit'}
-        />
-      </div>
-
-      <div className="m-auto w-1/2 h-56 sm:h-64 xl:h-80 2xl:h-96">
+      <div className="m-auto h-80 rounded-none 2xl:h-96">
         <Carousel slideInterval={5000}>
           <img
             src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
@@ -42,6 +31,17 @@ export default function Index() {
             alt="..."
           />
         </Carousel>
+      </div>
+
+      <div className="text-center text-5xl font-bold">{t('welcome')}</div>
+      <div className="text-center my-3">
+        <Button
+          onClick={() =>
+            i18n.changeLanguage(i18n.language == 'en-US' ? 'pt-PT' : 'en-US')
+          }
+          title={i18n.language == 'en-US' ? 'pt-PT' : 'en-US'}
+          vartiant={'submit'}
+        />
       </div>
     </>
   );

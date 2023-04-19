@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.move-left {
+  animation-name: moveleft;
+  animation-duration: 2s;
+  right: 0;
+  top: 0;
+}
+
+.move-right {
+  animation-name: moveright;
+  animation-duration: 1.5s;
+}
+
+@keyframes moveleft {
+  0% {
+    right: -75%;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes moveright {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -75%;
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: white white;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.3rem;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: black;
+}

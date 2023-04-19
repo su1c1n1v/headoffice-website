@@ -21,7 +21,10 @@ module.exports = {
       montserrat: ['"Montserrat"', ...defaultTheme.fontFamily.sans],
     },
     backgroundImage: {
-      menu: "url('/src/assets/img/AdobeStock_328796674.jpeg')",
+      image1: "url('/src/assets/img/image1.jpg')",
+      estetica1: "url('/src/assets/img/estetica-image2.jpeg')",
+      cabelo1: "url('/src/assets/img/cabelo-image1.jpg')",
+      'estetica-medica1': "url('/src/assets/img/estetica-medica-image1.jpeg')",
     },
     colors: {
       gray: {

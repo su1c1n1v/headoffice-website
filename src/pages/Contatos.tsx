@@ -89,7 +89,7 @@ export default function Contatos() {
             />
 
             <ErrorMessages
-              isValid={errors.name?.message == undefined}
+              isValid={errors.name?.message === undefined}
               errorMessage={errors.name?.message?.toString()}
             />
           </div>
@@ -102,7 +102,7 @@ export default function Contatos() {
             />
 
             <ErrorMessages
-              isValid={errors.email?.message == undefined}
+              isValid={errors.email?.message === undefined}
               errorMessage={errors.email?.message?.toString()}
             />
           </div>
@@ -116,7 +116,7 @@ export default function Contatos() {
             />
 
             <ErrorMessages
-              isValid={errors.phoneNumber?.message == undefined}
+              isValid={errors.phoneNumber?.message === undefined}
               errorMessage={errors.phoneNumber?.message?.toString()}
             />
           </div>
@@ -132,7 +132,7 @@ export default function Contatos() {
             />
 
             <ErrorMessages
-              isValid={errors.subject?.message == undefined}
+              isValid={errors.subject?.message === undefined}
               errorMessage={errors.subject?.message?.toString()}
             />
           </div>
@@ -146,7 +146,7 @@ export default function Contatos() {
             />
 
             <ErrorMessages
-              isValid={errors.message?.message == undefined}
+              isValid={errors.message?.message === undefined}
               errorMessage={errors.message?.message?.toString()}
             />
           </div>

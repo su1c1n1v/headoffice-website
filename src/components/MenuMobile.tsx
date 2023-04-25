@@ -2,9 +2,7 @@ import { Link } from 'react-router-dom';
 import Icons from './Icons';
 import LogoBlack from '../assets/img/headoffice-logo-black.jpg';
 import { ReactComponent as X } from '../assets/icons/x.svg';
-import LogoGold from '../assets/img/headoffice-logo-gold.png';
 import Button from './Button';
-import { useState } from 'react';
 
 interface MenuMobileProps {
   classname?: string;
@@ -19,10 +17,10 @@ export default function MenuMobile({
 }: MenuMobileProps) {
   return (
     <div
-      className={`fixed border-2 w-[75%] blur-0 md:hidden h-full top-0 right-[-75%] bg-white shadow-xl z-[1000] ${
-        showMenu == undefined
+      className={`fixed border-2 w-[75%] blur-0 md:hidden h-full top-0 right-[-75%] bg-white shadow-xl z-[1000] ${classname} ${
+        showMenu === undefined
           ? ''
-          : showMenu == true
+          : showMenu === true
           ? 'move-left'
           : 'move-right'
       }`}

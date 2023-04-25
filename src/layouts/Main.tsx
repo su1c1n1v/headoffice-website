@@ -2,10 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Outlet } from 'react-router';
 
 import logo from '../assets/img/HeadOffice_FullColourWebPNG.png';
-import Menu from '../assets/img/AdobeStock_328796674.jpeg';
 import LogoBlack from '../assets/img/headoffice-logo-black.jpg';
-import LogoGold from '../assets/img/headoffice-logo-gold.png';
-import Image1 from '../assets/img/image1.jpg';
 import Button from '../components/Button';
 import { Link } from 'react-router-dom';
 
@@ -149,6 +146,7 @@ export default function Main() {
           {/* Location */}
           <div className="md:w-2/6 md:p-5 p-10 m-auto">
             <iframe
+              title="Google maps"
               className="w-full h-52 shadow-2xl"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12018.570738231974!2d-8.6397294!3d41.1423256!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd246515c826f109%3A0x3fe9bcae29ce6bc0!2sHeadOffice!5e0!3m2!1sen!2spt!4v1681665525413!5m2!1sen!2spt"
               loading="lazy"

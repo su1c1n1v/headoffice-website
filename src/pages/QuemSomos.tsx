@@ -37,9 +37,9 @@ export default function QuemSomos() {
       <div className="text-center my-3">
         <Button
           onClick={() =>
-            i18n.changeLanguage(i18n.language == 'en-US' ? 'pt-PT' : 'en-US')
+            i18n.changeLanguage(i18n.language === 'en-US' ? 'pt-PT' : 'en-US')
           }
-          title={i18n.language == 'en-US' ? 'pt-PT' : 'en-US'}
+          title={i18n.language === 'en-US' ? 'pt-PT' : 'en-US'}
           vartiant={'submit'}
         />
       </div>

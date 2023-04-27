@@ -2,7 +2,7 @@ import { FC, InputHTMLAttributes } from 'react';
 
 interface LabelProps extends InputHTMLAttributes<HTMLLabelElement> {
   id?: string;
-  title?: string;
+  title?: any;
   required?: boolean;
 }
 

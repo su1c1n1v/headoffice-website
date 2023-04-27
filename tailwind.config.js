@@ -33,6 +33,15 @@ module.exports = {
       'rf-sculpt1': "url('/src/assets/img/estetica-image8.jpg')",
       'estetica-medica1': "url('/src/assets/img/estetica-medica-image1.jpeg')",
       'estetica-medica2': "url('/src/assets/img/estetica-medica-image2.jpeg')",
+      estetica4: "url('/src/assets/img/estetica-image12.jpg')",
+      estetica5: "url('/src/assets/img/estetica-image13.jpg')",
+      estetica6: "url('/src/assets/img/estetica-image14.jpg')",
+      estetica7: "url('/src/assets/img/estetica-image16.JPEG')",
+      estetica8: "url('/src/assets/img/estetica-image17.JPEG')",
+      estetica9: "url('/src/assets/img/estetica-image15.jpeg')",
+      estetica10: "url('/src/assets/img/estetica-image18.JPEG')",
+      estetica11: "url('/src/assets/img/estetica-image19.png')",
+      estetica12: "url('/src/assets/img/estetica-image20.jpg')",
     },
     colors: {
       gray: {

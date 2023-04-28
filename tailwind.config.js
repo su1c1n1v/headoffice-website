@@ -49,6 +49,22 @@ module.exports = {
       estetica10: "url('/src/assets/img/estetica-image18.JPEG')",
       estetica11: "url('/src/assets/img/estetica-image19.png')",
       estetica12: "url('/src/assets/img/estetica-image20.jpg')",
+
+      // Medician estetica
+      botox: "url('/src/assets/img/medicina estetica/Botox.jpg')",
+      'acido-hialuronico':
+        "url('/src/assets/img/medicina estetica/Acido Hialurónico.jpg')",
+
+      // Estetica-rosto
+      aquapeel: "url('/src/assets/img/estetica rosto/Aquapeel.jpeg')",
+      'limpeza-pele':
+        "url('/src/assets/img/estetica rosto/Limpeza de Pele.jpeg')",
+      radiofrequencia:
+        "url('/src/assets/img/estetica rosto/Radiofrequência.jpeg')",
+      'peelings-quimicos':
+        "url('/src/assets/img/estetica rosto/Peelings químicos.jpg')",
+      'velashape-rosto':
+        "url('/src/assets/img/estetica rosto/Velashape rosto.jpg')",
     },
     colors: {
       gray: {

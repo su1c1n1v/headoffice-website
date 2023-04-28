@@ -10,7 +10,7 @@ export default function EsteticaRosto() {
 
       <div className="m-auto">
         <ContainerEstetica
-          image="bg-estetica10"
+          image="bg-limpeza-pele"
           title={'Limpeza de Pele'}
           subTitle={'sub-title-Limpeza de Pele'}
           description={t('description-Limpeza de Pele')}
@@ -26,7 +26,7 @@ export default function EsteticaRosto() {
           ]}
         />
         <ContainerEstetica
-          image="bg-"
+          image="bg-aquapeel"
           title={'Aquapeel'}
           subTitle={'sub-title-Aquapeel'}
           description={t('description-Aquapeel')}
@@ -42,7 +42,7 @@ export default function EsteticaRosto() {
           ]}
         />
         <ContainerEstetica
-          image="bg-"
+          image="bg-radiofrequencia"
           title={'Radiofrequencia'}
           subTitle={'sub-title-Radiofrequencia'}
           description={t('description-Radiofrequencia')}
@@ -72,7 +72,7 @@ export default function EsteticaRosto() {
           ]}
         />
         <ContainerEstetica
-          image="bg-"
+          image="bg-peelings-quimicos"
           title={'Peelings químicos'}
           subTitle={'sub-title-Peelings químicos'}
           description={t('description-Peelings químicos')}
@@ -85,7 +85,7 @@ export default function EsteticaRosto() {
           ]}
         />
         <ContainerEstetica
-          image="bg-"
+          image="bg-velashape-rosto"
           title={'Velashape rosto'}
           subTitle={'sub-title-Velashape rosto'}
           revert

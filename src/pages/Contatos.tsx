@@ -3,52 +3,51 @@ import Label from '../components/Label';
 import InputTextArea from '../components/inputs/InputTextArea';
 import InputSelect from '../components/inputs/InputSelect';
 import Button from '../components/Button';
-
 import { useForm } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
-import * as z from 'zod';
 import ErrorMessages from '../components/ErrorMessages';
+import { yupResolver } from '@hookform/resolvers/yup';
+import * as yup from 'yup';
 import { Toast } from 'flowbite-react';
 import { ReactNode, useState } from 'react';
+import { t } from 'i18next';
+import { InferType } from 'yup';
 
 export default function Contatos() {
   const [toasts, setToasts] = useState<ReactNode>();
 
-  const validationSchema = z.object({
-    name: z.string().min(1, { message: 'Campo obrigatório' }),
-    subject: z.string().min(1, { message: 'Campo obrigatório' }),
-    message: z.string().min(1, { message: 'Campo obrigatório' }),
-    phoneNumber: z
+  const validationSchema = yup.object().shape({
+    name: yup.string().required(t('Campo obrigatório').toString()),
+    subject: yup.string().required(t('Campo obrigatório').toString()),
+    message: yup.string().required(t('Campo obrigatório').toString()),
+    phoneNumber: yup
       .string()
-      .regex(/^\+{0,1}[0-9]{0,3}[0-9]{9,12}$/, {
-        message: 'Número de telefone invalido',
-      })
-      .min(1, { message: 'Campo obrigatório' }),
-    email: z.string().min(1, { message: 'Campo obrigatório' }).email({
-      message: 'E-mail invalido',
-    }),
+      .matches(
+        /^\+{0,1}[0-9]{0,3}[0-9]{9,12}$/,
+        t('Número de telefone invalido').toString()
+      )
+      .min(1, t('Campo obrigatório').toString()),
+    email: yup
+      .string()
+      .required(t('Campo obrigatório').toString())
+      .email(t('E-mail invalido').toString()),
   });
+
+  type ValidationSchema = InferType<typeof validationSchema>;
 
   const {
     register,
     handleSubmit,
     reset,
-    formState: { errors },
-  } = useForm({
-    resolver: zodResolver(validationSchema),
+    formState: { errors, isValid },
+  } = useForm<ValidationSchema>({
+    resolver: yupResolver(validationSchema),
   });
 
-  const sentMessage = async (value: any) => {
-    console.log('Name: ', value.name);
-    console.log('email: ', value.email);
-    console.log('phoneNumber: ', value.phoneNumber);
-    console.log('subject: ', value.subject);
-    console.log('message: ', value.message);
-
+  const sentMessage = async (values: any) => {
     setToasts(
       <Toast className="my-5 bg-green-200 border border-green-400">
         <div className="mx-5 w-[30rem] text-sm font-normal">
-          Menssagem enviada com sucesso!
+          {t('Menssagem sucesso')}
         </div>
         <Toast.Toggle />
       </Toast>
@@ -65,13 +64,9 @@ export default function Contatos() {
       <div className="w-full md:w-5/6 m-auto md:flex md:p-5 p-10 pt-0">
         <div className="md:w-1/2 w-full mb-10 ">
           <h3 className="text-center md:text-left font-semibold text-yellow-secondary text-3xl my-10">
-            Fale conosco
+            {t('Fale conosco')}
           </h3>
-          <p className="w-full md:w-3/4">
-            Envie-nos as suas perguntas, solicitações ou comentários. Teremos o
-            maior prazer em conversar consigo, e a nossa equipa de apoio ao
-            cliente responderá a todas as suas perguntas.
-          </p>
+          <p className="w-full md:w-3/4">{t('description-Fale conosco')}</p>
         </div>
 
         {/* Form */}
@@ -80,82 +75,83 @@ export default function Contatos() {
           onSubmit={handleSubmit(sentMessage)}
         >
           <div className="mx-10 mb-5 mt-10">
-            <Label title={'Nome'} required />
+            <Label title={t('Nome')} required />
             <InputText
               type="text"
               ref2={register('name').ref}
-              placeholder={'Forneça seu nome'}
-              onChange={register('name').onChange}
+              placeholder={t('placeholder-nome').toString()}
+              {...register('name')}
             />
-
             <ErrorMessages
-              isValid={errors.name?.message == undefined}
+              isValid={errors.name?.message === undefined}
               errorMessage={errors.name?.message?.toString()}
             />
           </div>
           <div className="mx-10 my-5">
-            <Label title={'E-mail'} required />
+            <Label title={t('E-mail')} required />
             <InputText
               ref2={register('email').ref}
-              onChange={register('email').onChange}
-              placeholder={'Forneça seu e-mail'}
+              placeholder={t('placeholder-email').toString()}
+              {...register('email')}
             />
 
             <ErrorMessages
-              isValid={errors.email?.message == undefined}
+              isValid={errors.email?.message === undefined}
               errorMessage={errors.email?.message?.toString()}
             />
           </div>
 
           <div className="mx-10 my-5">
-            <Label title={'Número de Telefone'} required />
+            <Label title={t('Número de Telefone')} required />
             <InputText
               ref2={register('phoneNumber').ref}
-              onChange={register('phoneNumber').onChange}
-              placeholder={'Forneça seu número de telefone'}
+              placeholder={t('placeholder-phonenumber').toString()}
+              {...register('phoneNumber')}
             />
 
             <ErrorMessages
-              isValid={errors.phoneNumber?.message == undefined}
+              isValid={errors.phoneNumber?.message === undefined}
               errorMessage={errors.phoneNumber?.message?.toString()}
             />
           </div>
 
           <div className="mx-10 my-5">
-            <Label title={'Assunto'} required />
+            <Label title={t('Assunto')} required />
             <InputSelect
               ref2={register('subject').ref}
-              onChange={register('subject').onChange}
               defaultValue={''}
-              placeholder={'Escolha o assunto'}
+              {...register('subject')}
+              placeholder={t('placeholder-assunto').toString()}
               options={['Marcação', 'Dúvidas', 'Avaliação']}
             />
 
             <ErrorMessages
-              isValid={errors.subject?.message == undefined}
+              isValid={errors.subject?.message === undefined}
               errorMessage={errors.subject?.message?.toString()}
             />
           </div>
           <div className="mx-10 my-5">
-            <Label title={'Mensagem'} required />
+            <Label title={t('Menssagem')} required />
             <InputTextArea
               ref2={register('message').ref}
               rows={4}
-              placeholder={'Escreva a mensagem'}
-              onChange={register('message').onChange}
+              {...register('message')}
+              placeholder={t('placeholder-messagem').toString()}
             />
 
             <ErrorMessages
-              isValid={errors.message?.message == undefined}
+              isValid={errors.message?.message === undefined}
               errorMessage={errors.message?.message?.toString()}
             />
           </div>
           <div className="m-10">
-            <Button type={'submit'} title="Enviar" vartiant={'submit'} />
-            <p className="text-xs">
-              Prometemos não utilizar suas informações de contato para enviar
-              qualquer tipo de SPAM.
-            </p>
+            <Button
+              type={'submit'}
+              title={t('Enviar').toString()}
+              vartiant={'submit'}
+              onClick={() => console.log('ISValid: ', isValid)}
+            />
+            <p className="text-xs">{t('span')}</p>
           </div>
         </form>
       </div>

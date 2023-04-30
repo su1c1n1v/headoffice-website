@@ -9,9 +9,10 @@ import { useContext, useState } from 'react';
 import Icons from '../components/Icons';
 import MenuMobile from '../components/MenuMobile';
 import LangContext from '../components/LangContext';
-import Button from '../components/Button';
 import { useTranslation } from 'react-i18next';
 import MenuDropdown from '../components/MenuDropdown';
+import MultiLanguage from '../components/MultiLanguage';
+import Button from '../components/Button';
 
 export default function Main() {
   const { i18n, t } = useTranslation();
@@ -41,7 +42,6 @@ export default function Main() {
   const Lang = useContext(LangContext);
 
   function selectPage(path: string) {
-    console.log(location.pathname);
     return !location.pathname.search(path)
       ? 'text-yellow-secondary'
       : 'text-black';
@@ -51,7 +51,9 @@ export default function Main() {
     <div className="relative bg-yellow-primary">
       {/* header */}
       <div
-        className={`${navBarScrollClasses} w-full bg-white border-gray-primary flex justify-between sticky top-0 z-40 overflow-hidden`}
+        className={`${navBarScrollClasses}  w-full duration-500 bg-white border-gray-primary flex justify-between sticky top-0 z-40 overflow-hidden ${
+          showMenu ? 'blur-sm' : ''
+        }`}
       >
         <div className="m-auto w-11/12 flex justify-between">
           <Link to="/">
@@ -71,18 +73,10 @@ export default function Main() {
 
           {/* Menu */}
           <div
-            className={`my-auto md:flex justify-between hidden duration-500`}
+            className={`my-auto md:flex justify-between hidden duration-500 z-40`}
           >
             <div className="p-4">
-              <Button
-                vartiant={'search'}
-                title={i18n.language}
-                onClick={() =>
-                  i18n.changeLanguage(
-                    i18n.language === 'en-US' ? 'pt-PT' : 'en-US'
-                  )
-                }
-              />
+              <MultiLanguage />
             </div>
 
             <Link
@@ -103,6 +97,7 @@ export default function Main() {
             </Link>
             <MenuDropdown
               title="Estética"
+              className="text-black p-4 text-center inline-flex items-center hover:text-yellow-secondary duration-300"
               routes={[
                 { name: 'Estética Corpo', route: 'estetica/estetica-corpo' },
                 {
@@ -120,16 +115,16 @@ export default function Main() {
             >
               {t('Medicina Estética')}
             </Link>
-            <Link
-              to="contatos"
-              className={`p-4 hover:text-yellow-secondary duration-300 ${selectPage(
-                '/contatos'
-              )}`}
-            >
-              {t('Fale conosco')}
-            </Link>
           </div>
         </div>
+      </div>
+      <div className="fixed bottom-10 right-10 z-50">
+        <Link
+          className="border hover:bg-gray-200 shadow-xl font-medium rounded-full bg-yellow-secondary px-20 py-4  hover:text-black duration-300"
+          to="contatos"
+        >
+          {t('Fale conosco')}
+        </Link>
       </div>
       <div className="w-full bg-yellow-primary font-montserrat relative">
         <div

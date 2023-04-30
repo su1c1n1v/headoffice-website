@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Icons from './Icons';
 import LogoBlack from '../assets/img/headoffice-logo-black.jpg';
 import { ReactComponent as X } from '../assets/icons/x.svg';
@@ -6,6 +6,8 @@ import Button from './Button';
 import { t } from 'i18next';
 import { useContext } from 'react';
 import LangContext from './LangContext';
+import MenuDropdown from './MenuDropdown';
+import MultiLanguage from './MultiLanguage';
 
 interface MenuMobileProps {
   classname?: string;
@@ -19,6 +21,13 @@ export default function MenuMobile({
   setShowMenu,
 }: MenuMobileProps) {
   const Lang = useContext(LangContext);
+  const location = useLocation();
+
+  function selectPage(path: string) {
+    return !location.pathname.search(path)
+      ? 'text-yellow-secondary'
+      : 'text-black';
+  }
 
   return (
     <div
@@ -31,13 +40,8 @@ export default function MenuMobile({
       }`}
     >
       <div className="mt-5 mx-5 flex">
-        <Button
-          vartiant={'search'}
-          onClick={() =>
-            Lang.setContext(Lang.context === 'en-US' ? 'pt-PT' : 'en-US')
-          }
-          title={Lang.context + ''}
-        />
+        <MultiLanguage />
+
         <X
           onClick={() => setShowMenu(false)}
           className="ml-auto w-8 h-8 text-yellow-secondary hover:text-black"
@@ -45,42 +49,64 @@ export default function MenuMobile({
       </div>
 
       <Link to="/">
-        <img src={LogoBlack} className="w-72 mx-auto" alt="logo" />
+        <img src={LogoBlack} className="w-80 mx-auto" alt="logo" />
       </Link>
       {/* Logo */}
 
-      <div className="w-[80%] m-auto border-y-2 border-yellow-secondary">
+      <div className="w-[80%] m-auto border-yellow-secondary">
         {/* Menu */}
-        <div className="text-center my-2 text-2xl">
+        {/* <div className="text-center my-2 text-2xl">
           <Link
-            className="hover:text-yellow-secondary duration-300"
+            className={`hover:text-yellow-secondary duration-300 ${selectPage(
+              '/'
+            )}`}
+            to="/"
+          >
+            {t('Home')}
+          </Link>
+        </div> */}
+        <div className="text-center my-7 text-2xl">
+          <Link
+            className={`hover:text-yellow-secondary duration-300 ${selectPage(
+              '/quem-somos'
+            )}`}
             to="quem-somos"
           >
             {t('Quem somos')}
           </Link>
         </div>
 
-        <div className="text-center my-2 text-2xl">
+        <div className="text-center my-5 text-2xl">
           <Link
-            className="hover:text-yellow-secondary duration-300"
+            className={`hover:text-yellow-secondary duration-300  ${selectPage(
+              '/cabelos'
+            )}`}
             to="cabelos"
           >
             {t('Cabelos')}
           </Link>
         </div>
 
-        <div className="text-center my-2 text-2xl">
-          <Link
-            className="hover:text-yellow-secondary duration-300"
-            to="estetica"
-          >
-            {t('Estética')}
-          </Link>
+        <div className="text-center text-2xl">
+          <MenuDropdown
+            title="Estética"
+            className="text-black p-4 text-center inline-flex items-center hover:text-yellow-secondary duration-300"
+            routes={[
+              { name: 'Estética Corpo', route: 'estetica/estetica-corpo' },
+              {
+                name: 'Cuidados de Beleza',
+                route: 'estetica/cuidados-beleza',
+              },
+              { name: 'Estética Rosto', route: 'estetica/estetica-rosto' },
+            ]}
+          />
         </div>
 
-        <div className="text-center my-2 text-2xl">
+        <div className="text-center my-5 text-2xl">
           <Link
-            className="hover:text-yellow-secondary duration-300"
+            className={`hover:text-yellow-secondary duration-300  ${selectPage(
+              '/medicina-estetica'
+            )}`}
             to="medicina-estetica"
           >
             {t('Medicina Estética')}
@@ -89,15 +115,6 @@ export default function MenuMobile({
       </div>
 
       <Icons classname="flex mx-20 justify-around my-2" />
-
-      <div className="text-center my-8">
-        <Link to="contatos">
-          <Button
-            vartiant={'submit'}
-            title={t('Fale conosco').toString()}
-          ></Button>
-        </Link>
-      </div>
     </div>
   );
 }

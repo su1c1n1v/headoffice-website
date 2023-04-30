@@ -20,7 +20,7 @@ export default function Icons({ classname }: IconsProps) {
       </a>
 
       <a
-        href=""
+        href="https://www.facebook.com/profile.php?id=10002232940300"
         className="text-gray-primary hover:text-yellow-secondary md:w-6 w-8  m-auto"
         target="_blank"
       >

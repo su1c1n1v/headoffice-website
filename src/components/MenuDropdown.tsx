@@ -5,6 +5,8 @@ import { Link, useLocation } from 'react-router-dom';
 type MenuDropdownProps = {
   title: string;
   routes?: MenuRoutes[];
+  variant?: string;
+  className?: string;
 };
 
 export type MenuRoutes = {
@@ -12,7 +14,11 @@ export type MenuRoutes = {
   name: string;
 };
 
-export default function MenuDropdown({ title, routes }: MenuDropdownProps) {
+export default function MenuDropdown({
+  title,
+  routes,
+  className,
+}: MenuDropdownProps) {
   const { t } = useTranslation();
   const location = useLocation();
 
@@ -28,9 +34,7 @@ export default function MenuDropdown({ title, routes }: MenuDropdownProps) {
   return (
     <div>
       <button
-        className={`text-black p-4 text-center inline-flex items-center hover:text-yellow-secondary duration-300 ${selectPage(
-          '/estetica'
-        )}`}
+        className={`${className} ${selectPage('/estetica')}`}
         onClick={() => setDropdown(!dropdown)}
       >
         {t(title)}
@@ -52,14 +56,14 @@ export default function MenuDropdown({ title, routes }: MenuDropdownProps) {
       </button>
 
       {dropdown && (
-        <div className="z-50 fixed bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+        <div className="z-50 fixed bg-white divide-y divide-gray-100 rounded-lg shadow w-44 md:mx-0 mx-28">
           <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
             {routes &&
               routes.map((x) => (
                 <li>
                   <Link
                     onClick={() => setDropdown(!dropdown)}
-                    className={`block px-4 py-2 hover:text-yellow-secondary duration-300 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white ${selectPage(
+                    className={`block px-4 py-2 font-medium hover:text-yellow-secondary duration-300 hover:bg-gray-100 ${selectPage(
                       '/' + x.route
                     )}`}
                     to={x.route}

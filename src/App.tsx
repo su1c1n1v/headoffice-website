@@ -7,12 +7,12 @@ import MedicinaEstetica from './pages/MedicinaEstetica';
 import Estetica from './pages/Estetica';
 import Cabelos from './pages/Cabelos';
 import QuemSomos from './pages/QuemSomos';
-import LangContext from './components/LangContext';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CuidadosBeleza from './pages/estetica/CuidadosBeleza';
 import EsteticaCorpo from './pages/estetica/EsteticaCorpo';
 import EsteticaRosto from './pages/estetica/EsteticaRosto';
+import LangContext from './components/LangContext';
 
 export default function App() {
   const { i18n } = useTranslation();
@@ -22,6 +22,8 @@ export default function App() {
   useEffect(() => {
     i18n.changeLanguage(context);
   }, [context]);
+
+  const Lang = useContext(LangContext);
 
   return (
     <LangContext.Provider value={{ context, setContext }}>

@@ -40,6 +40,13 @@ export default function ContainerEstetica({
           revert ? 'flex-row-reverse' : ''
         } mb-72 mt-10`}
       >
+        <p className="flex md:hidden text-yellow-secondary uppercase font-semibold text-3xl my-4">
+          {textTitle}
+        </p>
+        <p className="flex md:hidden text-yellow-secondary uppercase font-serif text-xl mb-8 mt-4 font-medium">
+          {textSubTitle}
+        </p>
+
         {/* Column 1 */}
         <div className="relative md:flex items-center justify-center overflow-hidden border-transparent w-full h-80 md:h-auto md:w-1/2">
           <div
@@ -54,11 +61,15 @@ export default function ContainerEstetica({
           } text-yellow-secondary my-auto`}
         >
           <div className={`my-auto w-full`}>
-            <p className="uppercase font-semibold text-3xl my-4">{textTitle}</p>
-            <p className="uppercase font-serif text-xl mb-8 mt-4 font-medium">
+            <p className="md:flex hidden uppercase font-semibold text-3xl my-4">
+              {textTitle}
+            </p>
+            <p className="md:flex hidden uppercase font-serif text-xl mb-8 mt-4 font-medium">
               {textSubTitle}
             </p>
-            <p className="text-black text-lg text-justify">{textDescription}</p>
+            <p className="text-black text-lg mt-5 text-justify">
+              {textDescription}
+            </p>
 
             {benefits && (
               <div className="mt-10">

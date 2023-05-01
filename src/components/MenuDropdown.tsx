@@ -7,6 +7,7 @@ type MenuDropdownProps = {
   routes?: MenuRoutes[];
   variant?: string;
   className?: string;
+  onClick?: () => void;
 };
 
 export type MenuRoutes = {
@@ -18,6 +19,7 @@ export default function MenuDropdown({
   title,
   routes,
   className,
+  onClick,
 }: MenuDropdownProps) {
   const { t } = useTranslation();
   const location = useLocation();
@@ -30,9 +32,13 @@ export default function MenuDropdown({
       ? 'text-yellow-secondary'
       : 'text-black';
   }
+  function onClickFunction() {
+    if (onClick) onClick();
+    setDropdown(!dropdown);
+  }
 
   return (
-    <div>
+    <div className="relative">
       <button
         className={`${className} ${selectPage('/estetica')}`}
         onClick={() => setDropdown(!dropdown)}
@@ -56,13 +62,13 @@ export default function MenuDropdown({
       </button>
 
       {dropdown && (
-        <div className="z-50 fixed bg-white divide-y divide-gray-100 rounded-lg shadow w-44 md:mx-0 mx-28">
+        <div className="z-50 fixed bg-white divide-y divide-gray-100 rounded-lg shadow-2xl w-44 ml-[25%] md:ml-auto">
           <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
             {routes &&
               routes.map((x) => (
                 <li>
                   <Link
-                    onClick={() => setDropdown(!dropdown)}
+                    onClick={onClickFunction}
                     className={`block px-4 py-2 font-medium hover:text-yellow-secondary duration-300 hover:bg-gray-100 ${selectPage(
                       '/' + x.route
                     )}`}

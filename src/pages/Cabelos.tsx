@@ -15,34 +15,34 @@ export default function Cabelos() {
           <ContainerEstetica
             image="bg-"
             title={'Brushing'}
-            subTitle={'sub-title-'}
+            subTitle={'sub-title-Brushing'}
             description={t('description-Brushing')}
           />
           <ContainerEstetica
             image="bg-"
             title={'Cor 2 em 1'}
-            subTitle={'sub-title-'}
+            subTitle={'sub-title-Cor 2 em 1'}
             description={t('description-Cor 2 em 1')}
             revert
           />
           <ContainerEstetica
             image="bg-"
             title={'Balayagem'}
-            subTitle={'sub-title-'}
+            subTitle={'sub-title-Balayagem'}
             description={t('description-Balayagem')}
             benefits={['benefit1-Balayagem', 'benefit2-Balayagem']}
           />
           <ContainerEstetica
             image="bg-"
             title={'Madeixas'}
-            subTitle={'sub-title-'}
+            subTitle={'sub-title-Madeixas'}
             description={t('description-Madeixas')}
             revert
           />
           <ContainerEstetica
             image="bg-"
             title={'Mechas criativas'}
-            subTitle={'sub-title-'}
+            subTitle={'sub-title-Mechas criativas'}
             description={t('description-Mechas criativas')}
           />
         </div>

@@ -29,6 +29,9 @@ export default function MenuMobile({
       : 'text-black';
   }
 
+  function close() {
+    setShowMenu(false);
+  }
   return (
     <div
       className={`fixed border-2 w-[75%] blur-0 md:hidden h-full top-0 right-[-75%] bg-white shadow-xl z-[1000] ${classname} ${
@@ -43,7 +46,7 @@ export default function MenuMobile({
         <MultiLanguage />
 
         <X
-          onClick={() => setShowMenu(false)}
+          onClick={close}
           className="ml-auto w-8 h-8 text-yellow-secondary hover:text-black"
         />
       </div>
@@ -55,18 +58,9 @@ export default function MenuMobile({
 
       <div className="w-[80%] m-auto border-yellow-secondary">
         {/* Menu */}
-        {/* <div className="text-center my-2 text-2xl">
-          <Link
-            className={`hover:text-yellow-secondary duration-300 ${selectPage(
-              '/'
-            )}`}
-            to="/"
-          >
-            {t('Home')}
-          </Link>
-        </div> */}
         <div className="text-center my-7 text-2xl">
           <Link
+            onClick={close}
             className={`hover:text-yellow-secondary duration-300 ${selectPage(
               '/quem-somos'
             )}`}
@@ -78,6 +72,7 @@ export default function MenuMobile({
 
         <div className="text-center my-5 text-2xl">
           <Link
+            onClick={close}
             className={`hover:text-yellow-secondary duration-300  ${selectPage(
               '/cabelos'
             )}`}
@@ -90,6 +85,7 @@ export default function MenuMobile({
         <div className="text-center text-2xl">
           <MenuDropdown
             title="Estética"
+            onClick={close}
             className="text-black p-4 text-center inline-flex items-center hover:text-yellow-secondary duration-300"
             routes={[
               { name: 'Estética Corpo', route: 'estetica/estetica-corpo' },
@@ -104,6 +100,7 @@ export default function MenuMobile({
 
         <div className="text-center my-5 text-2xl">
           <Link
+            onClick={close}
             className={`hover:text-yellow-secondary duration-300  ${selectPage(
               '/medicina-estetica'
             )}`}

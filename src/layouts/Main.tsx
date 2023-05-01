@@ -183,15 +183,6 @@ export default function Main() {
               >
                 {t('Medicina Estética')}
               </Link>
-
-              <div className="rounded-full bg-gray-primary w-2 h-2 flex my-auto"></div>
-
-              <Link
-                className="px-1 md:p-4 font-normal hover:text-black duration-300"
-                to="contatos"
-              >
-                {t('Fale conosco')}
-              </Link>
             </div>
             {/* Social Media */}
             <Icons classname="w-4/6 md:w-3/5 lg:w-1/5 m-auto flex justify-around" />
@@ -202,6 +193,10 @@ export default function Main() {
                 911 064 568
               </span>
             </a>
+
+            <p className="text-center my-5">{t('horario')}</p>
+            <div className="m-auto w-5 border-t-2 my-5 border-gray-secondary" />
+
             {/* Location */}
             <div className="md:w-2/6 md:p-5 p-10 m-auto">
               <iframe

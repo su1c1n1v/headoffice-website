@@ -1,9 +1,35 @@
 {
+  "bem-vindo": "Bem-vindos a Headoffice",
+  "subtitle-bem-vindo": "ESPECIALIZADA EM DERMATOLOGIA CLÍNICA, CIRÚRGICA, ESTÉTICA E LASER",
+  "description1-head-office": "O Headoffice é formada por profissionais qualificados e apaixonados pelo que fazem. Nós temos como missão realçar a beleza natural de cada cliente, oferecendo serviços personalizados e de alta qualidade. Nós trabalhamos com as melhores técnicas e produtos do mercado, sempre buscando a satisfação e o bem-estar de quem nos procura. Aqui, você encontra tratamentos faciais, corporais, depilação, massagens, maquilhagem, manicure, pedicure e muito mais. Tudo isso em um ambiente aconchegante e moderno, onde se pode sentir em casa. Venha-nos conhecer e descubra como podemos transformar o seu visual e a sua autoestima. A headoffice está à sua espera!",
+  "description2-head-office": "**Na headoffice, nós acreditamos que a beleza é uma forma de expressão e de valorização pessoal. Por isso, nós respeitamos a individualidade de cada cliente e oferecemos soluções que atendem às suas necessidades e desejos. Nós queremos que você se sinta bem consigo mesmo e com o seu corpo, realçando a sua beleza natural com os nossos serviços. Na headoffice, você encontra profissionais que amam o que fazem e que estão sempre se atualizando para trazer as últimas tendências e novidades do mundo da estética. Venha fazer parte da nossa família e se surpreenda com os resultados!**",
+  "Missão": "Missão",
+  "sub-title-missao": "Nós proporcionamos a melhor experiência em todos os nossos tratamentos",
+  "description-Missão": "A nossa missão é proporcionar aos nossos clientes experiências de beleza e bem-estar que superem as suas expectativas, através de serviços personalizados, profissionais qualificados e produtos de alta qualidade. Queremos ser reconhecidos como uma referência, pela excelência no atendimento, pela inovação constante e pela satisfação dos nossos cliente!",
+  "Nossa equipa": "Nossa equipa",
+  "description-Nossa equipa": "A nossa equipa é formada por profissionais apaixonados pelo que fazem e comprometidos com a qualidade dos serviços que prestam. Nós temos formação e experiência em diversas áreas. Nós estamos sempre em busca de novos conhecimentos e técnicas para oferecer aos nossos clientes o que há de melhor e mais atual no mercado. Trabalhamos em harmonia e respeito, valorizando as diferenças e as potencialidades de cada um. Somos uma família que se preocupa com o bem-estar e a felicidade dos nossos clientes. Nós somos a equipa Headoffice!",
+  "Valores": "Valores",
+  "Excelência": " 1. Excelência:",
+  "Ética": "2. Ética:",
+  "Inovação": "3. Inovação:",
+  "Atendimento ao cliente": "4. Atendimento ao cliente:",
+  "Respeito": "5. Respeito:",
+  "Responsabilidade social e ambiental": "6. Responsabilidade social e ambiental:",
+
+  "description-Excelência": "buscar sempre a excelência na qualidade dos serviços prestados e na satisfação dos clientes.",
+  "description-Ética": "atuar com ética e transparência em todas as operações, promovendo a confiança dos clientes e a integridade do negócio.",
+  "description-Inovação": "buscar constantemente novas soluções, técnicas e tecnologias para melhorar e atualizar os serviços oferecidos aos clientes.",
+  "description-Atendimento ao cliente": "priorizar um atendimento personalizado e acolhedor, oferecendo um ambiente confortável e seguro para os clientes.",
+  "description-Respeito": "valorizar e respeitar a individualidade e diversidade de cada cliente, promovendo uma cultura inclusiva e livre de preconceitos.",
+  "description-Responsabilidade social e ambiental": "adotar práticas sustentáveis e responsáveis socialmente, buscando contribuir para o desenvolvimento da comunidade local e do planeta como um todo.",
+  "Espaço": "Espaço",
+
   "Quem somos": "Quem somos",
   "Cabelos": "Cabeleireiro",
   "Medicina Estética": "Medicina Estética",
   "Fale conosco": "Fale conosco",
   "Estética": "Estética",
+  "horario": "Seg á Sex 8h às 19h Sáb 9h às 13h - só com marcação",
 
   "description-Fale conosco": "Envie-nos as suas perguntas, solicitações ou comentários. Teremos o maior prazer em conversar consigo, e a nossa equipa de apoio ao cliente responderá a todas as suas perguntas.",
   "Nome": "Nome",
@@ -277,5 +303,11 @@
   "description-Mechas criativas": "Se você procura por um visual moderno e único, as mechas criativas são perfeitas para você! Aqui no Headoffice, nossos profissionais são especializados nessa técnica e estão prontos para criar um visual exclusivo e personalizado para cada cliente. Com as mechas criativas, é possível criar um efeito de mechas coloridas, que pode ser mais sutil ou mais ousado, dependendo do estilo de cada um. É uma técnica que permite a criação de contrastes ousados ou transições suaves entre as cores escolhidas. Trabalhamos com produtos de qualidade, que não agridem os fios e garantem um acabamento incrível. Além disso, nossa equipe é altamente treinada e está sempre atualizada com as últimas tendências de cabelo, para oferecer o melhor atendimento e resultado para nossos clientes. Tenha cabelos incríveis, cheios de estilo e personalidade! Aqui no Headoffice, estamos prontos para atender você e transformar o seu visual de forma única e exclusiva.",
 
   "benefit1-Balayagem": "Obter um reflexo ainda mais claro com aspecto natural",
-  "benefit2-Balayagem": "Mudança sutil e delicada na cor de seus cabelos"
+  "benefit2-Balayagem": "Mudança sutil e delicada na cor de seus cabelos",
+
+  "sub-title-Brushing": "Cabelo perfeito",
+  "sub-title-Cor 2 em 1": " Cabelos pintados com reflexos",
+  "sub-title-Balayagem": "Cabelo mais claro e natural",
+  "sub-title-Madeixas": "Mudança de colocação e mais luminosidade",
+  "sub-title-Mechas criativas": "Visual moderno e único "
 }

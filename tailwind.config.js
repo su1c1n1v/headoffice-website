@@ -49,6 +49,7 @@ module.exports = {
       estetica10: "url('/src/assets/img/estetica-image18.JPEG')",
       estetica11: "url('/src/assets/img/estetica-image19.png')",
       estetica12: "url('/src/assets/img/estetica-image20.jpg')",
+      'loja1-effect': "url('/src/assets/img/loja/loja1-effect2.png')",
 
       // Medician estetica
       botox: "url('/src/assets/img/medicina estetica/Botox.jpg')",

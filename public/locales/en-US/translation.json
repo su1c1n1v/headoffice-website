@@ -4,6 +4,32 @@
   "Medicina Estética": "Aesthetic Medicine",
   "Fale conosco": "Contact us",
   "Estética": "Aesthetic",
+  "horario": "Mon to Fri 8am to 7pm Sat 9am to 1pm - by appointment only",
+
+  "bem-vindo": "Welcome to Headoffice",
+  "subtitle-bem-vindo": "SPECIALIZED IN CLINICAL, SURGICAL, AESTHETIC AND LASER DERMATOLOGY",
+  "description1-head-office": "The Headoffice is made up of qualified professionals who are passionate about what they do. Our mission is to enhance the natural beauty of each client, offering personalized and high quality services. We work with the best techniques and products on the market, always seeking satisfaction and the well-being of those who seek us out. Here, you can find facials, body treatments, waxing, massages, make-up, manicures, pedicures and much more. All this in a cozy and modern environment, where you can feel at home. Come and meet us and find out how we can transform your look and your self-esteem. The headoffice is waiting for you!",
+  "description2-head-office": "**At the headoffice, we believe that beauty is a form of expression and personal appreciation. Therefore, we respect the individuality of each client and offer solutions that meet their needs and desires. We want you to feel good about yourself and your body, enhancing your natural beauty with our services. At the headoffice, you can find professionals who love what they do and who are always up-to-date to bring you the latest trends and news from the world of aesthetics. Come be part of our family and be surprised by the results!**",
+  "Missão": "Mission",
+  "sub-title-missao": "We provide the best experience in all our treatments",
+  "description-Missão": "Our mission is to provide our customers with beauty and wellness experiences that exceed their expectations, through personalized services, qualified professionals and high quality products.  We want to be recognized as a reference, for excellence in service, for constant innovation and for the satisfaction of our customers!",
+  "Nossa equipa": "Our team",
+  "description-Nossa equipa": "Our team is made up of professionals who are passionate about what they do and committed to the quality of the services they provide. We have training and experience in several areas. We are always looking for new knowledge and techniques to offer our customers the best and most up-to-date on the market. We work in harmony and respect, valuing the differences and potential of each one. We are a family that cares about the well-being and happiness of our customers. We are the Headoffice team!",
+  "Valores": "Values",
+  "Excelência": " 1. Excellence:",
+  "Ética": "2. Ethics:",
+  "Inovação": "3. Innovation: ",
+  "Atendimento ao cliente": "4. Customer service:",
+  "Respeito": "5. Respect: ",
+  "Responsabilidade social e ambiental": "6. Social and environmental responsibility:",
+
+  "description-Excelência": "always seek excellence in the quality of services provided and customer satisfaction.",
+  "description-Ética": "act ethically and transparently in all operations, promoting customer confidence and business integrity.",
+  "description-Inovação": "constantly seeking new solutions, techniques and technologies to improve and update the services offered to customers.",
+  "description-Atendimento ao cliente": "prioritize personalized and welcoming service, offering a comfortable and safe environment for customers.",
+  "description-Respeito": "valuing and respecting the individuality and diversity of each client, promoting an inclusive culture free of prejudice.",
+  "description-Responsabilidade social e ambiental": "adopt sustainable and socially responsible practices, seeking to contribute to the development of the local community and the planet as a whole.",
+  "Espaço": "Space",
 
   "Estética Corpo": "Body Aesthetics",
   "Estética Rosto": "Face Aesthetics",
@@ -276,5 +302,11 @@
   "description-Mechas criativas": "If you are looking for a modern and unique look, creative locks are perfect for you! Here at Headoffice, our professionals specialize in this technique and are ready to create an exclusive and personalized look for each client. With the creative locks, it is possible to create an effect of colored locks, which can be more subtle or bolder, depending on the style of each one. It is a technique that allows the creation of bold contrasts or smooth transitions between the chosen colors. We work with quality products that do not harm the hair and guarantee an incredible finish. In addition, our team is highly trained and is always up to date with the latest hair trends, to offer the best service and results to our customers. Have amazing hair, full of style and personality! Here at Headoffice, we are ready to serve you and transform your look in a unique and exclusive way.",
 
   "benefit1-Balayagem": "Get an even clearer reflection with a natural look",
-  "benefit2-Balayagem": "Subtle and delicate change in the color of your hair."
+  "benefit2-Balayagem": "Subtle and delicate change in the color of your hair.",
+
+  "sub-title-Brushing": "Perfect hair ",
+  "sub-title-Cor 2 em 1": "Hair deyed with highlights",
+  "sub-title-Balayagem": "Lighter hair with reflections",
+  "sub-title-Madeixas": "Change the hair colour",
+  "sub-title-Mechas criativas": "Unique and modern look"
 }

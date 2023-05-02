@@ -25,7 +25,7 @@ export default function MultiLanguage() {
         </div>
       </Button>
       {dropdown && (
-        <div className="z-50 fixed bg-white divide-y divide-gray-100 rounded-lg shadow w-44 md:mx-0 mx-20">
+        <div className="z-50 fixed bg-white divide-y divide-gray-100 rounded-lg shadow w-36 md:mx-0 mx-20">
           <ul className="cursor-pointer text-sm text-gray-700 dark:text-gray-200">
             <li
               onClick={() => changeLanguage('pt-PT')}
@@ -42,7 +42,7 @@ export default function MultiLanguage() {
             >
               <div className="flex">
                 <img src={us} className="w-7" alt="Portugal flag" />
-                <p className="px-4 font-medium">{'en-US'}</p>
+                <p className="px-4 font-medium">{'en-UK'}</p>
               </div>
             </li>
           </ul>

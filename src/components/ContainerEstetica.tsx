@@ -38,7 +38,7 @@ export default function ContainerEstetica({
       <div
         className={`w-full px-10 md:px-0 md:mx-auto h-auto md:h-screen md:flex ${classname} ${
           revert ? 'flex-row-reverse' : ''
-        } mb-72 mt-10`}
+        } mb-48 mt-10`}
       >
         <p className="flex md:hidden text-yellow-secondary uppercase font-semibold text-3xl my-4">
           {textTitle}

@@ -13,34 +13,34 @@ export default function Cabelos() {
 
         <div className="m-auto">
           <ContainerEstetica
-            image="bg-"
+            image="bg-Brushing"
             title={'Brushing'}
             subTitle={'sub-title-Brushing'}
             description={t('description-Brushing')}
           />
           <ContainerEstetica
-            image="bg-"
+            image="bg-Cor-2-em-1"
             title={'Cor 2 em 1'}
             subTitle={'sub-title-Cor 2 em 1'}
             description={t('description-Cor 2 em 1')}
             revert
           />
           <ContainerEstetica
-            image="bg-"
+            image="bg-Balayagem"
             title={'Balayagem'}
             subTitle={'sub-title-Balayagem'}
             description={t('description-Balayagem')}
             benefits={['benefit1-Balayagem', 'benefit2-Balayagem']}
           />
           <ContainerEstetica
-            image="bg-"
+            image="bg-Madeixas"
             title={'Madeixas'}
             subTitle={'sub-title-Madeixas'}
             description={t('description-Madeixas')}
             revert
           />
           <ContainerEstetica
-            image="bg-"
+            image="bg-Mechas-criativas"
             title={'Mechas criativas'}
             subTitle={'sub-title-Mechas criativas'}
             description={t('description-Mechas criativas')}

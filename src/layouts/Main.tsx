@@ -55,7 +55,7 @@ export default function Main() {
           showMenu ? 'blur-sm' : ''
         }`}
       >
-        <div className="m-auto w-11/12 flex justify-between">
+        <div className="m-auto md:w-11/12 xl:w-8/12 flex justify-between">
           <Link to="/">
             <img
               src={logo}
@@ -75,10 +75,6 @@ export default function Main() {
           <div
             className={`my-auto md:flex justify-between hidden duration-500 z-40`}
           >
-            <div className="p-4">
-              <MultiLanguage />
-            </div>
-
             <Link
               className={`p-4 hover:text-yellow-secondary duration-300 ${selectPage(
                 '/quem-somos'
@@ -99,12 +95,12 @@ export default function Main() {
               title="Estética"
               className="text-black p-4 text-center inline-flex items-center hover:text-yellow-secondary duration-300"
               routes={[
-                { name: 'Estética Corpo', route: 'estetica/estetica-corpo' },
                 {
                   name: 'Cuidados de Beleza',
                   route: 'estetica/cuidados-beleza',
                 },
                 { name: 'Estética Rosto', route: 'estetica/estetica-rosto' },
+                { name: 'Estética Corpo', route: 'estetica/estetica-corpo' },
               ]}
             />
             <Link
@@ -115,6 +111,10 @@ export default function Main() {
             >
               {t('Medicina Estética')}
             </Link>
+
+            <div className="p-4">
+              <MultiLanguage />
+            </div>
           </div>
         </div>
       </div>
@@ -170,7 +170,7 @@ export default function Main() {
 
               <Link
                 className="px-1 md:p-4 font-normal hover:text-black duration-300"
-                to="estetica"
+                to="estetica/cuidados-beleza"
               >
                 {t('Estética')}
               </Link>
@@ -194,7 +194,8 @@ export default function Main() {
               </span>
             </a>
 
-            <p className="text-center my-5">{t('horario')}</p>
+            <p className="text-center w-30 mt-5">{t('horario')}</p>
+            <p className="text-center w-30">{t('horario2')}</p>
             <div className="m-auto w-5 border-t-2 my-5 border-gray-secondary" />
 
             {/* Location */}

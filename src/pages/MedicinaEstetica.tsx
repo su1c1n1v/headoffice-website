@@ -42,7 +42,7 @@ export default function MedicinaEstetica() {
           ]}
         />
         <ContainerEstetica
-          image="bg-"
+          image="bg-Fios-tensores"
           title={'Fios tensores'}
           subTitle={'sub-title-Fios tensores'}
           description={t('description-Fios tensores')}
@@ -57,7 +57,7 @@ export default function MedicinaEstetica() {
           ]}
         />
         <ContainerEstetica
-          image="bg-"
+          image="bg-Biostimulatores-de-colagénio bg-right"
           title={'Biostimulators de colagénio'}
           subTitle={'sub-title-Biostimulators de colagénio'}
           description={t('description-Biostimulators de colagénio')}

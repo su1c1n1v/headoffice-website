@@ -12,7 +12,7 @@ export default function QuemSomos() {
 
   return (
     <>
-      <div className="md:w-11/12 w-full flex m-10">
+      <div className="md:w-11/12 w-full flex mx-20">
         <div className="md:w-7/12 md:mx-0 w-full mx-10">
           <p className="text-5xl mb-5 text-yellow-secondary">
             {t('bem-vindo')}
@@ -61,31 +61,31 @@ export default function QuemSomos() {
             </span>{' '}
             {t('description-Excelência')}
           </p>
-          <p>
+          <p className="lg:my-3">
             <span className="text-yellow-secondary font-bold">
               {t('Ética')}{' '}
             </span>{' '}
             {t('description-Ética')}
           </p>
-          <p>
+          <p className="lg:my-3">
             <span className="text-yellow-secondary font-bold">
               {t('Inovação')}{' '}
             </span>{' '}
             {t('description-Inovação')}
           </p>
-          <p>
+          <p className="lg:my-3">
             <span className="text-yellow-secondary font-bold">
               {t('Atendimento ao cliente')}
             </span>{' '}
             {t('description-Atendimento ao cliente')}
           </p>
-          <p>
+          <p className="lg:my-3">
             <span className="text-yellow-secondary font-bold">
               {t('Respeito')}{' '}
             </span>
             {t('description-Respeito')}
           </p>
-          <p>
+          <p className="lg:my-3">
             <span className="text-yellow-secondary font-bold">
               {t('Responsabilidade social e ambiental')}
             </span>{' '}

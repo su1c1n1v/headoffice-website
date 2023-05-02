@@ -12,52 +12,52 @@ export default function CuidadosBeleza() {
 
       <div className="m-auto">
         <ContainerEstetica
-          image="bg-manicure1"
+          image="bg-Manicure"
           title={'Manicure'}
           subTitle={'subtitle-Manicure'}
           description={t('description-Manicure')}
         />
         <ContainerEstetica
-          image="bg-estetica4"
+          image="bg-Unha-de-gel"
           revert
           title={t('Unhas de gel')}
           subTitle={t('subtitle-Unhas de gel')}
           description={t('description-Unhas de gel')}
         />
         <ContainerEstetica
-          image="bg-"
+          image="bg-Verniz-gel"
           title={t('Verniz Gel')}
           subTitle={t('subtitle-Verniz Gel')}
           description={t('description-Verniz Gel')}
         />
         <ContainerEstetica
-          image="bg-estetica5"
+          image="bg-Pedicure"
           revert
           title={t('Pedicure')}
           subTitle={t('subtitle-Pedicure')}
           description={t('description-Pedicure')}
         />
         <ContainerEstetica
-          image="bg-"
+          image="bg-Massagem"
           title={t('Massagem')}
           subTitle={t('subtitle-Massagem')}
           description={t('description-Massagem')}
         />
         <ContainerEstetica
-          image="bg-estetica6"
+          image="bg-Delipação-cera/linha"
           revert
           title={t('Delipação cera/linha')}
           subTitle={t('subtitle-Delipação cera/linha')}
           description={t('description-Delipação cera/linha')}
         />
         <ContainerEstetica
-          image="bg-estetica9"
+          image="bg-Epilação-laser"
           title={t('Epilação laiser')}
           subTitle={t('subtitle-Epilação laiser')}
           description={t('description-Epilação laiser')}
         />
         <ContainerEstetica
-          image="bg-estetica7"
+          image="bg-Micropigmentação-ou-tatuagem-semi-permanente"
           revert
           title={t('Micropigmentação ou tatuagem semi-permanente')}
           subTitle={t('subtitle-Micropigmentação ou tatuagem semi-permanente')}
@@ -66,7 +66,7 @@ export default function CuidadosBeleza() {
           )}
         />
         <ContainerEstetica
-          image="bg-estetica8"
+          image="bg-Hidragloss"
           title={t(
             'Hidragloss - Hidratação profunda dos lábios com ácido hialuronico'
           )}
@@ -78,7 +78,7 @@ export default function CuidadosBeleza() {
           )}
         />
         <ContainerEstetica
-          image="bg-estetica10"
+          image="bg-Lash-Lifting"
           revert
           title={t('Lash Lifting - Alinhamento e definição de pestanas')}
           subTitle={t(
@@ -89,7 +89,7 @@ export default function CuidadosBeleza() {
           )}
         />
         <ContainerEstetica
-          image="bg-estetica11"
+          image="bg-Brow-Lamination"
           title={t('Brow Lamination - Sobrancelhas permanente até 40 dias')}
           subTitle={t(
             'subtitle-Brow Lamination - Sobrancelhas permanente até 40 dias'

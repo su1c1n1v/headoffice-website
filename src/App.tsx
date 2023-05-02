@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import Main from './layouts/Main';
 import NotFould from './pages/common/NotFould';
 import Index from './pages/Index';
@@ -17,6 +17,8 @@ import LangContext from './components/LangContext';
 export default function App() {
   const { i18n } = useTranslation();
 
+  const location = useLocation();
+
   const [context, setContext] = useState<string>(i18n.language);
 
   useEffect(() => {
@@ -24,6 +26,10 @@ export default function App() {
   }, [context]);
 
   const Lang = useContext(LangContext);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   return (
     <LangContext.Provider value={{ context, setContext }}>

@@ -75,7 +75,7 @@ export default function ContainerEstetica({
               <div className="mt-10">
                 <p className="text-lg my-2">{t('Os principais benefícios')}</p>
                 {textBenefts.map((x) => (
-                  <li className="text-sm text-gray-primary">{x}</li>
+                  <li className="text-lg text-gray-primary">{x}</li>
                 ))}
               </div>
             )}

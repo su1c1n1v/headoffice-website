@@ -5,6 +5,7 @@ import LogoBlack from '../assets/img/headoffice-logo-black.jpg';
 import { Link, useLocation } from 'react-router-dom';
 
 import { ReactComponent as Hambuguer } from '../assets/icons/hambuguer.svg';
+import { ReactComponent as Baloon } from '../assets/icons/baloon.svg';
 import { useContext, useState } from 'react';
 import Icons from '../components/Icons';
 import MenuMobile from '../components/MenuMobile';
@@ -13,6 +14,7 @@ import { useTranslation } from 'react-i18next';
 import MenuDropdown from '../components/MenuDropdown';
 import MultiLanguage from '../components/MultiLanguage';
 import Button from '../components/Button';
+import MenuComponent from '../components/Menu';
 
 export default function Main() {
   const { i18n, t } = useTranslation();
@@ -51,11 +53,11 @@ export default function Main() {
     <div className="relative bg-yellow-primary">
       {/* header */}
       <div
-        className={`${navBarScrollClasses}  w-full duration-500 bg-white border-gray-primary flex justify-between sticky top-0 z-40 overflow-hidden ${
+        className={`${navBarScrollClasses} w-full duration-500 bg-white border-gray-primary flex justify-between sticky top-0 z-40 overflow-hidden ${
           showMenu ? 'blur-sm' : ''
         }`}
       >
-        <div className="m-auto md:w-11/12 xl:w-8/12 flex justify-between">
+        <div className="m-auto w-full mx-10 md:mx-auto md:w-11/12 xl:w-8/12 flex justify-between">
           <Link to="/">
             <img
               src={logo}
@@ -91,6 +93,7 @@ export default function Main() {
             >
               {t('Cabelos')}
             </Link>
+            {/* <MenuComponent /> */}
             <MenuDropdown
               title="Estética"
               className="text-black p-4 text-center inline-flex items-center hover:text-yellow-secondary duration-300"
@@ -120,9 +123,11 @@ export default function Main() {
       </div>
       <div className="fixed bottom-10 right-10 z-50">
         <Link
-          className="border hover:bg-gray-200 shadow-xl font-medium rounded-full bg-yellow-secondary px-20 py-4  hover:text-black duration-300"
+          className="border hover:bg-gray-200 shadow-xl hover:fill-black fill-white text-white flex font-medium rounded-full bg-yellow-secondary px-14 py-4  hover:text-black duration-300"
           to="contatos"
         >
+          <Baloon className="w-5 mr-4" />
+
           {t('Fale conosco')}
         </Link>
       </div>
@@ -133,9 +138,7 @@ export default function Main() {
           }`}
         >
           {/* Content */}
-          <div className="bg-yellow-third h-fit">
-            <Outlet />
-          </div>
+          <Outlet />
 
           {/* Footer */}
           <div className="m-auto bg-white border-t p-4 border-gray-primary">

@@ -3,7 +3,7 @@ import ContainerEstetica from '../../components/ContainerEstetica';
 
 export default function CuidadosBeleza() {
   return (
-    <div className="md:w-9/12 xl:w-8/12 m-auto">
+    <div className="md:w-11/12 xl:w-8/12 m-auto">
       <div id="Cuidados de Beleza" className="md:p-0 px-10">
         <p className="text-3xl text-yellow-secondary">
           {t('Cuidados de Beleza')}

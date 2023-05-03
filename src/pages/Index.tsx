@@ -5,7 +5,7 @@ import Image1 from '../assets/img/image1.jpg';
 export default function Index() {
   return (
     <>
-      <div className="m-auto h-[78.5vh] rounded-none">
+      <div className="md:w-11/12 xl:w-8/12 m-auto h-[78.5vh] rounded-none">
         <Carousel slideInterval={5000} leftControl rightControl>
           <img src={Image1} alt="..." />
           <img

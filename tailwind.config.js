@@ -50,7 +50,10 @@ module.exports = {
       estetica11: "url('/src/assets/img/estetica-image19.png')",
       estetica12: "url('/src/assets/img/estetica-image20.jpg')",
       estetica12: "url('/src/assets/img/estetica-image20.jpg')",
+
+      //Loja
       'loja1-effect': "url('/src/assets/img/loja/loja1-effect2.png')",
+      missao: "url('/src/assets/img/loja/Missão.jpeg')",
 
       // estetica corpo
       'Radiofrequência-corporal':

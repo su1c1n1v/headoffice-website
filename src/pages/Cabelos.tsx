@@ -6,7 +6,7 @@ export default function Cabelos() {
 
   return (
     <>
-      <div className="md:w-9/12 xl:w-8/12 m-auto">
+      <div className="md:w-11/12 xl:w-8/12 m-auto">
         <div className="md:p-0 px-10">
           <p className="text-3xl text-yellow-secondary">{t('Cabelos')}</p>
         </div>

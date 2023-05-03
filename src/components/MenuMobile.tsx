@@ -82,7 +82,7 @@ export default function MenuMobile({
           </Link>
         </div>
 
-        <div className="text-center text-2xl">
+        <div className="h-14 flex justify-center text-2xl">
           <MenuDropdown
             title="Estética"
             onClick={close}

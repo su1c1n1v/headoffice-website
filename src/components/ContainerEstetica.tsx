@@ -64,10 +64,10 @@ export default function ContainerEstetica({
             <p className="md:flex hidden uppercase font-semibold text-3xl my-4">
               {textTitle}
             </p>
-            <p className="md:flex hidden uppercase font-serif text-xl mb-8 mt-4 font-medium">
+            <p className="md:flex hidden uppercase font-serif text-xl mb-2 mt-4 font-medium">
               {textSubTitle}
             </p>
-            <p className="text-black text-lg mt-5 text-justify">
+            <p className="text-black text-lg text-justify md:mt-0 mt-10">
               {textDescription}
             </p>
 

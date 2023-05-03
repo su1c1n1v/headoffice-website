@@ -61,7 +61,7 @@ export default function Contatos() {
         {toasts}
       </div>
 
-      <div className="w-full md:w-5/6 m-auto md:flex md:p-5 p-10 pt-0">
+      <div className="w-full md:w-11/12 xl:w-8/12 m-auto md:flex md:p-5 p-10 pt-0">
         <div className="md:w-1/2 w-full mb-10 ">
           <h3 className="text-center md:text-left font-semibold text-yellow-secondary text-3xl my-10">
             {t('Fale conosco')}

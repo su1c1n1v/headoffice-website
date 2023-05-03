@@ -4,7 +4,6 @@ import NotFould from './pages/common/NotFould';
 import Index from './pages/Index';
 import Contatos from './pages/Contatos';
 import MedicinaEstetica from './pages/MedicinaEstetica';
-import Estetica from './pages/Estetica';
 import Cabelos from './pages/Cabelos';
 import QuemSomos from './pages/QuemSomos';
 import { useContext, useEffect, useState } from 'react';
@@ -39,7 +38,6 @@ export default function App() {
           <Route path="contatos" element={<Contatos />} />
           <Route path="quem-somos" element={<QuemSomos />} />
           <Route path="medicina-estetica" element={<MedicinaEstetica />} />
-          <Route path="estetica" element={<Estetica />} />
           <Route path="estetica/estetica-rosto" element={<EsteticaRosto />} />
           <Route path="estetica/estetica-corpo" element={<EsteticaCorpo />} />
           <Route path="estetica/cuidados-beleza" element={<CuidadosBeleza />} />

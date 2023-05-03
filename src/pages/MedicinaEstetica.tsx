@@ -5,7 +5,7 @@ export default function MedicinaEstetica() {
   const { t } = useTranslation();
 
   return (
-    <div className="md:w-9/12 xl:w-8/12 m-auto">
+    <div className="md:w-11/12 xl:w-8/12 m-auto">
       <div className="md:p-0 px-10">
         <p className="text-3xl text-yellow-secondary">
           {t('Medicina Estética')}
@@ -42,7 +42,7 @@ export default function MedicinaEstetica() {
           ]}
         />
         <ContainerEstetica
-          image="bg-"
+          image="bg-Fios-tensores"
           title={'Fios tensores'}
           subTitle={'sub-title-Fios tensores'}
           description={t('description-Fios tensores')}
@@ -57,7 +57,7 @@ export default function MedicinaEstetica() {
           ]}
         />
         <ContainerEstetica
-          image="bg-"
+          image="bg-Biostimulatores-de-colagénio bg-right"
           title={'Biostimulators de colagénio'}
           subTitle={'sub-title-Biostimulators de colagénio'}
           description={t('description-Biostimulators de colagénio')}

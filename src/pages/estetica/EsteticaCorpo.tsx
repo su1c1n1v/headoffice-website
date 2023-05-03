@@ -3,7 +3,7 @@ import ContainerEstetica from '../../components/ContainerEstetica';
 
 export default function EsteticaCorpo() {
   return (
-    <div className="md:w-9/12 xl:w-8/12 m-auto">
+    <div className="md:w-11/12 xl:w-8/12 m-auto">
       <div className="m-auto md:px-0 px-10">
         <p id="Estética Corpo" className="text-3xl text-yellow-secondary">
           {t('Estética Corpo')}
@@ -28,7 +28,7 @@ export default function EsteticaCorpo() {
           ]}
         />
         <ContainerEstetica
-          image="bg-manicure1"
+          image="bg-Radiofrequência-corporal"
           revert
           title={t('Radiofrequencia corporal')}
           subTitle={t('sub-title-Radiofrequencia corporal')}
@@ -51,10 +51,6 @@ export default function EsteticaCorpo() {
             'benefit2-HIFU corporal',
             'benefit3-HIFU corporal',
             'benefit4-HIFU corporal',
-            'benefit5-HIFU corporal',
-            'benefit6-HIFU corporal',
-            'benefit7-HIFU corporal',
-            'benefit8-HIFU corporal',
           ]}
         />
         <ContainerEstetica
@@ -69,9 +65,6 @@ export default function EsteticaCorpo() {
             'benefit3-RF sculpt',
             'benefit4-RF sculpt',
             'benefit5-RF sculpt',
-            'benefit6-RF sculpt',
-            'benefit7-RF sculpt',
-            'benefit8-RF sculpt',
           ]}
         />
         <ContainerEstetica
@@ -117,11 +110,10 @@ export default function EsteticaCorpo() {
             'benefit7-Pressoterapia',
             'benefit8-Pressoterapia',
             'benefit9-Pressoterapia',
-            'benefit10-Pressoterapia',
           ]}
         />
         <ContainerEstetica
-          image="bg-lipo1"
+          image="bg-Lipolaser"
           revert
           title={t('Lipolaser')}
           subTitle={t('sub-title-Lipolaser')}
@@ -130,7 +122,6 @@ export default function EsteticaCorpo() {
             'benefit1-Lipolaser',
             'benefit2-Lipolaser',
             'benefit3-Lipolaser',
-            'benefit4-Lipolaser',
           ]}
         />
       </div>

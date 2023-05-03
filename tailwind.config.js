@@ -49,10 +49,41 @@ module.exports = {
       estetica10: "url('/src/assets/img/estetica-image18.JPEG')",
       estetica11: "url('/src/assets/img/estetica-image19.png')",
       estetica12: "url('/src/assets/img/estetica-image20.jpg')",
+      estetica12: "url('/src/assets/img/estetica-image20.jpg')",
+
+      //Loja
       'loja1-effect': "url('/src/assets/img/loja/loja1-effect2.png')",
+      missao: "url('/src/assets/img/loja/Missão.jpeg')",
+
+      // estetica corpo
+      'Radiofrequência-corporal':
+        "url('/src/assets/img/estetica corpo/Radiofrequência corporal.jpeg')",
+      Lipolaser: "url('/src/assets/img/estetica corpo/Lipolaser.jpeg')",
+
+      // Cuidados beleza
+      Pedicure: "url('/src/assets/img/cuidados beleza/Pedicure.jpg')",
+      'Verniz-gel': "url('/src/assets/img/cuidados beleza/Verniz gel.jpg')",
+      'Unha-de-gel': "url('/src/assets/img/cuidados beleza/Unha de gel.jpg')",
+      Manicure: "url('/src/assets/img/cuidados beleza/Manicure.jpg')",
+      Massagem: "url('/src/assets/img/cuidados beleza/Massagem.jpg')",
+      'Delipação-cera/linha':
+        "url('/src/assets/img/cuidados beleza/Depilação a cera.jpg')",
+      'Epilação-laser':
+        "url('/src/assets/img/cuidados beleza/Epilação laser.jpeg')",
+      'Micropigmentação-ou-tatuagem-semi-permanente':
+        "url('/src/assets/img/cuidados beleza/Micropigmentação ou tatuagem semi-permanente.JPEG')",
+      Hidragloss: "url('/src/assets/img/cuidados beleza/Hidragloss.JPEG')",
+      'Lash-Lifting':
+        "url('/src/assets/img/cuidados beleza/Lash Lifting.JPEG')",
+      'Brow-Lamination':
+        "url('/src/assets/img/cuidados beleza/Brow Lamination.jpeg')",
 
       // Medician estetica
       botox: "url('/src/assets/img/medicina estetica/Botox.jpg')",
+      'Biostimulatores-de-colagénio':
+        "url('/src/assets/img/medicina estetica/Biostimulatores de colagénio.jpg')",
+      'Fios-tensores':
+        "url('/src/assets/img/medicina estetica/Fios tensores.jpeg')",
       'acido-hialuronico':
         "url('/src/assets/img/medicina estetica/Acido Hialurónico.jpg')",
 
@@ -66,6 +97,14 @@ module.exports = {
         "url('/src/assets/img/estetica rosto/Peelings químicos.jpg')",
       'velashape-rosto':
         "url('/src/assets/img/estetica rosto/Velashape rosto.jpg')",
+
+      // Cabelos
+      Brushing: "url('/src/assets/img/cabelos/Brushing.jpeg')",
+      'Cor-2-em-1': "url('/src/assets/img/cabelos/Cor 2 em 1.jpeg')",
+      Balayagem: "url('/src/assets/img/cabelos/Balayagem.jpeg')",
+      Madeixas: "url('/src/assets/img/cabelos/Madeixas.jpeg')",
+      'Mechas-criativas':
+        "url('/src/assets/img/cabelos/Mechas criativas.jpeg')",
     },
     colors: {
       gray: {

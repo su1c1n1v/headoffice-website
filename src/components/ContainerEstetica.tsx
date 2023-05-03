@@ -38,8 +38,15 @@ export default function ContainerEstetica({
       <div
         className={`w-full px-10 md:px-0 md:mx-auto h-auto md:h-screen md:flex ${classname} ${
           revert ? 'flex-row-reverse' : ''
-        } mb-72 mt-10`}
+        } mb-48 mt-10`}
       >
+        <p className="flex md:hidden text-yellow-secondary uppercase font-semibold text-3xl my-4">
+          {textTitle}
+        </p>
+        <p className="flex md:hidden text-yellow-secondary uppercase font-serif text-xl mb-8 mt-4 font-medium">
+          {textSubTitle}
+        </p>
+
         <p className="flex md:hidden text-yellow-secondary uppercase font-semibold text-3xl my-4">
           {textTitle}
         </p>
@@ -64,10 +71,10 @@ export default function ContainerEstetica({
             <p className="md:flex hidden uppercase font-semibold text-3xl my-4">
               {textTitle}
             </p>
-            <p className="md:flex hidden uppercase font-serif text-xl mb-8 mt-4 font-medium">
+            <p className="md:flex hidden uppercase font-serif text-xl mb-2 mt-4 font-medium">
               {textSubTitle}
             </p>
-            <p className="text-black text-lg mt-5 text-justify">
+            <p className="text-black text-lg text-justify md:mt-0 mt-10">
               {textDescription}
             </p>
 
@@ -75,7 +82,7 @@ export default function ContainerEstetica({
               <div className="mt-10">
                 <p className="text-lg my-2">{t('Os principais benefícios')}</p>
                 {textBenefts.map((x) => (
-                  <li className="text-sm text-gray-primary">{x}</li>
+                  <li className="text-lg text-gray-primary">{x}</li>
                 ))}
               </div>
             )}

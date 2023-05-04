@@ -47,13 +47,6 @@ export default function ContainerEstetica({
           {textSubTitle}
         </p>
 
-        <p className="flex md:hidden text-yellow-secondary uppercase font-semibold text-3xl my-4">
-          {textTitle}
-        </p>
-        <p className="flex md:hidden text-yellow-secondary uppercase font-serif text-xl mb-8 mt-4 font-medium">
-          {textSubTitle}
-        </p>
-
         {/* Column 1 */}
         <div className="relative md:flex items-center justify-center overflow-hidden border-transparent w-full h-80 md:h-auto md:w-1/2">
           <div

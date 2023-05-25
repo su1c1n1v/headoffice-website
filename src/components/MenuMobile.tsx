@@ -2,10 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import Icons from './Icons';
 import LogoBlack from '../assets/img/headoffice-logo-black.jpg';
 import { ReactComponent as X } from '../assets/icons/x.svg';
-import Button from './Button';
 import { t } from 'i18next';
-import { useContext } from 'react';
-import LangContext from './LangContext';
 import MenuDropdown from './MenuDropdown';
 import MultiLanguage from './MultiLanguage';
 
@@ -20,7 +17,6 @@ export default function MenuMobile({
   showMenu,
   setShowMenu,
 }: MenuMobileProps) {
-  const Lang = useContext(LangContext);
   const location = useLocation();
 
   function selectPage(path: string) {

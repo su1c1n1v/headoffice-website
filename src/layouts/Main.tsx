@@ -6,20 +6,16 @@ import { Link, useLocation } from 'react-router-dom';
 
 import { ReactComponent as Hambuguer } from '../assets/icons/hambuguer.svg';
 import { ReactComponent as Baloon } from '../assets/icons/baloon.svg';
-import { useContext, useState } from 'react';
+import { useState } from 'react';
 import Icons from '../components/Icons';
 import MenuMobile from '../components/MenuMobile';
-import LangContext from '../components/LangContext';
 import { useTranslation } from 'react-i18next';
 import MenuDropdown from '../components/MenuDropdown';
 import MultiLanguage from '../components/MultiLanguage';
-import Button from '../components/Button';
-import MenuComponent from '../components/Menu';
 
 export default function Main() {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   const [imageScrollClasses, setImageScrollClasses] = useState('md:w-60 w-52');
-  const [navBarScrollClasses, setNavBarScrollClasses] = useState('');
 
   window.onscroll = function () {
     scrollFunction();
@@ -28,20 +24,14 @@ export default function Main() {
   const location = useLocation();
 
   function scrollFunction() {
-    if (
-      document.body.scrollTop > 90 ||
-      document.documentElement.scrollTop > 120
-    ) {
+    if (document.documentElement.scrollTop > 120) {
       setImageScrollClasses('md:w-40 w-36');
-      setNavBarScrollClasses('mb-20');
     } else {
-      setNavBarScrollClasses('mb-10');
       setImageScrollClasses('md:w-60 w-52');
     }
   }
 
   const [showMenu, setShowMenu] = useState<boolean | undefined>();
-  const Lang = useContext(LangContext);
 
   function selectPage(path: string) {
     return !location.pathname.search(path)
@@ -49,74 +39,75 @@ export default function Main() {
       : 'text-black';
   }
 
+  const shouldBlur = showMenu && 'blur-sm duration-500';
+
   return (
     <div className="relative bg-yellow-primary">
       {/* header */}
-      <div
-        className={`${navBarScrollClasses} w-full duration-500 bg-white border-gray-primary flex justify-between sticky top-0 z-40 overflow-hidden ${
-          showMenu ? 'blur-sm' : ''
-        }`}
-      >
-        <div className="m-auto w-full mx-10 md:mx-auto md:w-11/12 xl:w-8/12 flex justify-between">
-          <Link to="/">
-            <img
-              src={logo}
-              className={`${imageScrollClasses} duration-500`}
-              alt="logo"
-            />
-          </Link>
-
-          <div
-            className="md:hidden px-10 my-auto"
-            onClick={() => setShowMenu(true)}
-          >
-            <Hambuguer className="mr-0 ml-auto w-9 text-gray-secondary cursor-pointer" />
-          </div>
-
-          {/* Menu */}
-          <div
-            className={`my-auto md:flex justify-between hidden duration-500 z-40`}
-          >
-            <Link
-              className={`p-4 hover:text-yellow-secondary duration-300 ${selectPage(
-                '/quem-somos'
-              )}`}
-              to="quem-somos"
-            >
-              {t('Quem somos')}
-            </Link>
-            <Link
-              className={`p-4 hover:text-yellow-secondary duration-300 ${selectPage(
-                '/cabelos'
-              )}`}
-              to="cabelos"
-            >
-              {t('Cabelos')}
-            </Link>
-            {/* <MenuComponent /> */}
-            <MenuDropdown
-              title="Estética"
-              className="text-black p-4 text-center inline-flex items-center hover:text-yellow-secondary duration-300"
-              routes={[
-                {
-                  name: 'Cuidados de Beleza',
-                  route: 'estetica/cuidados-beleza',
-                },
-                { name: 'Estética Rosto', route: 'estetica/estetica-rosto' },
-                { name: 'Estética Corpo', route: 'estetica/estetica-corpo' },
-              ]}
-            />
-            <Link
-              className={`p-4 hover:text-yellow-secondary duration-300 ${selectPage(
-                '/medicina-estetica'
-              )}`}
-              to="medicina-estetica"
-            >
-              {t('Medicina Estética')}
+      <div id="navbar" className="sticky top-0 z-50 h-[12rem]">
+        <div
+          className={`w-full duration-500 bg-white border-gray-primary flex justify-between sticky top-0 z-40 overflow-hidden ${shouldBlur}`}
+        >
+          <div className="m-auto w-full mx-10 md:mx-auto md:w-11/12 xl:w-8/12 flex justify-between">
+            <Link to="/">
+              <img
+                src={logo}
+                className={`${imageScrollClasses} duration-500`}
+                alt="logo"
+              />
             </Link>
 
-            <div className="p-4">
-              <MultiLanguage />
+            <div
+              className="md:hidden px-10 my-auto"
+              onClick={() => setShowMenu(true)}
+            >
+              <Hambuguer className="mr-0 ml-auto w-9 text-gray-secondary cursor-pointer" />
+            </div>
+
+            {/* Menu */}
+            <div
+              className={`my-auto md:flex justify-between hidden duration-500 z-40`}
+            >
+              <Link
+                className={`p-4 hover:text-yellow-secondary duration-300 ${selectPage(
+                  '/quem-somos'
+                )}`}
+                to="quem-somos"
+              >
+                {t('Quem somos')}
+              </Link>
+              <Link
+                className={`p-4 hover:text-yellow-secondary duration-300 ${selectPage(
+                  '/cabelos'
+                )}`}
+                to="cabelos"
+              >
+                {t('Cabelos')}
+              </Link>
+              {/* <MenuComponent /> */}
+              <MenuDropdown
+                title="Estética"
+                routes={[
+                  {
+                    name: 'Cuidados de Beleza',
+                    route: 'estetica/cuidados-beleza',
+                  },
+                  { name: 'Estética Rosto', route: 'estetica/estetica-rosto' },
+                  { name: 'Estética Corpo', route: 'estetica/estetica-corpo' },
+                ]}
+              />
+              <Link
+                className={`p-4 hover:text-yellow-secondary duration-300 ${selectPage(
+                  '/medicina-estetica'
+                )}`}
+                to="medicina-estetica"
+              >
+                {t('Medicina Estética')}
+              </Link>
+
+              <div className="p-4">
+                <MultiLanguage />
+              </div>
             </div>
           </div>
         </div>
@@ -132,11 +123,7 @@ export default function Main() {
         </Link>
       </div>
       <div className="w-full bg-yellow-primary font-montserrat relative">
-        <div
-          className={`${
-            showMenu ? 'blur-sm duration-500' : 'blur-none duration-500'
-          }`}
-        >
+        <div className={`${shouldBlur}`}>
           {/* Content */}
           <Outlet />
 

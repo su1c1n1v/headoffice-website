@@ -9,7 +9,7 @@ interface ComponentProps {
   url: string;
 }
 
-export default function Component({
+export default function SimpleContainer({
   classname,
   title,
   subTitle,

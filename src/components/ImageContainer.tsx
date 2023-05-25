@@ -1,5 +1,5 @@
-import { t } from 'i18next';
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface ComponentProps {
   classname?: string;
@@ -11,7 +11,7 @@ interface ComponentProps {
   revert?: boolean;
 }
 
-export default function ContainerEstetica({
+export default function ImageContainer({
   classname,
   image,
   title,
@@ -25,12 +25,14 @@ export default function ContainerEstetica({
   const [textSubTitle, setTextSubTitle] = useState<string>('');
   const [textBenefts, setTextBenefits] = useState<string[]>([]);
 
+  const { t, i18n } = useTranslation();
+
   useEffect(() => {
     setTextTitle(t(title).toString());
     setTextSubTitle(t(subTitle).toString());
     setTextDescription(t(description).toString());
     if (benefits) setTextBenefits(benefits?.map((x) => t(x).toString()));
-  });
+  }, [i18n.language]);
 
   return (
     <>

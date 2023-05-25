@@ -10,7 +10,7 @@ import loja5 from '../assets/img/loja/loja5.jpg';
 import loja6 from '../assets/img/loja/loja6.jpg';
 import loja7 from '../assets/img/loja/loja7.jpg';
 import owner from '../assets/img/loja/owner.jpg';
-import home from '../assets/img/loja/home2.png';
+import home from '../assets/img/quemsomos/head-office-main.jpg';
 
 export default function QuemSomos() {
   const { t } = useTranslation();
@@ -25,17 +25,19 @@ export default function QuemSomos() {
           <p>{t('subtitle-bem-vindo')}</p>
         </div>
 
-        <div className="md:flex md:mx-0 mx-10">
-          <div className="md:w-1/2 mr-10 my-auto mx-auto md:p-0">
-            <p className="mt-10 text-justify">
-              {t('description1-head-office')}
-            </p>
-            <p className="mt-10 text-justify">
+        <div className="md:flex md:mx-0 mx-10 mt-10 md:text-sm xl:text-base">
+          <div className="md:w-1/2 mr-10 mx-auto md:p-0">
+            <p className="text-justify">{t('description1-head-office')}</p>
+            <p className="text-justify md:mt-10 xl:mt-3">
               {t('description2-head-office')}
             </p>
           </div>
-          <div className="md:w-1/2 md:my-auto mt-10">
-            <img src={home} alt="" className="w-full" />
+          <div className="md:w-1/2 md:mt-2 mt-10">
+            <img
+              src={home}
+              alt="Main picture of the Head-Office"
+              className="w-full"
+            />
           </div>
         </div>
 
@@ -103,7 +105,7 @@ export default function QuemSomos() {
           <div className="md:w-1/2 w-full md:mr-10">
             <img
               src={equipa}
-              className="md:rounded-r-full md:h-screen xl:h-auto"
+              className="md:rounded-r-full md:h-[35rem] xl:h-auto"
               alt="Equipa photo"
             />
           </div>
@@ -130,25 +132,6 @@ export default function QuemSomos() {
           </Carousel>
         </div>
 
-        <div className="mx-auto w-full my-10">
-          <div className="w-full flex justify-center mx-auto">
-            <img src={loja1} alt="Image of the store" className="w-1/4 p-2" />
-            <img src={loja2} alt="Image of the store" className="w-1/4 p-2" />
-            <img src={loja3} alt="Image of the store" className="w-1/4 p-2" />
-          </div>
-          <div className="flex">
-            <img src={loja1} alt="Image of the store" className="w-1/4 p-2" />
-            <img src={loja2} alt="Image of the store" className="w-1/4 p-2" />
-            <img src={loja3} alt="Image of the store" className="w-1/4 p-2" />
-            <img src={loja6} alt="Image of the store" className="w-1/4 p-2" />
-          </div>
-          <div className="w-full flex justify-center mx-auto">
-            <img src={loja1} alt="Image of the store" className="w-1/4 p-2" />
-            <img src={loja2} alt="Image of the store" className="w-1/4 p-2" />
-            <img src={loja3} alt="Image of the store" className="w-1/4 p-2" />
-          </div>
-        </div>
-
         <div className="mx-auto flex w-full my-10">
           <div className="w-1/5 my-auto">
             <img src={loja1} alt="Image of the store" className="w-full p-2" />
@@ -179,6 +162,7 @@ export default function QuemSomos() {
           </div>
         </div>
 
+        {/* 
         <div className="mx-auto flex w-full my-10">
           <div className="w-1/4 my-auto">
             <img
@@ -248,7 +232,7 @@ export default function QuemSomos() {
               className="w-full p-[1px]"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

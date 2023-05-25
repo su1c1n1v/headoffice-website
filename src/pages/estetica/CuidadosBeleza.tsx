@@ -1,5 +1,5 @@
 import { t } from 'i18next';
-import ContainerEstetica from '../../components/ContainerEstetica';
+import ImageContainer from '../../components/ImageContainer';
 
 export default function CuidadosBeleza() {
   return (
@@ -11,92 +11,92 @@ export default function CuidadosBeleza() {
       </div>
 
       <div className="m-auto">
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Manicure"
           title={'Manicure'}
           subTitle={'subtitle-Manicure'}
-          description={t('description-Manicure')}
+          description={'description-Manicure'}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Unha-de-gel"
           revert
-          title={t('Unhas de gel')}
-          subTitle={t('subtitle-Unhas de gel')}
-          description={t('description-Unhas de gel')}
+          title={'Unhas de gel'}
+          subTitle={'subtitle-Unhas de gel'}
+          description={'description-Unhas de gel'}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Verniz-gel"
-          title={t('Verniz Gel')}
-          subTitle={t('subtitle-Verniz Gel')}
-          description={t('description-Verniz Gel')}
+          title={'Verniz Gel'}
+          subTitle={'subtitle-Verniz Gel'}
+          description={'description-Verniz Gel'}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Pedicure"
           revert
-          title={t('Pedicure')}
-          subTitle={t('subtitle-Pedicure')}
-          description={t('description-Pedicure')}
+          title={'Pedicure'}
+          subTitle={'subtitle-Pedicure'}
+          description={'description-Pedicure'}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Massagem"
-          title={t('Massagem')}
-          subTitle={t('subtitle-Massagem')}
-          description={t('description-Massagem')}
+          title={'Massagem'}
+          subTitle={'subtitle-Massagem'}
+          description={'description-Massagem'}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Delipação-cera/linha"
           revert
-          title={t('Delipação cera/linha')}
-          subTitle={t('subtitle-Delipação cera/linha')}
-          description={t('description-Delipação cera/linha')}
+          title={'Delipação cera/linha'}
+          subTitle={'subtitle-Delipação cera/linha'}
+          description={'description-Delipação cera/linha'}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Epilação-laser"
-          title={t('Epilação laiser')}
-          subTitle={t('subtitle-Epilação laiser')}
-          description={t('description-Epilação laiser')}
+          title={'Epilação laiser'}
+          subTitle={'subtitle-Epilação laiser'}
+          description={'description-Epilação laiser'}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Micropigmentação-ou-tatuagem-semi-permanente"
           revert
-          title={t('Micropigmentação ou tatuagem semi-permanente')}
-          subTitle={t('subtitle-Micropigmentação ou tatuagem semi-permanente')}
-          description={t(
+          title={'Micropigmentação ou tatuagem semi-permanente'}
+          subTitle={'subtitle-Micropigmentação ou tatuagem semi-permanente'}
+          description={
             'description-Micropigmentação ou tatuagem semi-permanente'
-          )}
+          }
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Hidragloss"
-          title={t(
+          title={
             'Hidragloss - Hidratação profunda dos lábios com ácido hialuronico'
-          )}
-          subTitle={t(
+          }
+          subTitle={
             'subtitle-Hidragloss - Hidratação profunda dos lábios com ácido hialuronico'
-          )}
-          description={t(
+          }
+          description={
             'description-Hidragloss - Hidratação profunda dos lábios com ácido hialuronico'
-          )}
+          }
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Lash-Lifting"
           revert
-          title={t('Lash Lifting - Alinhamento e definição de pestanas')}
-          subTitle={t(
+          title={'Lash Lifting - Alinhamento e definição de pestanas'}
+          subTitle={
             'subtitle-Lash Lifting - Alinhamento e definição de pestanas'
-          )}
-          description={t(
+          }
+          description={
             'description-Lash Lifting - Alinhamento e definição de pestanas'
-          )}
+          }
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Brow-Lamination"
-          title={t('Brow Lamination - Sobrancelhas permanente até 40 dias')}
-          subTitle={t(
+          title={'Brow Lamination - Sobrancelhas permanente até 40 dias'}
+          subTitle={
             'subtitle-Brow Lamination - Sobrancelhas permanente até 40 dias'
-          )}
-          description={t(
+          }
+          description={
             'description-Brow Lamination - Sobrancelhas permanente até 40 dias'
-          )}
+          }
         />
       </div>
     </div>

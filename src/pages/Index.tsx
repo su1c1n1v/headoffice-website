@@ -1,5 +1,5 @@
 import { Carousel } from 'flowbite-react';
-import Container from '../components/Container';
+import Container from '../components/SimpleContainer';
 import Image1 from '../assets/img/image1.jpg';
 
 export default function Index() {

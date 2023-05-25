@@ -1,5 +1,5 @@
 import { t } from 'i18next';
-import ContainerEstetica from '../../components/ContainerEstetica';
+import ImageContainer from '../../components/ImageContainer';
 
 export default function EsteticaCorpo() {
   return (
@@ -11,11 +11,11 @@ export default function EsteticaCorpo() {
       </div>
 
       <div className="m-auto">
-        <ContainerEstetica
+        <ImageContainer
           image="bg-drenagem1"
-          title={t('Drenagem linfática')}
-          subTitle={t('sub-title-Drenagem linfática')}
-          description={t('description-Drenagem linfática')}
+          title={'Drenagem linfática'}
+          subTitle={'sub-title-Drenagem linfática'}
+          description={'description-Drenagem linfática'}
           benefits={[
             'benefit1-Drenagem',
             'benefit2-Drenagem',
@@ -27,12 +27,12 @@ export default function EsteticaCorpo() {
             'benefit8-Drenagem',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Radiofrequência-corporal"
           revert
-          title={t('Radiofrequencia corporal')}
-          subTitle={t('sub-title-Radiofrequencia corporal')}
-          description={t('description-Radiofrequencia corporal')}
+          title={'Radiofrequencia corporal'}
+          subTitle={'sub-title-Radiofrequencia corporal'}
+          description={'description-Radiofrequencia corporal'}
           benefits={[
             'benefit1-Radiofrequência',
             'benefit2-Radiofrequência',
@@ -41,11 +41,11 @@ export default function EsteticaCorpo() {
             'benefit5-Radiofrequência',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-hifu1"
-          title={t('Hifu corporal')}
-          subTitle={t('sub-title-Hifu corporal')}
-          description={t('description-Hifu corporal')}
+          title={'Hifu corporal'}
+          subTitle={'sub-title-Hifu corporal'}
+          description={'description-Hifu corporal'}
           benefits={[
             'benefit1-HIFU corporal',
             'benefit2-HIFU corporal',
@@ -53,12 +53,12 @@ export default function EsteticaCorpo() {
             'benefit4-HIFU corporal',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-rf-sculpt1"
           revert
-          title={t('RF sculpt')}
-          subTitle={t('sub-title-RF sculpt')}
-          description={t('description-RF sculpt')}
+          title={'RF sculpt'}
+          subTitle={'sub-title-RF sculpt'}
+          description={'description-RF sculpt'}
           benefits={[
             'benefit1-RF sculpt',
             'benefit2-RF sculpt',
@@ -67,11 +67,11 @@ export default function EsteticaCorpo() {
             'benefit5-RF sculpt',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-estetica3"
-          title={t('Vela shape')}
-          subTitle={t('sub-title-Vela shape')}
-          description={t('description-Vela shape')}
+          title={'Vela shape'}
+          subTitle={'sub-title-Vela shape'}
+          description={'description-Vela shape'}
           benefits={[
             'benefit1-VelaShape',
             'benefit2-VelaShape',
@@ -81,12 +81,12 @@ export default function EsteticaCorpo() {
             'benefit6-VelaShape',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-estetica2"
           revert
-          title={t('Laiser podológico')}
-          subTitle={t('sub-title-Laiser podológico')}
-          description={t('description-Laiser podológico')}
+          title={'Laiser podológico'}
+          subTitle={'sub-title-Laiser podológico'}
+          description={'description-Laiser podológico'}
           benefits={[
             'benefit1-Laiser podológico',
             'benefit2-Laiser podológico',
@@ -95,11 +95,11 @@ export default function EsteticaCorpo() {
             'benefit5-Laiser podológico',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-estetica-medica2"
-          title={t('Pressoterapia')}
-          subTitle={t('sub-title-Pressoterapia')}
-          description={t('description-Pressoterapia')}
+          title={'Pressoterapia'}
+          subTitle={'sub-title-Pressoterapia'}
+          description={'description-Pressoterapia'}
           benefits={[
             'benefit1-Pressoterapia',
             'benefit2-Pressoterapia',
@@ -112,12 +112,12 @@ export default function EsteticaCorpo() {
             'benefit9-Pressoterapia',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Lipolaser"
           revert
-          title={t('Lipolaser')}
-          subTitle={t('sub-title-Lipolaser')}
-          description={t('description-Lipolaser')}
+          title={'Lipolaser'}
+          subTitle={'sub-title-Lipolaser'}
+          description={'description-Lipolaser'}
           benefits={[
             'benefit1-Lipolaser',
             'benefit2-Lipolaser',

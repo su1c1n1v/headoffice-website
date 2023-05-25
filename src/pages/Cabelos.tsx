@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import ContainerEstetica from '../components/ContainerEstetica';
+import ImageContainer from '../components/ImageContainer';
 
 export default function Cabelos() {
   const { t } = useTranslation();
@@ -12,34 +12,34 @@ export default function Cabelos() {
         </div>
 
         <div className="m-auto">
-          <ContainerEstetica
+          <ImageContainer
             image="bg-Brushing"
             title={'Brushing'}
             subTitle={'sub-title-Brushing'}
             description={t('description-Brushing')}
           />
-          <ContainerEstetica
+          <ImageContainer
             image="bg-Cor-2-em-1"
             title={'Cor 2 em 1'}
             subTitle={'sub-title-Cor 2 em 1'}
             description={t('description-Cor 2 em 1')}
             revert
           />
-          <ContainerEstetica
+          <ImageContainer
             image="bg-Balayagem"
             title={'Balayagem'}
             subTitle={'sub-title-Balayagem'}
             description={t('description-Balayagem')}
             benefits={['benefit1-Balayagem', 'benefit2-Balayagem']}
           />
-          <ContainerEstetica
+          <ImageContainer
             image="bg-Madeixas"
             title={'Madeixas'}
             subTitle={'sub-title-Madeixas'}
             description={t('description-Madeixas')}
             revert
           />
-          <ContainerEstetica
+          <ImageContainer
             image="bg-Mechas-criativas"
             title={'Mechas criativas'}
             subTitle={'sub-title-Mechas criativas'}

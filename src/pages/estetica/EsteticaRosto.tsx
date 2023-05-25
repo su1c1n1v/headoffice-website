@@ -1,5 +1,5 @@
 import { t } from 'i18next';
-import ContainerEstetica from '../../components/ContainerEstetica';
+import ImageContainer from '../../components/ImageContainer';
 
 export default function EsteticaRosto() {
   return (
@@ -9,11 +9,11 @@ export default function EsteticaRosto() {
       </div>
 
       <div className="m-auto">
-        <ContainerEstetica
+        <ImageContainer
           image="bg-limpeza-pele"
           title={'Limpeza de Pele'}
           subTitle={'sub-title-Limpeza de Pele'}
-          description={t('description-Limpeza de Pele')}
+          description={'description-Limpeza de Pele'}
           benefits={[
             'benefit1-Limpeza de Pele',
             'benefit2-Limpeza de Pele',
@@ -25,11 +25,11 @@ export default function EsteticaRosto() {
             'benefit8-Limpeza de Pele',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-aquapeel"
           title={'Aquapeel'}
           subTitle={'sub-title-Aquapeel'}
-          description={t('description-Aquapeel')}
+          description={'description-Aquapeel'}
           revert
           benefits={[
             'benefit1-aguapeel',
@@ -41,11 +41,11 @@ export default function EsteticaRosto() {
             'benefit7-aguapeel',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-radiofrequencia"
           title={'Radiofrequencia'}
           subTitle={'sub-title-Radiofrequencia'}
-          description={t('description-Radiofrequencia')}
+          description={'description-Radiofrequencia'}
           benefits={[
             'benefit1-radiofrequencia',
             'benefit2-radiofrequencia',
@@ -54,12 +54,12 @@ export default function EsteticaRosto() {
             'benefit5-radiofrequencia',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-estetica12"
           title={'Hifu'}
           subTitle={'sub-title-Hifu'}
           revert
-          description={t('description-Hifu')}
+          description={'description-Hifu'}
           benefits={[
             'benefit1-hifu',
             'benefit2-hifu',
@@ -71,11 +71,11 @@ export default function EsteticaRosto() {
             'benefit8-hifu',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-peelings-quimicos"
           title={'Peelings químicos'}
           subTitle={'sub-title-Peelings químicos'}
-          description={t('description-Peelings químicos')}
+          description={'description-Peelings químicos'}
           benefits={[
             'benefit1-peelings',
             'benefit2-peelings',
@@ -84,12 +84,12 @@ export default function EsteticaRosto() {
             'benefit5-peelings',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-velashape-rosto"
           title={'Velashape rosto'}
           subTitle={'sub-title-Velashape rosto'}
           revert
-          description={t('description-Velashape rosto')}
+          description={'description-Velashape rosto'}
           benefits={[
             'benefit1-velashape',
             'benefit2-velashape',

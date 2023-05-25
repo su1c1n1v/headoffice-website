@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import ContainerEstetica from '../components/ContainerEstetica';
+import ImageContainer from '../components/ImageContainer';
 
 export default function MedicinaEstetica() {
   const { t } = useTranslation();
@@ -13,7 +13,7 @@ export default function MedicinaEstetica() {
       </div>
 
       <div className="m-auto">
-        <ContainerEstetica
+        <ImageContainer
           image="bg-acido-hialuronico"
           title={'Ácido hialurónico'}
           subTitle={'sub-title-Ácido hialurónico'}
@@ -25,7 +25,7 @@ export default function MedicinaEstetica() {
             'benefit4-Ácido hialurónico',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-botox"
           title={'Toxina botulínica'}
           subTitle={'sub-title-Toxina botulínica'}
@@ -41,7 +41,7 @@ export default function MedicinaEstetica() {
             'benefit7-Toxina botulínica',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Fios-tensores"
           title={'Fios tensores'}
           subTitle={'sub-title-Fios tensores'}
@@ -56,7 +56,7 @@ export default function MedicinaEstetica() {
             'benefit7-Fios tensores',
           ]}
         />
-        <ContainerEstetica
+        <ImageContainer
           image="bg-Biostimulatores-de-colagénio bg-right"
           title={'Biostimulators de colagénio'}
           subTitle={'sub-title-Biostimulators de colagénio'}

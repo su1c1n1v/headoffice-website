@@ -11,6 +11,7 @@ import { Toast } from 'flowbite-react';
 import { ReactNode, useState } from 'react';
 import { t } from 'i18next';
 import { InferType } from 'yup';
+import api from '../services/Api';
 
 export default function Contatos() {
   const [toasts, setToasts] = useState<ReactNode>();
@@ -55,12 +56,32 @@ export default function Contatos() {
 
     reset();
   };
+
+  async function testing() {
+    const accountSid = 'AC06798f2080e5f9605bd733a130b41c30';
+
+    const message = {
+      From: 'whatsapp:+14155238886',
+      To: 'whatsapp:+351911732081',
+      // To: 'whatsapp:+351924027681',
+      Body: 'Testando nova mensagem usando whatApp API',
+    };
+
+    api
+      .post('2010-04-01/Accounts/' + accountSid + '/Messages.json', message)
+      .then((response) => console.log(response.data))
+      .catch((error) => console.error(error));
+  }
+
   return (
     <>
       <div className="space-x-4 divide-x divide-gray-200 absolute top-10 right-10">
         {toasts}
       </div>
 
+      <Button vartiant={'search'} onClick={testing}>
+        Testing
+      </Button>
       <div className="w-full md:w-11/12 xl:w-8/12 m-auto md:flex md:p-5 p-10 pt-0">
         <div className="md:w-1/2 w-full mb-10 ">
           <h3 className="text-center md:text-left font-semibold text-yellow-secondary text-3xl my-10">

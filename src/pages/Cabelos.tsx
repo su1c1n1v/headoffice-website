@@ -45,6 +45,13 @@ export default function Cabelos() {
             subTitle={'sub-title-Mechas criativas'}
             description={'description-Mechas criativas'}
           />
+          <ImageContainer
+            image="bg-Extensions"
+            title={'Extensions'}
+            subTitle={'sub-title-Extensions'}
+            description={'description-Extensions'}
+            revert
+          />
         </div>
       </div>
     </>

@@ -38,7 +38,6 @@ export default function MedicinaEstetica() {
             'benefit4-Toxina botulínica',
             'benefit5-Toxina botulínica',
             'benefit6-Toxina botulínica',
-            'benefit7-Toxina botulínica',
           ]}
         />
         <ImageContainer
@@ -51,9 +50,6 @@ export default function MedicinaEstetica() {
             'benefit2-Fios tensores',
             'benefit3-Fios tensores',
             'benefit4-Fios tensores',
-            'benefit5-Fios tensores',
-            'benefit6-Fios tensores',
-            'benefit7-Fios tensores',
           ]}
         />
         <ImageContainer
@@ -69,8 +65,6 @@ export default function MedicinaEstetica() {
             'benefit4-Biostimulators de colagénio',
             'benefit5-Biostimulators de colagénio',
             'benefit6-Biostimulators de colagénio',
-            'benefit7-Biostimulators de colagénio',
-            'benefit8-Biostimulators de colagénio',
           ]}
         />
       </div>

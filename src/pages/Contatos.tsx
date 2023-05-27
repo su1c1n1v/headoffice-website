@@ -21,15 +21,9 @@ export default function Contatos() {
     message: yup.string().required(t('Campo obrigatório').toString()),
     phoneNumber: yup
       .string()
-      .matches(
-        /^\+{0,1}[0-9]{0,3}[0-9]{9,12}$/,
-        t('Número de telefone invalido').toString()
-      )
-      .min(1, t('Campo obrigatório').toString()),
-    email: yup
-      .string()
-      .required(t('Campo obrigatório').toString())
-      .email(t('E-mail invalido').toString()),
+      .matches(/^\+{0,1}[0-9]{0,3}[0-9]{9,12}$/, 'Número de telefone invalido')
+      .min(1, 'Campo obrigatório'),
+    email: yup.string().required('Campo obrigatório').email('E-mail invalido'),
   });
 
   type ValidationSchema = InferType<typeof validationSchema>;
@@ -43,7 +37,7 @@ export default function Contatos() {
     resolver: yupResolver(validationSchema),
   });
 
-  const sentMessage = async (values: any) => {
+  const sentMessage = async () => {
     setToasts(
       <Toast className="my-5 bg-green-200 border border-green-400">
         <div className="mx-5 w-[30rem] text-sm font-normal">

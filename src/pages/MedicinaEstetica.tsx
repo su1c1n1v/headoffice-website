@@ -17,7 +17,7 @@ export default function MedicinaEstetica() {
           image="bg-acido-hialuronico"
           title={'Ácido hialurónico'}
           subTitle={'sub-title-Ácido hialurónico'}
-          description={t('description-Ácido hialurónico')}
+          description={'description-Ácido hialurónico'}
           benefits={[
             'benefit1-Ácido hialurónico',
             'benefit2-Ácido hialurónico',
@@ -30,7 +30,7 @@ export default function MedicinaEstetica() {
           title={'Toxina botulínica'}
           subTitle={'sub-title-Toxina botulínica'}
           revert
-          description={t('description-Toxina botulínica')}
+          description={'description-Toxina botulínica'}
           benefits={[
             'benefit1-Toxina botulínica',
             'benefit2-Toxina botulínica',
@@ -45,7 +45,7 @@ export default function MedicinaEstetica() {
           image="bg-Fios-tensores"
           title={'Fios tensores'}
           subTitle={'sub-title-Fios tensores'}
-          description={t('description-Fios tensores')}
+          description={'description-Fios tensores'}
           benefits={[
             'benefit1-Fios tensores',
             'benefit2-Fios tensores',
@@ -60,7 +60,7 @@ export default function MedicinaEstetica() {
           image="bg-Biostimulatores-de-colagénio bg-right"
           title={'Biostimulators de colagénio'}
           subTitle={'sub-title-Biostimulators de colagénio'}
-          description={t('description-Biostimulators de colagénio')}
+          description={'description-Biostimulators de colagénio'}
           revert
           benefits={[
             'benefit1-Biostimulators de colagénio',

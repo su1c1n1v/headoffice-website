@@ -1,7 +1,9 @@
-import { t } from 'i18next';
 import ImageContainer from '../../components/ImageContainer';
+import { useTranslation } from 'react-i18next';
 
 export default function EsteticaRosto() {
+  const { t } = useTranslation();
+
   return (
     <div className="md:w-11/12 xl:w-8/12 m-auto">
       <div id="Estética Rosto" className="md:p-0 px-10">
@@ -21,8 +23,6 @@ export default function EsteticaRosto() {
             'benefit4-Limpeza de Pele',
             'benefit5-Limpeza de Pele',
             'benefit6-Limpeza de Pele',
-            'benefit7-Limpeza de Pele',
-            'benefit8-Limpeza de Pele',
           ]}
         />
         <ImageContainer
@@ -38,7 +38,6 @@ export default function EsteticaRosto() {
             'benefit4-aguapeel',
             'benefit5-aguapeel',
             'benefit6-aguapeel',
-            'benefit7-aguapeel',
           ]}
         />
         <ImageContainer
@@ -55,7 +54,7 @@ export default function EsteticaRosto() {
           ]}
         />
         <ImageContainer
-          image="bg-estetica12"
+          image="bg-hifu-rosto"
           title={'Hifu'}
           subTitle={'sub-title-Hifu'}
           revert
@@ -65,10 +64,6 @@ export default function EsteticaRosto() {
             'benefit2-hifu',
             'benefit3-hifu',
             'benefit4-hifu',
-            'benefit5-hifu',
-            'benefit6-hifu',
-            'benefit7-hifu',
-            'benefit8-hifu',
           ]}
         />
         <ImageContainer
@@ -96,7 +91,6 @@ export default function EsteticaRosto() {
             'benefit3-velashape',
             'benefit4-velashape',
             'benefit5-velashape',
-            'benefit6-velashape',
           ]}
         />
       </div>

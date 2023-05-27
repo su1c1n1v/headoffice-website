@@ -17,7 +17,7 @@ export default function MedicinaEstetica() {
           image="bg-acido-hialuronico"
           title={'Ácido hialurónico'}
           subTitle={'sub-title-Ácido hialurónico'}
-          description={t('description-Ácido hialurónico')}
+          description={'description-Ácido hialurónico'}
           benefits={[
             'benefit1-Ácido hialurónico',
             'benefit2-Ácido hialurónico',
@@ -30,7 +30,7 @@ export default function MedicinaEstetica() {
           title={'Toxina botulínica'}
           subTitle={'sub-title-Toxina botulínica'}
           revert
-          description={t('description-Toxina botulínica')}
+          description={'description-Toxina botulínica'}
           benefits={[
             'benefit1-Toxina botulínica',
             'benefit2-Toxina botulínica',
@@ -38,29 +38,25 @@ export default function MedicinaEstetica() {
             'benefit4-Toxina botulínica',
             'benefit5-Toxina botulínica',
             'benefit6-Toxina botulínica',
-            'benefit7-Toxina botulínica',
           ]}
         />
         <ImageContainer
           image="bg-Fios-tensores"
           title={'Fios tensores'}
           subTitle={'sub-title-Fios tensores'}
-          description={t('description-Fios tensores')}
+          description={'description-Fios tensores'}
           benefits={[
             'benefit1-Fios tensores',
             'benefit2-Fios tensores',
             'benefit3-Fios tensores',
             'benefit4-Fios tensores',
-            'benefit5-Fios tensores',
-            'benefit6-Fios tensores',
-            'benefit7-Fios tensores',
           ]}
         />
         <ImageContainer
           image="bg-Biostimulatores-de-colagénio bg-right"
           title={'Biostimulators de colagénio'}
           subTitle={'sub-title-Biostimulators de colagénio'}
-          description={t('description-Biostimulators de colagénio')}
+          description={'description-Biostimulators de colagénio'}
           revert
           benefits={[
             'benefit1-Biostimulators de colagénio',
@@ -69,8 +65,6 @@ export default function MedicinaEstetica() {
             'benefit4-Biostimulators de colagénio',
             'benefit5-Biostimulators de colagénio',
             'benefit6-Biostimulators de colagénio',
-            'benefit7-Biostimulators de colagénio',
-            'benefit8-Biostimulators de colagénio',
           ]}
         />
       </div>

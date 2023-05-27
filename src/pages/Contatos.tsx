@@ -11,6 +11,7 @@ import { Toast } from 'flowbite-react';
 import { ReactNode, useState } from 'react';
 import { t } from 'i18next';
 import { InferType } from 'yup';
+import Modal from '../components/Modal';
 
 export default function Contatos() {
   const [toasts, setToasts] = useState<ReactNode>();
@@ -21,15 +22,9 @@ export default function Contatos() {
     message: yup.string().required(t('Campo obrigatório').toString()),
     phoneNumber: yup
       .string()
-      .matches(
-        /^\+{0,1}[0-9]{0,3}[0-9]{9,12}$/,
-        t('Número de telefone invalido').toString()
-      )
-      .min(1, t('Campo obrigatório').toString()),
-    email: yup
-      .string()
-      .required(t('Campo obrigatório').toString())
-      .email(t('E-mail invalido').toString()),
+      .matches(/^\+{0,1}[0-9]{0,3}[0-9]{9,12}$/, 'Número de telefone invalido')
+      .min(1, 'Campo obrigatório'),
+    email: yup.string().required('Campo obrigatório').email('E-mail invalido'),
   });
 
   type ValidationSchema = InferType<typeof validationSchema>;
@@ -43,7 +38,7 @@ export default function Contatos() {
     resolver: yupResolver(validationSchema),
   });
 
-  const sentMessage = async (values: any) => {
+  const sentMessage = async () => {
     setToasts(
       <Toast className="my-5 bg-green-200 border border-green-400">
         <div className="mx-5 w-[30rem] text-sm font-normal">
@@ -57,10 +52,6 @@ export default function Contatos() {
   };
   return (
     <>
-      <div className="space-x-4 divide-x divide-gray-200 absolute top-10 right-10">
-        {toasts}
-      </div>
-
       <div className="w-full md:w-11/12 xl:w-8/12 m-auto md:flex md:p-5 p-10 pt-0">
         <div className="md:w-1/2 w-full mb-10 ">
           <h3 className="text-center md:text-left font-semibold text-yellow-secondary text-3xl my-10">
@@ -155,6 +146,11 @@ export default function Contatos() {
           </div>
         </form>
       </div>
+      <Modal
+        close={true}
+        title="Pedido"
+        description="Mensagem enviado com sucesso!"
+      />
     </>
   );
 }

@@ -1,7 +1,9 @@
-import { t } from 'i18next';
+import { useTranslation } from 'react-i18next';
 import ImageContainer from '../../components/ImageContainer';
 
 export default function EsteticaCorpo() {
+  const { t } = useTranslation();
+
   return (
     <div className="md:w-11/12 xl:w-8/12 m-auto">
       <div className="m-auto md:px-0 px-10">
@@ -12,7 +14,7 @@ export default function EsteticaCorpo() {
 
       <div className="m-auto">
         <ImageContainer
-          image="bg-drenagem1"
+          image="bg-drenagem-linfatica"
           title={'Drenagem linfática'}
           subTitle={'sub-title-Drenagem linfática'}
           description={'description-Drenagem linfática'}
@@ -23,12 +25,10 @@ export default function EsteticaCorpo() {
             'benefit4-Drenagem',
             'benefit5-Drenagem',
             'benefit6-Drenagem',
-            'benefit7-Drenagem',
-            'benefit8-Drenagem',
           ]}
         />
         <ImageContainer
-          image="bg-Radiofrequência-corporal"
+          image="bg-radiofrequencia-corporal"
           revert
           title={'Radiofrequencia corporal'}
           subTitle={'sub-title-Radiofrequencia corporal'}
@@ -42,7 +42,7 @@ export default function EsteticaCorpo() {
           ]}
         />
         <ImageContainer
-          image="bg-hifu1"
+          image="bg-hifu-corporal"
           title={'Hifu corporal'}
           subTitle={'sub-title-Hifu corporal'}
           description={'description-Hifu corporal'}
@@ -54,7 +54,7 @@ export default function EsteticaCorpo() {
           ]}
         />
         <ImageContainer
-          image="bg-rf-sculpt1"
+          image="bg-rf-sculpt"
           revert
           title={'RF sculpt'}
           subTitle={'sub-title-RF sculpt'}
@@ -64,11 +64,10 @@ export default function EsteticaCorpo() {
             'benefit2-RF sculpt',
             'benefit3-RF sculpt',
             'benefit4-RF sculpt',
-            'benefit5-RF sculpt',
           ]}
         />
         <ImageContainer
-          image="bg-estetica3"
+          image="bg-vela-shape-corporal"
           title={'Vela shape'}
           subTitle={'sub-title-Vela shape'}
           description={'description-Vela shape'}
@@ -78,11 +77,10 @@ export default function EsteticaCorpo() {
             'benefit3-VelaShape',
             'benefit4-VelaShape',
             'benefit5-VelaShape',
-            'benefit6-VelaShape',
           ]}
         />
         <ImageContainer
-          image="bg-estetica2"
+          image="bg-laser-podologico"
           revert
           title={'Laiser podológico'}
           subTitle={'sub-title-Laiser podológico'}
@@ -96,7 +94,7 @@ export default function EsteticaCorpo() {
           ]}
         />
         <ImageContainer
-          image="bg-estetica-medica2"
+          image="bg-pressoterapia"
           title={'Pressoterapia'}
           subTitle={'sub-title-Pressoterapia'}
           description={'description-Pressoterapia'}
@@ -108,12 +106,10 @@ export default function EsteticaCorpo() {
             'benefit5-Pressoterapia',
             'benefit6-Pressoterapia',
             'benefit7-Pressoterapia',
-            'benefit8-Pressoterapia',
-            'benefit9-Pressoterapia',
           ]}
         />
         <ImageContainer
-          image="bg-Lipolaser"
+          image="bg-lipolaser"
           revert
           title={'Lipolaser'}
           subTitle={'sub-title-Lipolaser'}

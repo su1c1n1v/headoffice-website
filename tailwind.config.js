@@ -25,7 +25,6 @@ module.exports = {
       estetica1: "url('/src/assets/img/estetica-image2.jpeg')",
       cabelo1: "url('/src/assets/img/cabelo-image1.jpg')",
       manicure1: "url('/src/assets/img/estetica-image5.png')",
-      drenagem1: "url('/src/assets/img/estetica-image6.jpg')",
       hifu1: "url('/src/assets/img/estetica-image7.jpg')",
       lipo1: "url('/src/assets/img/estetica-image9.jpg')",
       estetica2: "url('/src/assets/img/estetica-image10.jpg')",
@@ -56,55 +55,75 @@ module.exports = {
       missao: "url('/src/assets/img/loja/Missão.jpeg')",
 
       // estetica corpo
-      'Radiofrequência-corporal':
-        "url('/src/assets/img/estetica corpo/Radiofrequência corporal.jpeg')",
-      Lipolaser: "url('/src/assets/img/estetica corpo/Lipolaser.jpeg')",
+      'radiofrequencia-corporal':
+        "url('/src/assets/img/estetica corpo-container/Radiofrequência corporal.jpg')",
+      lipolaser:
+        "url('/src/assets/img/estetica corpo-container/Lipolaser.jpg')",
+      'drenagem-linfatica':
+        "url('/src/assets/img/estetica corpo-container/Drenagem linfática.jpg')",
+      'hifu-corporal':
+        "url('/src/assets/img/estetica corpo-container/Hifu corporal.jpg')",
+      'laser-podologico':
+        "url('/src/assets/img/estetica corpo-container/Laser podológico.jpg')",
+      pressoterapia:
+        "url('/src/assets/img/estetica corpo-container/Pressoterapia.jpg')",
+      'rf-sculpt':
+        "url('/src/assets/img/estetica corpo-container/RF sculpt.jpg')",
+      'vela-shape-corporal':
+        "url('/src/assets/img/estetica corpo-container/Vela shape.jpg')",
 
       // Cuidados beleza
-      Pedicure: "url('/src/assets/img/cuidados beleza/Pedicure.jpg')",
-      'Verniz-gel': "url('/src/assets/img/cuidados beleza/Verniz gel.jpg')",
-      'Unha-de-gel': "url('/src/assets/img/cuidados beleza/Unha de gel.jpg')",
-      Manicure: "url('/src/assets/img/cuidados beleza/Manicure.jpg')",
-      Massagem: "url('/src/assets/img/cuidados beleza/Massagem.jpg')",
+      Pedicure: "url('/src/assets/img/cuidados beleza-container/Pedicure.jpg')",
+      'Verniz-gel':
+        "url('/src/assets/img/cuidados beleza-container/Verniz gel.jpg')",
+      'Unha-de-gel':
+        "url('/src/assets/img/cuidados beleza-container/Unha de gel.jpg')",
+      Manicure: "url('/src/assets/img/cuidados beleza-container/Manicure.jpg')",
+      Massagem: "url('/src/assets/img/cuidados beleza-container/Massagem.jpg')",
       'Delipação-cera/linha':
-        "url('/src/assets/img/cuidados beleza/Depilação a cera.jpg')",
+        "url('/src/assets/img/cuidados beleza-container/Depilação.jpg')",
       'Epilação-laser':
-        "url('/src/assets/img/cuidados beleza/Epilação laser.jpeg')",
+        "url('/src/assets/img/cuidados beleza-container/Epilação laser.jpg')",
       'Micropigmentação-ou-tatuagem-semi-permanente':
-        "url('/src/assets/img/cuidados beleza/Micropigmentação ou tatuagem semi-permanente.JPEG')",
-      Hidragloss: "url('/src/assets/img/cuidados beleza/Hidragloss.JPEG')",
+        "url('/src/assets/img/cuidados beleza-container/Micropigmentação.jpg')",
+      Hidragloss:
+        "url('/src/assets/img/cuidados beleza-container/Hidragloss.jpeg')",
       'Lash-Lifting':
-        "url('/src/assets/img/cuidados beleza/Lash Lifting.JPEG')",
+        "url('/src/assets/img/cuidados beleza-container/Hidragloss.jpeg')",
       'Brow-Lamination':
-        "url('/src/assets/img/cuidados beleza/Brow Lamination.jpeg')",
+        "url('/src/assets/img/cuidados beleza-container/Brow Lamination.jpg')",
 
-      // Medician estetica
-      botox: "url('/src/assets/img/medicina estetica/Botox.jpg')",
+      // Medicina estetica
+      botox:
+        "url('/src/assets/img/medicina estetica-container/Toxina botulínica.jpg')",
       'Biostimulatores-de-colagénio':
-        "url('/src/assets/img/medicina estetica/Biostimulatores de colagénio.jpg')",
+        "url('/src/assets/img/medicina estetica-container/Biostimulatores de colagénio.jpg')",
       'Fios-tensores':
-        "url('/src/assets/img/medicina estetica/Fios tensores.jpeg')",
+        "url('/src/assets/img/medicina estetica-container/Fios tensores.jpg')",
       'acido-hialuronico':
-        "url('/src/assets/img/medicina estetica/Acido Hialurónico.jpg')",
+        "url('/src/assets/img/medicina estetica-container/Ácido hialurónico.jpg')",
 
       // Estetica-rosto
-      aquapeel: "url('/src/assets/img/estetica rosto/Aquapeel.jpeg')",
+      aquapeel: "url('/src/assets/img/estetica rosto-container/Aquapeel.jpg')",
+      'hifu-rosto': "url('/src/assets/img/estetica rosto-container/HIFU.jpg')",
       'limpeza-pele':
-        "url('/src/assets/img/estetica rosto/Limpeza de Pele.jpeg')",
+        "url('/src/assets/img/estetica rosto-container/Limpeza de Pele.jpg')",
       radiofrequencia:
-        "url('/src/assets/img/estetica rosto/Radiofrequência.jpeg')",
+        "url('/src/assets/img/estetica rosto-container/Radiofrequência.jpg')",
       'peelings-quimicos':
-        "url('/src/assets/img/estetica rosto/Peelings químicos.jpg')",
+        "url('/src/assets/img/estetica rosto-container/Peelings químicos.jpg')",
       'velashape-rosto':
-        "url('/src/assets/img/estetica rosto/Velashape rosto.jpg')",
+        "url('/src/assets/img/estetica rosto-container/Velashape rosto.jpg')",
 
       // Cabelos
-      Brushing: "url('/src/assets/img/cabelos/Brushing.jpeg')",
-      'Cor-2-em-1': "url('/src/assets/img/cabelos/Cor 2 em 1.jpeg')",
-      Balayagem: "url('/src/assets/img/cabelos/Balayagem.jpeg')",
-      Madeixas: "url('/src/assets/img/cabelos/Madeixas.jpeg')",
+      Brushing: "url('/src/assets/img/cabelos-container/Brushing.jpg')",
+      'Cor-2-em-1': "url('/src/assets/img/cabelos-container/Cor 2 em 1.jpg')",
+      Balayagem: "url('/src/assets/img/cabelos-container/Balayagem.jpg')",
+      Madeixas: "url('/src/assets/img/cabelos-container/Madeixas.jpg')",
       'Mechas-criativas':
-        "url('/src/assets/img/cabelos/Mechas criativas.jpeg')",
+        "url('/src/assets/img/cabelos-container/Mechas criativas.jpg')",
+      Extensions:
+        "url('/src/assets/img/cabelos-container/Aplicação de extensões.jpg')",
     },
     colors: {
       gray: {

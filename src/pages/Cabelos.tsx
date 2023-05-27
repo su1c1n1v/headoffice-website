@@ -16,34 +16,41 @@ export default function Cabelos() {
             image="bg-Brushing"
             title={'Brushing'}
             subTitle={'sub-title-Brushing'}
-            description={t('description-Brushing')}
+            description={'description-Brushing'}
           />
           <ImageContainer
             image="bg-Cor-2-em-1"
             title={'Cor 2 em 1'}
             subTitle={'sub-title-Cor 2 em 1'}
-            description={t('description-Cor 2 em 1')}
+            description={'description-Cor 2 em 1'}
             revert
           />
           <ImageContainer
             image="bg-Balayagem"
             title={'Balayagem'}
             subTitle={'sub-title-Balayagem'}
-            description={t('description-Balayagem')}
+            description={'description-Balayagem'}
             benefits={['benefit1-Balayagem', 'benefit2-Balayagem']}
           />
           <ImageContainer
             image="bg-Madeixas"
             title={'Madeixas'}
             subTitle={'sub-title-Madeixas'}
-            description={t('description-Madeixas')}
+            description={'description-Madeixas'}
             revert
           />
           <ImageContainer
             image="bg-Mechas-criativas"
             title={'Mechas criativas'}
             subTitle={'sub-title-Mechas criativas'}
-            description={t('description-Mechas criativas')}
+            description={'description-Mechas criativas'}
+          />
+          <ImageContainer
+            image="bg-Extensions"
+            title={'Extensions'}
+            subTitle={'sub-title-Extensions'}
+            description={'description-Extensions'}
+            revert
           />
         </div>
       </div>

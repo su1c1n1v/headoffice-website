@@ -1,7 +1,8 @@
-import { t } from 'i18next';
+import { useTranslation } from 'react-i18next';
 import ImageContainer from '../../components/ImageContainer';
 
 export default function CuidadosBeleza() {
+  const { t } = useTranslation();
   return (
     <div className="md:w-11/12 xl:w-8/12 m-auto">
       <div id="Cuidados de Beleza" className="md:p-0 px-10">

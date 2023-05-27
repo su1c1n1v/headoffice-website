@@ -11,6 +11,7 @@ import { Toast } from 'flowbite-react';
 import { ReactNode, useState } from 'react';
 import { t } from 'i18next';
 import { InferType } from 'yup';
+import Modal from '../components/Modal';
 
 export default function Contatos() {
   const [toasts, setToasts] = useState<ReactNode>();
@@ -51,10 +52,6 @@ export default function Contatos() {
   };
   return (
     <>
-      <div className="space-x-4 divide-x divide-gray-200 absolute top-10 right-10">
-        {toasts}
-      </div>
-
       <div className="w-full md:w-11/12 xl:w-8/12 m-auto md:flex md:p-5 p-10 pt-0">
         <div className="md:w-1/2 w-full mb-10 ">
           <h3 className="text-center md:text-left font-semibold text-yellow-secondary text-3xl my-10">
@@ -149,6 +146,11 @@ export default function Contatos() {
           </div>
         </form>
       </div>
+      <Modal
+        close={true}
+        title="Pedido"
+        description="Mensagem enviado com sucesso!"
+      />
     </>
   );
 }

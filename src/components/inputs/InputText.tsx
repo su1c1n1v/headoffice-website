@@ -1,4 +1,5 @@
 import { InputHTMLAttributes, LegacyRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   ref2?: LegacyRef<HTMLInputElement>;
@@ -10,6 +11,7 @@ export default function InputText({
   ref2,
   ...rest
 }: InputProps) {
+  const { t } = useTranslation();
   return (
     <>
       <input
@@ -17,7 +19,7 @@ export default function InputText({
         ref={ref2}
         type="text"
         className={`focus:outline-none focus:ring hover:bg-gray-100 focus:ring-gray-300 bg-gray-50 border focus:border-gray-200 border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-primary block w-full p-2 ${className}`}
-        placeholder={placeholder}
+        placeholder={placeholder && t(placeholder).toString()}
         {...rest}
       />
     </>

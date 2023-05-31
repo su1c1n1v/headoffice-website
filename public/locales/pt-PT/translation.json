@@ -15,7 +15,14 @@
   "Atendimento ao cliente": "4. Atendimento ao cliente:",
   "Respeito": "5. Respeito:",
   "Responsabilidade social e ambiental": "6. Responsabilidade social e ambiental:",
-
+  "dialog": {
+    "title": "Menssagem enviada com sucesso!",
+    "description": "Entraremos em contato o mais breve possível.",
+    "button-close": "Fechar"
+  },
+  "Marcação": "Marcação",
+  "Dúvidas": "Dúvidas",
+  "Avaliação": "Avaliação",
   "description-Excelência": "buscar sempre a excelência na qualidade dos serviços prestados e na satisfação dos clientes.",
   "description-Ética": "atuar com ética e transparência em todas as operações, promovendo a confiança dos clientes e a integridade do negócio.",
   "description-Inovação": "buscar constantemente novas soluções, técnicas e tecnologias para melhorar e atualizar os serviços oferecidos aos clientes.",
@@ -23,7 +30,6 @@
   "description-Respeito": "valorizar e respeitar a individualidade e diversidade de cada cliente, promovendo uma cultura inclusiva e livre de preconceitos.",
   "description-Responsabilidade social e ambiental": "adotar práticas sustentáveis e responsáveis socialmente, buscando contribuir para o desenvolvimento da comunidade local e do planeta como um todo.",
   "Espaço": "Espaço",
-
   "Quem somos": "Quem somos",
   "Cabelos": "Cabeleireiro",
   "Medicina Estética": "Medicina Estética",
@@ -31,7 +37,6 @@
   "Estética": "Estética",
   "horario": "Seg á Sex 8h às 19h",
   "horario2": "Sáb 9h às 13h - só por marcação",
-
   "description-Fale conosco": "Envie-nos as suas perguntas, solicitações ou comentários. Teremos o maior prazer em conversar consigo, e a nossa equipa de apoio ao cliente responderá a todas as suas perguntas.",
   "Nome": "Nome",
   "E-mail": "E-mail",
@@ -42,14 +47,13 @@
   "span": "Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.",
   "placeholder-nome": "Forneça seu nome",
   "placeholder-email": "Forneça seu e-mail",
-  "placeholder-phonenumber": "Provide your phone number",
+  "placeholder-phonenumber": "Forneça seu número de telemóvel",
   "placeholder-assunto": "Escolha o assunto",
   "placeholder-messagem": "Escreva a menssagem",
   "Campo obrigatório": "Campo obrigatório",
   "Número de telefone invalido": "Número de telefone invalidoo",
   "E-mail invalido": "E-mail invalido",
   "Menssagem sucesso": "Menssagem enviada com sucesso!",
-
   "Estética Rosto": "Estética Rosto",
   "Estética Corpo": "Estética Corporal",
   "Cuidados de Beleza": "Cuidados de Beleza",
@@ -57,7 +61,6 @@
   "description-footer": "O HeadOffice é um centro de Beleza e Bem-estar para todos os géneros, que oferece mais de 100 serviços que vão de encontro às diferentes conveniências, com a vantagem que os poderá encontrar todos no mesmo espaço. Uma vinda ao HeadOffice, permite que trate do seu cabelo, das unhas, do rosto, do corpo e da sua mente.",
   "description2-footer": "Esperamos por si.",
   "rights": "Headoffice. Todos os direitos reservados",
-
   "Drenagem linfática": "Drenagem linfática",
   "Radiofrequencia corporal": "Radiofrequência corporal",
   "Hifu corporal": "Hifu corporal",
@@ -66,7 +69,6 @@
   "Laiser podológico": "Laser podológico",
   "Pressoterapia": "Pressoterapia",
   "Lipolaser": "Lipolaser",
-
   "sub-title-Drenagem linfática": "Remove as toxinas do corpo",
   "sub-title-Radiofrequencia corporal": "Estimulação do colagénio",
   "sub-title-Hifu corporal": "Estimula a firmeza da pele",
@@ -75,7 +77,6 @@
   "sub-title-Laiser podológico": "Eliminação dos fungos das unhas",
   "sub-title-Pressoterapia": "Desincha e modela o corpo",
   "sub-title-Lipolaser": "Elimação de gordura",
-
   "description-Drenagem linfática": "A Drenagem linfática manual é uma técnica de massagem que estimula o sistema linfático. Os movimentos aplicados consistem em pressões leves, suaves, rítmicas e precisas em direção aos gânglios linfáticos. É indicada por médicos e terapeutas na recuperação de edemas pós-operatórios, no pré e pós parto.",
   "description-Radiofrequencia corporal": "A Radiofrequência corporal é um tratamento que utiliza ondas eletromagnéticas para aquecer as camadas mais profundas da pele. O tratamento é indolor e não invasivo, sendo uma opção segura e eficaz para quem busca melhorar a aparência da pele.",
   "description-Hifu corporal": "O HIFU corporal é um tratamento estético que usa um feixe de ultrassom de alta intensidade para reduzir a gordura localizada e a flacidez da pele em diferentes áreas do corpo. O HIFU corporal é um procedimento não invasivo, sem cortes ou agulhas, que não deixa cicatrizes ou marcas na pele.",
@@ -84,28 +85,24 @@
   "description-Laiser podológico": "O Laser podológico é um tratamento que usa um feixe de laser para eliminar os fungos das unhas (onicomicose) e outros problemas podológicos, como calos, verrugas, inflamações e cicatrização. O laser podológico funciona passando pela unha e pelo tecido adjacente e sendo absorvido pelo pigmento do fungo, causando um aquecimento que mata ou danifica o organismo do fungo.",
   "description-Pressoterapia": "A Pressoterapia é uma técnica terapêutica que utiliza pressão de ar para melhorar a circulação sanguínea, reduzir a retenção de líquidos e aliviar a sensação de pernas cansadas. É comumente utilizada para tratar problemas circulatórios e estéticos, mas deve ser evitada por pessoas com doenças graves ou condições médicas específicas.",
   "description-Lipolaser": "O Lipolaser é um procedimento estético não invasivo que utiliza um laser de baixa intensidade para ajudar a reduzir a gordura localizada em áreas específicas do corpo, como abdómen, coxas, braços, cintura e queixo. Durante o procedimento, há emissão de laser de baixa intensidade na área a ser tratada, o que faz com que as células de gordura se rompam e libertem os seus conteúdos para serem eliminados pelo corpo. A energia do laser também estimula a produção de colágeno, melhorando a aparência da pele.",
-
   "Limpeza de Pele": "Limpeza de Pele",
   "Aquapeel": "Aquapeel",
   "Radiofrequencia": "Radiofrequência",
   "Hifu": "Hifu",
   "Peelings químicos": "Peelings químicos",
   "Velashape rosto": "Velashape rosto",
-
   "sub-title-Limpeza de Pele": "Remoção de impurezas da pele",
   "sub-title-Aquapeel": "Limpeza de pele profunda",
   "sub-title-Radiofrequencia": "Estimulação do colagénio",
   "sub-title-Hifu": "Elimina rugas e dá firmeza à pele",
   "sub-title-Peelings químicos": "Remove manchas",
   "sub-title-Velashape rosto": "Estimula a firmeza à pele",
-
   "description-Limpeza de Pele": "A limpeza de pele é um procedimento estético com o objetivo de remover impurezas, células mortas e outras obstruções dos poros da pele do rosto. O resultado final é uma pele mais limpa, suave e luminosa, com menos imperfeições e uma aparência mais saudável.",
   "description-Aquapeel": "O Aquapeel é um tratamento estético não invasivo para a pele que utiliza tecnologia de hidrodermoabrasão para limpar, esfoliar, hidratar e nutrir a pele. É um tratamento que utiliza uma combinação de jatos de água e soluções de cuidados da pele para remover impurezas, células mortas e outras obstruções dos poros, além de fornecer hidratação e nutrição para a pele.",
   "description-Radiofrequencia": "Na radiofrequência são utilizadas ondas eletromagnéticas para aquecer as camadas mais profundas da pele. O tratamento é indolor e não invasivo, sendo uma opção segura e eficaz para quem busca melhorar a aparência da pele. Durante o procedimento, a alta temperatura estimula a circulação sanguínea no local, produzindo colágeno e elastina, resultando na melhora da aparência da pele.",
   "description-Hifu": "O HIFU é um tratamento estético que usa um feixe de ultrassom de alta intensidade para reduzir a gordura localizada e a flacidez da pele em diferentes áreas do corpo. O HIFU provoca a morte das células de gordura e estimula a produção de colágeno e elastina, melhorando a firmeza e a elasticidade da pele. O HIFU é um procedimento não invasivo, sem cortes ou agulhas, que não deixa cicatrizes ou marcas na pele.",
   "description-Peelings químicos": "Os Peelings químicos são procedimentos estéticos que utilizam a aplicação de ácidos na pele para remover camadas superficiais danificadas e promover a regeneração celular. Esses ácidos podem ser de diferentes tipos e concentrações, dependendo das necessidades individuais da pele do paciente e do objetivo do tratamento.",
   "description-Velashape rosto": "O VelaShape é um aparelho estético que combina radiofrequência com infravermelhos e com mecanismo de sucção. O VelaShape trata diferentes áreas do corpo, como coxas, flancos, glúteos e abdómen. ",
-
   "welcome": "Bem vindo ao head office",
   "Manicure": "Manicure",
   "Unhas de gel": "Unhas de gel",
@@ -118,7 +115,6 @@
   "Hidragloss - Hidratação profunda dos lábios com ácido hialuronico": "Hidragloss",
   "Lash Lifting - Alinhamento e definição de pestanas": "Lash Lifting",
   "Brow Lamination - Sobrancelhas permanente até 40 dias": "Brow Lamination",
-
   "subtitle-Manicure": "Unhas dos seus sonhos",
   "subtitle-Unhas de gel": "Unhas resistentes e duradouras",
   "subtitle-Verniz Gel": "Unhas lindas e duradouras",
@@ -130,7 +126,6 @@
   "subtitle-Hidragloss - Hidratação profunda dos lábios com ácido hialuronico": "Hidratação profunda dos lábios",
   "subtitle-Lash Lifting - Alinhamento e definição de pestanas": "Alinhamento e definição de pestanas",
   "subtitle-Brow Lamination - Sobrancelhas permanente até 40 dias": "Sobrancelhas permanente até 40 dias",
-
   "description-Manicure": "Oferecemos uma variedade de serviços, como corte, lixa, polimento, esmaltação, remoção de cutículas, hidratação, massagem, esfoliação e decoração. Além disso, usamos produtos de qualidade e higiene, seguindo todas as normas de segurança. Temos também um ambiente agradável e acolhedor, onde você pode relaxar e se sentir bem. ",
   "description-Unhas de gel": "Feitas de um material de gel moldado diretamente nas unhas naturais, as unhas de gel duram mais do que as unhas postiças tradicionais, exigem pouca manutenção e ajudam a fortalecer as unhas. Personalizáveis em tamanho, forma e cor, elas são uma opção prática e econômica para quem quer ter unhas sempre lindas.",
   "description-Verniz Gel": "Com alta resistência e brilho intenso, o verniz gel é aplicado como um esmalte, mas é curado com luz UV ou LED, proporcionando uma durabilidade de até três semanas. Disponível em uma variedade de cores e acabamentos, o verniz gel é a escolha certa para quem deseja unhas impecáveis e práticas.",
@@ -142,81 +137,67 @@
   "description-Hidragloss - Hidratação profunda dos lábios com ácido hialuronico": "A técnica é realizada com o uso de um aparelho que combina a hidratação com a infusão de ácido hialurônico, que é um componente natural do organismo que ajuda a manter a pele hidratada e saudável. O resultado é um visual mais jovem, saudável e bonito, além de uma sensação de hidratação duradoura nos lábios.",
   "description-Lash Lifting - Alinhamento e definição de pestanas": "A técnica envolve o uso de um gel de formulação especial que ajuda a levantar e curvar os fios naturalmente, sem precisar de cílios postiços. O resultado é um visual mais natural, destacando a beleza das suas próprias pestanas. O Lash Lifting é uma excelente opção para quem busca um olhar mais expressivo e marcante.",
   "description-Brow Lamination - Sobrancelhas permanente até 40 dias": "É um processo que utiliza produtos químicos para alterar a textura e a direção dos pelos das sobrancelhas, deixando-as mais volumosas, uniformes e com aparência de penteadas. O resultado final é uma aparência mais definida e volumosa, dando às sobrancelhas um aspecto mais arrumado e preenchido. A duração do tratamento pode variar de acordo com o tipo de produto usado e a técnica do profissional, mas geralmente dura de quatro a seis semanas.",
-
   "Os principais benefícios": "Os principais benefícios:",
-
   "benefit1-Limpeza de Pele": "Remove impurezas, células mortas e outras obstruções dos poros",
   "benefit2-Limpeza de Pele": "Melhora a aparência geral da pele do rosto, deixando-a mais limpa, suave e saudável",
   "benefit3-Limpeza de Pele": "Estimula a renovação celular, ajudando a melhorar a aparência de cicatrizes e manchas",
   "benefit4-Limpeza de Pele": "Melhora a absorção de produtos para cuidados da pele",
   "benefit5-Limpeza de Pele": "Reduz a aparência de poros dilatados",
   "benefit6-Limpeza de Pele": "Melhora a textura e a luminosidade da pele",
-
   "benefit1-aguapeel": "Remove impurezas e células mortas da pele",
   "benefit2-aguapeel": "Hidrata e nutre a pele, deixando-a com um aspecto mais saudável e luminoso",
   "benefit3-aguapeel": "Reduz a inflamação e previne a formação de lesões de acne",
   "benefit4-aguapeel": "Ajuda a reduzir a aparência de linhas finas e rugas",
   "benefit5-aguapeel": "Estimula a circulação sanguínea",
   "benefit6-aguapeel": "Os resultados são visíveis imediatamente após o tratamento",
-
   "benefit1-radiofrequencia": "Estimular o colagénio",
   "benefit2-radiofrequencia": "Previne e corrige o envelhecimento cutaneo",
   "benefit3-radiofrequencia": "Reduz a gordura localizada e a celulite",
   "benefit4-radiofrequencia": "Trata aderências e fibroses ",
   "benefit5-radiofrequencia": "Ajuda no pós-operatório",
-
   "benefit1-hifu": "Os principais benefícios",
   "benefit2-hifu": "Melhor alternativa ao lifting cirúrgico",
   "benefit3-hifu": "Maior alcance das ondas do ultrassom",
   "benefit4-hifu": "Resultados mais duradouros e em poucas sessões ",
-
   "benefit1-peelings": "Remove células mortas e impurezas da pele",
   "benefit2-peelings": "Reduz manchas, cicatrizes de acne, rugas finas",
   "benefit3-peelings": "Estimula a produção de colágeno e elastina na pele",
   "benefit4-peelings": "Ajuda a controlar a oleosidade da pele e a reduzir o acne",
   "benefit5-peelings": "Seguro e sem tempo de recuperação significativo",
-
   "benefit1-velashape": "Reduz a flacidez da pele e a gordura localizada",
   "benefit2-velashape": "Auxilia na definição do contorno corporal",
   "benefit3-velashape": "Melhora a celulite",
   "benefit4-velashape": "Aumento na circulação",
   "benefit5-velashape": "Elimina as toxinas existentes",
-
   "benefit1-Drenagem": "Combater o inchaço e a celulite",
   "benefit2-Drenagem": "Ajudar na recuperação de lesões",
   "benefit3-Drenagem": "Favorecer a cicatrização",
   "benefit4-Drenagem": "Reduzir hematomas e edemas",
   "benefit5-Drenagem": "Melhorar a circulação sanguínea",
   "benefit6-Drenagem": "Oxigenar os tecidos e eliminar toxinas",
-
   "benefit1-Radiofrequência": "Estimular o colagénio",
   "benefit2-Radiofrequência": "Previne e corrige o envelhecimento cutaneo ",
   "benefit3-Radiofrequência": "Reduz a gordura localizada e a celulite",
   "benefit4-Radiofrequência": "Trata aderências e fibroses",
   "benefit5-Radiofrequência": "Ajuda no pós-operatório",
-
   "benefit1-HIFU corporal": "Melhor alternativa ao lifting cirúrgico",
   "benefit2-HIFU corporal": "Maior alcance das ondas do ultrassom",
   "benefit3-HIFU corporal": "Indicado para tratamentos faciais e corporais",
   "benefit4-HIFU corporal": "Resultados mais duradouros e em poucas sessões",
-
   "benefit1-RF sculpt": "Tonifica os músculos - aumento de 25%",
   "benefit2-RF sculpt": "Queima a gordura - perda de 30%",
   "benefit3-RF sculpt": "Atinge as camadas mais profundas da pele e da gordura",
   "benefit4-RF sculpt": "Causa 20.000 contracções musculares em 30 min",
-
   "benefit1-VelaShape": "Reduz a flacidez da pele e a gordura localizada",
   "benefit2-VelaShape": "Auxilia na definição do contorno corporal",
   "benefit3-VelaShape": "Melhora a celulite",
   "benefit4-VelaShape": "Aumento na circulação",
   "benefit5-VelaShape": "Elimina as toxinas existentes",
-
   "benefit1-Laiser podológico": "Rápido e eficaz na eliminação dos fungos das unhas",
   "benefit2-Laiser podológico": "Seguro, confortável e indolor",
   "benefit3-Laiser podológico": "Sem danos à unha ou à pele e sem período de recuperação",
   "benefit4-Laiser podológico": "Estimula a regeneração celular e a cicatrização",
   "benefit5-Laiser podológico": "Tem ação anti-inflamatória e analgésica, aliviando a dor causada por calos, verrugas, esporão de calcâneo e outras inflamações nos pés",
-
   "benefit1-Pressoterapia": "Melhora a circulação sanguínea e linfática",
   "benefit2-Pressoterapia": "Ajuda a reduzir a retenção de líquidos",
   "benefit3-Pressoterapia": "Alivia a sensação de pernas cansadas e inchadas",
@@ -224,11 +205,9 @@
   "benefit5-Pressoterapia": "Auxilia no tratamento do linfedema e edema venoso",
   "benefit6-Pressoterapia": "Ajuda no tratamento de varizes",
   "benefit7-Pressoterapia": "Ajuda na recuperação após atividades físicas intensas",
-
   "benefit1-Lipolaser": "Redução de gordura localizada",
   "benefit2-Lipolaser": "Melhora a aparência da celulite",
   "benefit3-Lipolaser": "Não é invasivo e não requer tempo de recuperação",
-
   "Ácido hialurónico": "Ácido hialurónico",
   "sub-title-Ácido hialurónico": "Hidratação da pele e preenchimento",
   "description-Ácido hialurónico": "O Ácido hialurónico é uma substância que existe naturalmente no nosso organismo e que tem a capacidade de reter a água na pele, mantendo-a hidratada, firme e elástica.",
@@ -236,7 +215,6 @@
   "benefit2-Ácido hialurónico": "Aumenta o volume da pele, especialmente nas áreas que tendem a perder gordura com o tempo, como as maças do rosto e lábios",
   "benefit3-Ácido hialurónico": "Alivia as dores articulares, ao melhorar a lubrificação e a amortização das articulações, prevenindo ou tratando problemas como a osteoartrite, a artrite reumatoide ou a osteodistrofia",
   "benefit4-Ácido hialurónico": "Melhora a cicatrização da pele, ao facilitar a sua regeneração celular",
-
   "Toxina botulínica": "Toxina botulínica",
   "sub-title-Toxina botulínica": "Elimina rugas",
   "description-Toxina botulínica": "A toxina botulínica é uma substância produzida pela bactéria Clostridium botulinum. Essa toxina é conhecida por sua capacidade de causar paralisia muscular e é frequentemente usada em tratamentos médicos e cosméticos.",
@@ -246,7 +224,6 @@
   "benefit4-Toxina botulínica": "Ajuda no tratamento de enxaquecas",
   "benefit5-Toxina botulínica": "Melhora a autoestima",
   "benefit6-Toxina botulínica": "Procedimento rápido e seguro",
-
   "Fios tensores": "Fios tensores",
   "sub-title-Fios tensores": "Promove a firmeza da pele",
   "description-Fios tensores": "Os fios tensores são uma técnica de rejuvenescimento facial minimamente invasiva que utiliza pequenos fios de sutura para levantar e sustentar a pele do rosto, pescoço e outras áreas do corpo. Ao longo do tempo, os fios estimulam a produção de colágeno na área tratada, o que ajuda a fortalecer e sustentar a pele. O resultado é uma aparência mais jovem e firme, com menos linhas e rugas.",
@@ -254,7 +231,6 @@
   "benefit2-Fios tensores": "Minimamente invasivo, rápido e seguro, com pouco tempo de recuperação necessário",
   "benefit3-Fios tensores": "Resultados naturais e subtis",
   "benefit4-Fios tensores": "Pode ser usado em diferentes áreas, incluindo o rosto, pescoço, braços, coxas e nádegas",
-
   "Biostimulators de colagénio": "Biostimulatores de colagénio",
   "sub-title-Biostimulators de colagénio": "\"Bumbum\" grande e firmeza da pele",
   "description-Biostimulators de colagénio": "Descubra como você pode ter um rosto ou bumbum mais firme, volumoso e com menos celulite e estrias com o uso de biostimuladores de colagénio! Essa técnica não invasiva é uma excelente opção para quem deseja melhorar a aparência do rosto sem cirurgia plástica ou implantes.",
@@ -264,24 +240,20 @@
   "benefit4-Biostimulators de colagénio": "Resultados progressivos e naturais, com efeitos duradouros",
   "benefit5-Biostimulators de colagénio": "Seguro e com pouco tempo de recuperação necessário",
   "benefit6-Biostimulators de colagénio": "Sem contraindicações específicas",
-
   "Brushing": "Brushing",
   "Cor 2 em 1": "Cor 2 em 1",
   "Balayagem": "Balayagem",
   "Madeixas": "Madeixas",
   "Mechas criativas": "Mechas criativas",
   "Extensions": "Aplicação de extensões",
-
   "description-Brushing": "O Brushing é uma técnica de finalização que transforma os seus cabelos numa obra de arte. Com movimentos precisos e delicados, os nossos profissionais modelam os seus cabelos, proporcionando um visual sofisticado e elegante. Com o Brushing, você pode criar diversos estilos de cabelos, desde o clássico e elegante até o moderno e despojado. Além disso, essa técnica ajuda a reduzir o frizado, deixando os seus cabelos mais sedosos e brilhantes. Cabelos lisos, ondulados ou com cachos, o Brushing é uma técnica versátil que pode ser aplicada em todos os tipos de cabelos.",
   "description-Cor 2 em 1": "Imagine poder ter duas cores de cabelo em uma só técnica! Com a técnica Cor 2 em 1, você pode ter a cor que sempre desejou, sem precisar escolher entre duas opções. Essa técnica exclusiva combina duas cores de tinta para criar um efeito incrível nos seus cabelos. É uma técnica que permite a criação de contrastes ousados ou transições suaves entre as cores escolhidas. O resultado é um visual moderno e sofisticado, que vai fazer-se sentir ainda mais bonita e confiante. Além disso, a técnica Cor 2 em 1 é personalizada para cada cliente, levando em conta a tonalidade de pele, o formato do rosto e o estilo de vida de cada um.",
   "description-Balayagem": "A Balayagem é perfeita para quem deseja dar um toque de luminosidade e profundidade aos cabelos. Com a Balayagem, é possível criar um efeito degradê nos fios, deixando-os mais claros nas pontas e mais escuros na raiz. É uma técnica que proporciona um visual natural, como se os cabelos tivessem sido iluminados pelo sol. A Balayagem pode ser aplicada em todos os tipos de cabelo, desde os mais lisos até os mais ondulados.",
   "description-Madeixas": "As madeixas são uma técnica de coloração que dá mais vida e luminosidade aos cabelos, criando um visual moderno e sofisticado. Com as madeixas, é possível criar um efeito de fios, que pode ser mais subtil ou mais ousado, dependendo do estilo de cada um. É uma técnica que permite a criação de contrastes ousados ou transições suaves entre as cores escolhidas. A técnica das madeixas pode ser aplicada em todos os tipos de cabelo, desde os mais lisos até os mais cacheados.",
   "description-Mechas criativas": "Se procura por um visual moderno e único, as mechas criativas são perfeitas para você!  Com as mechas criativas, é possível criar um efeito de mechas coloridas, que pode ser mais sutil ou mais ousado, dependendo do estilo de cada um. É uma técnica que permite a criação de contrastes ousados ou transições suaves entre as cores escolhidas. Tenha cabelos incríveis, cheios de estilo e personalidade! Aqui no Headoffice, estamos prontos para atender-te e transformar o teu visual de forma única e exclusiva.",
   "description-Extensions": "Extensões de cabelo são cabelos humanos que podem ser adicionados ao cabelo natural para aumentar seu comprimento, volume, textura ou cor. Podem ser aplicadas usando várias técnicas, como tranças, costura, clipagem ou colagem. A escolha da extensão de cabelo depende do tipo de cabelo natural da pessoa, do resultado desejado e da técnica de aplicação preferida. É importante escolher um tipo de extensão que seja seguro e confortável para o seu cabelo e couro cabeludo.",
-
   "benefit1-Balayagem": "Obter um reflexo ainda mais claro com aspecto natural",
   "benefit2-Balayagem": "Mudança sutil e delicada na cor de seus cabelos",
-
   "sub-title-Brushing": "Cabelo perfeito",
   "sub-title-Cor 2 em 1": " Cabelos pintados com reflexos",
   "sub-title-Balayagem": "Cabelo mais claro e natural",

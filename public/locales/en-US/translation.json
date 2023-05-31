@@ -6,7 +6,6 @@
   "Estética": "Aesthetic",
   "horario": "Mon to Fri 8am to 7pm",
   "horario2": "Sat 9am to 1pm - by appointment only",
-
   "bem-vindo": "Welcome to Headoffice",
   "subtitle-bem-vindo": "Specialized in clinical, surgical, aesthetic and laser dermatology",
   "description1-head-office": "The Headoffice is made up of qualified professionals who are passionate about what they do. Our mission is to enhance the natural beauty of each client, offering personalized and high quality services. We work with the best techniques and products on the market, always seeking satisfaction and the well-being of those who seek us out. Here, you can find facials, body treatments, waxing, massages, make-up, manicures, pedicures and much more. All this in a cozy and modern environment, where you can feel at home. Come and meet us and find out how we can transform your look and your self-esteem. The headoffice is waiting for you!",
@@ -23,7 +22,11 @@
   "Atendimento ao cliente": "4. Customer service:",
   "Respeito": "5. Respect: ",
   "Responsabilidade social e ambiental": "6. Social and environmental responsibility:",
-
+  "dialog": {
+    "title": "Message sent successfully!",
+    "description": "We will contact you as soon as possible.",
+    "button-close": "Close"
+  },
   "description-Excelência": "always seek excellence in the quality of services provided and customer satisfaction.",
   "description-Ética": "act ethically and transparently in all operations, promoting customer confidence and business integrity.",
   "description-Inovação": "constantly seeking new solutions, techniques and technologies to improve and update the services offered to customers.",
@@ -31,7 +34,6 @@
   "description-Respeito": "valuing and respecting the individuality and diversity of each client, promoting an inclusive culture free of prejudice.",
   "description-Responsabilidade social e ambiental": "adopt sustainable and socially responsible practices, seeking to contribute to the development of the local community and the planet as a whole.",
   "Espaço": "Space",
-
   "Estética Corpo": "Body Aesthetics",
   "Estética Rosto": "Face Aesthetics",
   "Cuidados de Beleza": "Beauty Care",
@@ -39,7 +41,6 @@
   "description-footer": "HeadOffice is a Beauty and Wellness center for all genders, offering more than 100 services that meet different conveniences, with the advantage that you can find them all in the same space. A visit to the HeadOffice allows you to take care of your hair, nails, face, body and mind.",
   "description2-footer": "We are waiting for you.",
   "rights": "Headoffice. All rights reserved",
-
   "Drenagem linfática": "Lymphatic Drainage",
   "Radiofrequencia corporal": "Body radiofrequency",
   "Hifu corporal": "Body HIFU",
@@ -48,7 +49,6 @@
   "Laiser podológico": "Podologic laser",
   "Pressoterapia": "Pressotherapy",
   "Lipolaser": "Lipolaser",
-
   "description-Fale conosco": "Send us your questions, requests or comments. We'll be happy to chat with you, and our customer support team will answer all your questions.",
   "Nome": "Name",
   "E-mail": "E-mail",
@@ -66,28 +66,24 @@
   "Número de telefone invalido": "Invalid phone number",
   "E-mail invalido": "Invalid email",
   "Menssagem sucesso": "Message sent successfully!",
-
   "Limpeza de Pele": "Skin cleansing",
   "Aquapeel": "Aquapeel",
   "Radiofrequencia": "Radiofrequency",
   "Hifu": "HIFU",
   "Peelings químicos": "Chemical peels",
   "Velashape rosto": "VelaShape",
-
   "sub-title-Limpeza de Pele": "Removes skin impurities",
   "sub-title-Aquapeel": "Deep skin cleansing",
   "sub-title-Radiofrequencia": "Collagen stimulation",
   "sub-title-Hifu": "Anti aging and wrinkle removal",
   "sub-title-Peelings químicos": "Spots removal",
   "sub-title-Velashape rosto": "Skin firmness",
-
   "description-Limpeza de Pele": "Skin cleansing is an aesthetic procedure aimed at removing impurities, dead cells and other obstructions from the pores of the skin on the face. The end result is cleaner, smoother and more luminous skin, with fewer imperfections and a healthier appearance.",
   "description-Aquapeel": "Aquapeel is a non-invasive aesthetic skin treatment that uses hydrodermabrasion technology to cleanse, exfoliate, hydrate and nourish the skin. It is a treatment that uses a combination of jets of water and skin care solutions to remove impurities, cells dead skin and other pore clogs, as well as providing moisture and nourishment to the skin.",
   "description-Radiofrequencia": "In radiofrequency, electromagnetic waves are used to heat the deepest layers of the skin. The treatment is painless and non-invasive, making it a safe and effective option for those looking to improve the appearance of the skin. During the procedure, the high temperature stimulates blood circulation locally, producing collagen and elastin, resulting in improved skin appearance.",
   "description-Hifu": "HIFU is an aesthetic treatment that uses a high-intensity ultrasound beam to reduce localized fat and sagging skin in different areas of the body. HIFU causes the death of fat cells and stimulates the production of collagen and elastin, improving the firmness and elasticity of the skin HIFU is a non-invasive procedure, without cuts or needles, which leaves no scars or marks on the skin.",
   "description-Peelings químicos": "Chemical peels are aesthetic procedures that use the application of acids to the skin to remove damaged surface layers and promote cell regeneration. These acids can be of different types and concentrations, depending on the individual needs of the patient's skin and the purpose of the treatment.",
   "description-Velashape rosto": "The VelaShape is an aesthetic device that combines radiofrequency with infrared and a suction mechanism. The VelaShape treats different areas of the body, such as the thighs, flanks, buttocks and abdomen.",
-
   "sub-title-Drenagem linfática": "Remove toxins from the body",
   "sub-title-Radiofrequencia corporal": "Collagen stimulation",
   "sub-title-Hifu corporal": "Fat removal and firmness",
@@ -96,7 +92,6 @@
   "sub-title-Laiser podológico": "Fungus removal",
   "sub-title-Pressoterapia": "Deflate and shape the body",
   "sub-title-Lipolaser": "Fat removal",
-
   "description-Drenagem linfática": "Manual Lymphatic Drainage is a massage technique that stimulates the lymphatic system. The applied movements consist of light, smooth, rhythmic and precise pressure towards the lymph nodes. It is indicated by doctors and therapists in the recovery of postoperative edema, pre and postpartum.",
   "description-Radiofrequencia corporal": "Body radiofrequency is a treatment that uses electromagnetic waves to heat the deepest layers of the skin. The treatment is painless and non-invasive, making it a safe and effective option for anyone looking to improve the appearance of their skin.",
   "description-Hifu corporal": "Body HIFU is an aesthetic treatment that uses a high-intensity ultrasound beam to reduce localized fat and sagging skin in different areas of the body. scars or marks on the skin.",
@@ -105,7 +100,6 @@
   "description-Laiser podológico": "Laser podology is a treatment that uses a laser beam to eliminate nail fungus (onychomycosis) and other foot problems such as calluses, warts, inflammation and scarring. The podiatric laser works by passing through the nail and adjacent tissue and being absorbed by the fungus pigment, causing heating that kills or damages the fungus organism.",
   "description-Pressoterapia": "Pressure therapy is a therapeutic technique that uses air pressure to improve blood circulation, reduce fluid retention and relieve the feeling of tired legs. It is commonly used to treat circulatory and aesthetic problems, but should be avoided by people with serious illnesses or specific medical conditions.",
   "description-Lipolaser": "The Lipolaser is a non-invasive aesthetic procedure that uses a low-intensity laser to help reduce localized fat in specific areas of the body, such as the abdomen, thighs, arms, waist and chin. intensity in the area to be treated, which causes the fat cells to break and release their contents to be eliminated by the body.The laser energy also stimulates the production of collagen, improving the appearance of the skin.",
-
   "Manicure": "Manicure",
   "Unhas de gel": "Gel nails",
   "Verniz Gel": "Gel polish ",
@@ -128,7 +122,6 @@
   "subtitle-Hidragloss - Hidratação profunda dos lábios com ácido hialuronico": "Lip deep hydration",
   "subtitle-Lash Lifting - Alinhamento e definição de pestanas": "More expressive and striking look",
   "subtitle-Brow Lamination - Sobrancelhas permanente até 40 dias": "Permanent eyebrows up to 40 days",
-
   "description-Manicure": "We offer a variety of services, such as cutting, sanding, polishing, enamelling, cuticle removal, hydration, massage, exfoliation and decoration. In addition, we use quality and hygiene products, following all safety standards. We also have a pleasant and welcoming environment where you can relax and feel good.",
   "description-Unhas de gel": "Made from a gel material molded directly onto your natural nails, gel nails last longer than traditional false nails, require little maintenance, and help strengthen your nails. Customizable in size, shape and color, they are a practical and economical option for those who want to always have beautiful nails.",
   "description-Verniz Gel": "With high resistance and intense shine, the gel polish is applied like a nail polish, but is cured with UV or LED light, providing a durability of up to three weeks. Available in a variety of colors and finishes, gel polish is the right choice for anyone who wants impeccable and practical nails.",
@@ -140,82 +133,68 @@
   "description-Hidragloss - Hidratação profunda dos lábios com ácido hialuronico": "The technique is performed using a device that combines hydration with an infusion of hyaluronic acid, which is a natural component of the body that helps keep the skin hydrated and healthy. The result is a younger, healthier and more beautiful look, as well as a long-lasting feeling of hydration on the lips.",
   "description-Lash Lifting - Alinhamento e definição de pestanas": "The technique involves the use of a special formulation gel that helps lift and curl the hair naturally, without the need for false eyelashes. The result is a more natural look, enhancing the beauty of your own lashes. Lash Lifting is an excellent option for those looking for a more expressive and striking look.",
   "description-Brow Lamination - Sobrancelhas permanente até 40 dias": "It is a process that uses chemicals to change the texture and direction of the hairs on the eyebrows, leaving them more voluminous, uniform and with a hairstyle appearance. The end result is a more defined and voluminous appearance, giving the brows a neater, fuller look. The duration of the treatment can vary according to the type of product used and the technique of the professional, but it usually lasts from four to six weeks.",
-
   "Os principais benefícios": "The main benefits:",
-
   "benefit1-Limpeza de Pele": "Removes impurities, dead cells and other pore obstructions",
   "benefit2-Limpeza de Pele": "Improves the general appearance of the skin of the face, leaving it cleaner, smoother and healthier",
   "benefit3-Limpeza de Pele": "Stimulates cell renewal, helping to improve the appearance of scars and blemishes",
   "benefit4-Limpeza de Pele": "Improves absorption of skin care products",
   "benefit5-Limpeza de Pele": "Reduces the appearance of enlarged pores",
   "benefit6-Limpeza de Pele": "Improves skin texture and luminosity",
-
   "benefit1-aguapeel": "Removes impurities and dead skin cells",
   "benefit2-aguapeel": "Moisturizes and nourishes the skin, leaving it looking healthier and brighter",
   "benefit3-aguapeel": "Reduces inflammation and prevents the formation of acne lesions",
   "benefit4-aguapeel": "Helps reduce the appearance of fine lines and wrinkles",
   "benefit5-aguapeel": "Stimulates blood circulation",
   "benefit6-aguapeel": "The results are visible immediately after the treatment",
-
   "benefit1-radiofrequencia": "Stimulate the collagen",
   "benefit2-radiofrequencia": "Prevents and corrects skin aging",
   "benefit3-radiofrequencia": "Reduces localized fat and cellulite",
   "benefit4-radiofrequencia": "Treats adhesions and fibrosis",
   "benefit5-radiofrequencia": "Postoperative help",
-
   "benefit1-hifu": "Removes dead cells and skin impurities",
   "benefit2-hifu": "Reduces blemishes, acne scars, fine wrinkles",
   "benefit3-hifu": "Stimulates the production of collagen and elastin in the skin",
   "benefit4-hifu": "Helps control skin oiliness and reduce acne",
   "benefit5-hifu": "Safe and no significant recovery time",
-
   "benefit1-peelings": "Removes dead cells and skin impurities",
   "benefit2-peelings": "Reduces blemishes, acne scars, fine wrinkles",
   "benefit3-peelings": "Stimulates the production of collagen and elastin in the skin",
   "benefit4-peelings": "Helps control skin oiliness and reduce acne",
   "benefit5-peelings": "Safe and no significant recovery time",
-
   "benefit1-velashape": "Reduces skin sagging and localized fat",
   "benefit2-velashape": "Helps define body contour",
   "benefit3-velashape": "Improves cellulite",
   "benefit4-velashape": "increase in circulation",
   "benefit5-velashape": "Eliminates existing toxins",
-
   "benefit1-Drenagem": "Combat swelling and cellulite",
   "benefit2-Drenagem": "Help with injury recovery",
   "benefit3-Drenagem": "favor healing",
   "benefit4-Drenagem": "Reduce bruising and edema",
   "benefit5-Drenagem": "Improve blood circulation",
   "benefit6-Drenagem": "Oxygenate tissues and eliminate toxins",
-
   "benefit1-Radiofrequência": "Stimulate the collagen",
   "benefit2-Radiofrequência": "Prevents and corrects skin aging",
   "benefit3-Radiofrequência": "Reduces localized fat and cellulite",
   "benefit4-Radiofrequência": "Treats adhesions and fibrosis",
   "benefit5-Radiofrequência": "Postoperative help",
-
   "benefit1-HIFU corporal": "Best alternative to surgical facelift",
   "benefit2-HIFU corporal": "Greater range of ultrasound waves",
   "benefit3-HIFU corporal": "Suitable for facial and body treatments",
   "benefit4-HIFU corporal": "Longer-lasting results in just a few sessions",
-
   "benefit1-RF sculpt": "Tones the muscles - 25% increase",
   "benefit2-RF sculpt": "Burn fat - 30% loss",
   "benefit3-RF sculpt": "Reaches the deepest layers of skin and fat",
   "benefit4-RF sculpt": "Causes 20,000 muscle contractions in 30 min",
-
   "benefit1-VelaShape": "Reduces skin sagging and localized fat",
   "benefit2-VelaShape": "Helps define body contour",
   "benefit3-VelaShape": "Improves cellulite",
   "benefit4-VelaShape": "increase in circulation",
   "benefit5-VelaShape": "Eliminates existing toxins",
-
   "benefit1-Laiser podológico": "Fast and effective in eliminating nail fungus",
   "benefit2-Laiser podológico": "Safe, comfortable and painless",
   "benefit3-Laiser podológico": "No damage to nail or skin and no recovery period",
   "benefit4-Laiser podológico": "Stimulates cell regeneration and healing",
   "benefit5-Laiser podológico": "It has an anti-inflammatory and analgesic action, relieving pain caused by calluses, warts, heel spurs and other foot inflammations.",
-
   "benefit1-Pressoterapia": "Improves blood and lymphatic circulation",
   "benefit2-Pressoterapia": "Helps reduce fluid retention",
   "benefit3-Pressoterapia": "Relieves the feeling of tired and swollen legs",
@@ -223,11 +202,9 @@
   "benefit5-Pressoterapia": "Helps in the treatment of lymphedema and venous edema",
   "benefit6-Pressoterapia": "Helps in the treatment of varicose veins",
   "benefit7-Pressoterapia": "Helps with recovery after intense physical activity",
-
   "benefit1-Lipolaser": "Localized fat reduction",
   "benefit2-Lipolaser": "Improves the appearance of cellulite",
   "benefit3-Lipolaser": "It is non-invasive and requires no recovery time",
-
   "Ácido hialurónico": "Hialuronic acid",
   "sub-title-Ácido hialurónico": "hidrates and skin filler",
   "description-Ácido hialurónico": "Hyaluronic acid is a substance that naturally exists in our body and has the ability to retain water in the skin, keeping it hydrated, firm and elastic.",
@@ -235,7 +212,6 @@
   "benefit2-Ácido hialurónico": "Increases skin volume, especially in areas that tend to lose fat over time, such as cheekbones and lips",
   "benefit3-Ácido hialurónico": "Relieves joint pain by improving joint lubrication and cushioning, preventing or treating problems such as osteoarthritis, rheumatoid arthritis or osteodystrophy",
   "benefit4-Ácido hialurónico": "Improves skin healing by facilitating its cell regeneration",
-
   "Toxina botulínica": "Botox",
   "sub-title-Toxina botulínica": "Wrinkle removal",
   "description-Toxina botulínica": "Botulinum toxin is a substance produced by the bacterium Clostridium botulinum. This toxin is known for its ability to cause muscle paralysis and is often used in medical and cosmetic treatments.",
@@ -245,7 +221,6 @@
   "benefit4-Toxina botulínica": "Helps in the treatment of migraines",
   "benefit5-Toxina botulínica": "Improves self-esteem",
   "benefit6-Toxina botulínica": "Fast and safe procedure",
-
   "Fios tensores": "PDO threading",
   "sub-title-Fios tensores": "Skin tightens",
   "description-Fios tensores": "Tension threads are a minimally invasive facial rejuvenation technique that uses small suture threads to lift and support the skin on the face, neck and other areas of the body. Over time, the threads stimulate collagen production in the treated area, which helps strengthen and support the skin. The result is a younger, firmer appearance with fewer lines and wrinkles.",
@@ -253,7 +228,6 @@
   "benefit2-Fios tensores": "Minimally invasive, fast and safe, with little recovery time required",
   "benefit3-Fios tensores": "Natural and subtle results",
   "benefit4-Fios tensores": "It can be used on different areas including the face, neck, arms, thighs and buttocks",
-
   "Biostimulators de colagénio": "Collagen biostimulators",
   "sub-title-Biostimulators de colagénio": "Increases volume and skin firmness",
   "description-Biostimulators de colagénio": "Discover how you can have a firmer, fuller face or butt with less cellulite and stretch marks with the use of collagen biostimulators! This non-invasive technique is an excellent option for those who want to improve the appearance of their face without plastic surgery or implants.",
@@ -263,24 +237,20 @@
   "benefit4-Biostimulators de colagénio": "Progressive and natural results with lasting effects",
   "benefit5-Biostimulators de colagénio": "Safe and with little recovery time required",
   "benefit6-Biostimulators de colagénio": "No specific contraindications",
-
   "Brushing": "Brushing",
   "Cor 2 em 1": "Color 2 in 1",
   "Balayagem": "Balayage",
   "Madeixas": "Highlights",
   "Mechas criativas": "Creative locks",
   "Extensions": "Extensions",
-
   "description-Brushing": "Brushing is a finishing technique that transforms your hair into a work of art. With precise and delicate movements, our professionals model your hair, providing a sophisticated and elegant look. With Brushing, you can create different styles of hair, from classic and elegant to modern and stripped. In addition, this technique helps reduce frizz, leaving your hair silky and shiny. Straight, wavy or curled hair, Brushing is a versatile technique that can be applied to all types of hair.",
   "description-Cor 2 em 1": "Imagine being able to have two hair colors in a single technique! With the Color 2 in 1 technique, you can have the color you've always wanted, without having to choose between two options. This unique technique combines two dye colors to create an amazing effect on your hair. It is a technique that allows the creation of bold contrasts or smooth transitions between the chosen colors. The result is a modern and sophisticated look that will make you feel even more beautiful and confident. In addition, the 2 in 1 Color technique is customized for each client, taking into account the skin tone, face shape and lifestyle of each one.",
   "description-Balayagem": "Balayage is perfect for those who want to add a touch of luminosity and depth to their hair. With Balayage, it is possible to create a gradient effect on the strands, making them lighter at the ends and darker at the roots. It is a technique that provides a natural look, as if the hair had been illuminated by the sun Balayage can be applied to all types of hair, from the straightest to the most wavy.",
   "description-Madeixas": "Highlights are a coloring technique that gives more life and luminosity to the hair, creating a modern and sophisticated look. With the highlights, it is possible to create a thread effect, which can be more subtle or more daring, depending on the style of each one. It is a technique that allows the creation of bold contrasts or smooth transitions between the chosen colors. The locks technique can be applied to all types of hair, from the straightest to the curliest.",
   "description-Mechas criativas": "If you are looking for a modern and unique look, creative locks are perfect for you! With the creative locks, it is possible to create an effect of colored locks, which can be more subtle or bolder, depending on the style of each one. It is a technique that allows the creation of bold contrasts or smooth transitions between the chosen colors. Have amazing hair, full of style and personality! Here at Headoffice, we are ready to serve you and transform your look in a unique and exclusive way.",
   "description-Extensions": "Hair extensions are human hair that can be added to natural hair to increase its length, volume, texture or color. They can be applied using various techniques such as braiding, sewing, clipping or gluing. The choice of hair extension depends on the person's natural hair type, the desired result and the preferred application technique. It is important to choose a type of extension that is safe and comfortable for your hair and scalp.",
-
   "benefit1-Balayagem": "Get an even clearer reflection with a natural look",
   "benefit2-Balayagem": "Subtle and delicate change in the color of their hair",
-
   "sub-title-Brushing": "Perfect hair",
   "sub-title-Cor 2 em 1": "Hair deyed with highlights",
   "sub-title-Balayagem": "Lighter hair with reflections",

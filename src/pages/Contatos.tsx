@@ -7,14 +7,13 @@ import { useForm } from 'react-hook-form';
 import ErrorMessages from '../components/ErrorMessages';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-import { Toast } from 'flowbite-react';
-import { ReactNode, useState } from 'react';
+import { useState } from 'react';
 import { t } from 'i18next';
 import { InferType } from 'yup';
 import Modal from '../components/Modal';
 
 export default function Contatos() {
-  const [toasts, setToasts] = useState<ReactNode>();
+  const [showModal, setShowModal] = useState(false);
 
   const validationSchema = yup.object().shape({
     name: yup.string().required(t('Campo obrigatório').toString()),
@@ -39,16 +38,8 @@ export default function Contatos() {
   });
 
   const sentMessage = async () => {
-    setToasts(
-      <Toast className="my-5 bg-green-200 border border-green-400">
-        <div className="mx-5 w-[30rem] text-sm font-normal">
-          {t('Menssagem sucesso')}
-        </div>
-        <Toast.Toggle />
-      </Toast>
-    );
-
-    reset();
+    setShowModal(true);
+    // reset();
   };
   return (
     <>
@@ -140,16 +131,19 @@ export default function Contatos() {
               type={'submit'}
               title={t('Enviar').toString()}
               vartiant={'submit'}
-              onClick={() => console.log('ISValid: ', isValid)}
+              onClick={() => console.log('IsValid: ', isValid)}
             />
             <p className="text-xs">{t('span')}</p>
           </div>
         </form>
       </div>
       <Modal
-        close={true}
-        title="Pedido"
-        description="Mensagem enviado com sucesso!"
+        isOpen={showModal}
+        setIsOpen={setShowModal}
+        buttonClose={true}
+        buttonCloseTitle={'dialog.button-close'}
+        title="dialog.title"
+        description="dialog.description"
       />
     </>
   );

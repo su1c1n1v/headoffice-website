@@ -20,6 +20,9 @@
     "description": "Entraremos em contato o mais breve possível.",
     "button-close": "Fechar"
   },
+  "Marcação": "Marcação",
+  "Dúvidas": "Dúvidas",
+  "Avaliação": "Avaliação",
   "description-Excelência": "buscar sempre a excelência na qualidade dos serviços prestados e na satisfação dos clientes.",
   "description-Ética": "atuar com ética e transparência em todas as operações, promovendo a confiança dos clientes e a integridade do negócio.",
   "description-Inovação": "buscar constantemente novas soluções, técnicas e tecnologias para melhorar e atualizar os serviços oferecidos aos clientes.",
@@ -44,7 +47,7 @@
   "span": "Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.",
   "placeholder-nome": "Forneça seu nome",
   "placeholder-email": "Forneça seu e-mail",
-  "placeholder-phonenumber": "Provide your phone number",
+  "placeholder-phonenumber": "Forneça seu número de telemóvel",
   "placeholder-assunto": "Escolha o assunto",
   "placeholder-messagem": "Escreva a menssagem",
   "Campo obrigatório": "Campo obrigatório",

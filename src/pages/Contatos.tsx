@@ -8,11 +8,12 @@ import ErrorMessages from '../components/ErrorMessages';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { useState } from 'react';
-import { t } from 'i18next';
 import { InferType } from 'yup';
 import Modal from '../components/Modal';
+import { useTranslation } from 'react-i18next';
 
 export default function Contatos() {
+  const { t } = useTranslation();
   const [showModal, setShowModal] = useState(false);
 
   const validationSchema = yup.object().shape({
@@ -39,8 +40,9 @@ export default function Contatos() {
 
   const sentMessage = async () => {
     setShowModal(true);
-    // reset();
+    reset();
   };
+
   return (
     <>
       <div className="w-full md:w-11/12 xl:w-8/12 m-auto md:flex md:p-5 p-10 pt-0">
@@ -57,11 +59,11 @@ export default function Contatos() {
           onSubmit={handleSubmit(sentMessage)}
         >
           <div className="mx-10 mb-5 mt-10">
-            <Label title={t('Nome')} required />
+            <Label title={'Nome'} required />
             <InputText
               type="text"
               ref2={register('name').ref}
-              placeholder={t('placeholder-nome').toString()}
+              placeholder={'placeholder-nome'}
               {...register('name')}
             />
             <ErrorMessages
@@ -70,10 +72,10 @@ export default function Contatos() {
             />
           </div>
           <div className="mx-10 my-5">
-            <Label title={t('E-mail')} required />
+            <Label title={'E-mail'} required />
             <InputText
               ref2={register('email').ref}
-              placeholder={t('placeholder-email').toString()}
+              placeholder={'placeholder-email'}
               {...register('email')}
             />
 
@@ -84,10 +86,10 @@ export default function Contatos() {
           </div>
 
           <div className="mx-10 my-5">
-            <Label title={t('Número de Telefone')} required />
+            <Label title={'Número de Telefone'} required />
             <InputText
               ref2={register('phoneNumber').ref}
-              placeholder={t('placeholder-phonenumber').toString()}
+              placeholder={'placeholder-phonenumber'}
               {...register('phoneNumber')}
             />
 
@@ -98,12 +100,12 @@ export default function Contatos() {
           </div>
 
           <div className="mx-10 my-5">
-            <Label title={t('Assunto')} required />
+            <Label title={'Assunto'} required />
             <InputSelect
               ref2={register('subject').ref}
               defaultValue={''}
               {...register('subject')}
-              placeholder={t('placeholder-assunto').toString()}
+              placeholder={'placeholder-assunto'}
               options={['Marcação', 'Dúvidas', 'Avaliação']}
             />
 
@@ -113,12 +115,12 @@ export default function Contatos() {
             />
           </div>
           <div className="mx-10 my-5">
-            <Label title={t('Menssagem')} required />
+            <Label title={'Menssagem'} required />
             <InputTextArea
               ref2={register('message').ref}
               rows={4}
               {...register('message')}
-              placeholder={t('placeholder-messagem').toString()}
+              placeholder={'placeholder-messagem'}
             />
 
             <ErrorMessages

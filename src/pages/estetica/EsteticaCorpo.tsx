@@ -1,9 +1,28 @@
 import { useTranslation } from 'react-i18next';
 import ImageContainer from '../../components/ImageContainer';
+import { useParams } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export default function EsteticaCorpo() {
   const { t } = useTranslation();
+  const params = useParams();
 
+  useEffect(() => {
+    const handleClickScroll = () => {
+      if (!params.id) return;
+      const element = document.getElementById(params.id);
+
+      if (element) {
+        const timer = setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 1000);
+
+        return () => clearTimeout(timer);
+      }
+    };
+
+    handleClickScroll();
+  }, [params.id]);
   return (
     <div className="md:w-11/12 xl:w-8/12 m-auto">
       <div className="m-auto md:px-0 px-10">
@@ -54,6 +73,7 @@ export default function EsteticaCorpo() {
           ]}
         />
         <ImageContainer
+          id="rf-sculpt"
           image="bg-rf-sculpt"
           revert
           title={'RF sculpt'}

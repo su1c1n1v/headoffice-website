@@ -21,9 +21,8 @@ export default function SimpleContainer({
     <>
       {/* Container 1 */}
       <div
-        className={`md:w-9/12 xl:w-8/12 md:h-80 md:flex mx-10 ${
-          revert ? 'flex-row-reverse' : ''
-        } md:mx-auto my-20 md:my-40`}
+        className={`md:w-9/12 xl:w-8/12 md:h-80 md:flex mx-10 ${revert && 'flex-row-reverse'
+          } md:mx-auto my-20 md:my-40`}
       >
         {/* Column 1 */}
         <div className="relative md:flex items-center justify-center overflow-hidden shadow-2xl w-full h-80 md:h-auto md:w-1/2">
@@ -34,9 +33,8 @@ export default function SimpleContainer({
 
         {/* Column 2 */}
         <div
-          className={`w-full md:w-1/2 ${
-            revert ? 'md:mr-20' : 'md:ml-20'
-          } text-yellow-secondary`}
+          className={`w-full md:w-1/2 ${revert ? 'md:mr-20' : 'md:ml-20'
+            } text-yellow-secondary`}
         >
           <div className={`w-full`}>
             <p className="uppercase my-5 text-lg">{title}</p>

@@ -21,7 +21,6 @@ module.exports = {
       montserrat: ['"Montserrat"', ...defaultTheme.fontFamily.sans],
     },
     backgroundImage: {
-      image1: "url('/src/assets/img/image1.jpg')",
       estetica1: "url('/src/assets/img/estetica-image2.jpeg')",
       cabelo1: "url('/src/assets/img/cabelo-image1.jpg')",
       manicure1: "url('/src/assets/img/estetica-image5.png')",
@@ -34,9 +33,6 @@ module.exports = {
       drenagem1: "url('/src/assets/img/estetica-image6.jpg')",
       hifu1: "url('/src/assets/img/estetica-image7.jpg')",
       lipo1: "url('/src/assets/img/estetica-image9.jpg')",
-      estetica2: "url('/src/assets/img/estetica-image10.jpg')",
-      estetica3: "url('/src/assets/img/estetica-image11.jpg')",
-      'rf-sculpt1': "url('/src/assets/img/estetica-image8.jpg')",
       'estetica-medica1': "url('/src/assets/img/estetica-medica-image1.jpeg')",
       'estetica-medica2': "url('/src/assets/img/estetica-medica-image2.jpeg')",
       estetica4: "url('/src/assets/img/estetica-image12.jpg')",
@@ -48,8 +44,13 @@ module.exports = {
       estetica10: "url('/src/assets/img/estetica-image18.JPEG')",
       estetica11: "url('/src/assets/img/estetica-image19.png')",
       estetica12: "url('/src/assets/img/estetica-image20.jpg')",
-      estetica12: "url('/src/assets/img/estetica-image20.jpg')",
 
+      //Home
+      main: "url('/src/assets/img/homepage/home.jpg')",
+      brushing: "url('/src/assets/img/homepage/Brushing.jpg')",
+      HIFU: "url('/src/assets/img/homepage/HIFU.jpg')",
+      'Epilação-Laser-main': "url('/src/assets/img/homepage/Epilação Laser.jpeg')",
+      'RF-sculpt': "url('/src/assets/img/homepage/RF sculpt.jpg')",
       //Loja
       'loja1-effect': "url('/src/assets/img/loja/loja1-effect2.png')",
       missao: "url('/src/assets/img/loja/Missão.jpeg')",

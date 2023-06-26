@@ -24,11 +24,20 @@ export default function App() {
         <Route index element={<Index />} />
         <Route path="contatos" element={<Contatos />} />
         <Route path="quem-somos" element={<QuemSomos />} />
-        <Route path="medicina-estetica" element={<MedicinaEstetica />} />
-        <Route path="estetica/estetica-rosto" element={<EsteticaRosto />} />
-        <Route path="estetica/estetica-corpo" element={<EsteticaCorpo />} />
-        <Route path="estetica/cuidados-beleza" element={<CuidadosBeleza />} />
-        <Route path="cabelos" element={<Cabelos />} />
+        <Route path="medicina-estetica/:id?" element={<MedicinaEstetica />} />
+        <Route
+          path="estetica/estetica-rosto/:id?"
+          element={<EsteticaRosto />}
+        />
+        <Route
+          path="estetica/estetica-corpo/:id?"
+          element={<EsteticaCorpo />}
+        />
+        <Route
+          path="estetica/cuidados-beleza/:id?"
+          element={<CuidadosBeleza />}
+        />
+        <Route path="cabelos/:id?" element={<Cabelos />} />
         <Route path="*" element={<NotFould />} />
       </Route>
     </Routes>

@@ -1,28 +1,64 @@
 import { Carousel } from 'flowbite-react';
 import Container from '../components/SimpleContainer';
-import Image1 from '../assets/img/image1.jpg';
+import { useTranslation } from 'react-i18next';
+import CarouselRow from '../components/CarouselRow';
 
 export default function Index() {
+  const { t } = useTranslation();
   return (
     <>
       <div className="md:w-11/12 xl:w-8/12 m-auto h-[78.5vh] rounded-none">
-        <Carousel slideInterval={5000} leftControl rightControl>
-          <img src={Image1} alt="..." />
-          <img
-            src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-            alt="..."
+        <Carousel slideInterval={6000}>
+          <CarouselRow
+            title="home.carrosel-1.title"
+            description="home.carrosel-1.description"
+            button="home.carrosel-1.button"
+            img="bg-main"
+            url="quem-somos"
           />
-          <img
-            src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-            alt="..."
+          <CarouselRow
+            title="home.carrosel-2.title"
+            description="home.carrosel-2.description"
+            button="home.carrosel-2.button"
+            img="bg-Epilação-Laser-main"
+            subtitle="You might also like"
+            url="/estetica/cuidados-beleza/epilacao-laser"
+            reverse
           />
-          <img
-            src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-            alt="..."
+          <CarouselRow
+            title="home.carrosel-6.title"
+            description="home.carrosel-6.description"
+            button="home.carrosel-6.button"
+            img="bg-brushing"
+            subtitle="You might also like"
+            color="text-white"
+            url="cabelos/brushing"
           />
-          <img
-            src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-            alt="..."
+          <CarouselRow
+            title="home.carrosel-3.title"
+            description="home.carrosel-3.description"
+            button="home.carrosel-3.button"
+            img="bg-HIFU"
+            subtitle="You might also like"
+            url="/estetica/estetica-rosto/hifu"
+            reverse
+          />
+          <CarouselRow
+            title="home.carrosel-4.title"
+            description="home.carrosel-4.description"
+            button="home.carrosel-4.button"
+            img="bg-RF-sculpt"
+            subtitle="You might also like"
+            url="/estetica/estetica-corpo/rf-sculpt"
+          />
+          <CarouselRow
+            title="home.carrosel-5.title"
+            description="home.carrosel-5.description"
+            button="home.carrosel-5.button"
+            img="Epilação-laser"
+            subtitle="You might also like"
+            color="text-white"
+            url="/medicina-estetica/biestimuladores-de-colagenio"
           />
         </Carousel>
       </div>

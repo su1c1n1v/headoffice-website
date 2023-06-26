@@ -1,8 +1,28 @@
 import { useTranslation } from 'react-i18next';
 import ImageContainer from '../components/ImageContainer';
+import { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 
 export default function Cabelos() {
   const { t } = useTranslation();
+  const params = useParams();
+
+  useEffect(() => {
+    const handleClickScroll = () => {
+      if (!params.id) return;
+      const element = document.getElementById(params.id);
+
+      if (element) {
+        const timer = setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 1000);
+
+        return () => clearTimeout(timer);
+      }
+    };
+
+    handleClickScroll();
+  }, [params.id]);
 
   return (
     <>
@@ -13,6 +33,7 @@ export default function Cabelos() {
 
         <div className="m-auto">
           <ImageContainer
+            id="brushing"
             image="bg-Brushing"
             title={'Brushing'}
             subTitle={'sub-title-Brushing'}

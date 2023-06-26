@@ -1,9 +1,28 @@
+import { useParams } from 'react-router-dom';
 import ImageContainer from '../../components/ImageContainer';
 import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 export default function EsteticaRosto() {
   const { t } = useTranslation();
+  const params = useParams();
 
+  useEffect(() => {
+    const handleClickScroll = () => {
+      if (!params.id) return;
+      const element = document.getElementById(params.id);
+
+      if (element) {
+        const timer = setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 1000);
+
+        return () => clearTimeout(timer);
+      }
+    };
+
+    handleClickScroll();
+  }, [params.id]);
   return (
     <div className="md:w-11/12 xl:w-8/12 m-auto">
       <div id="Estética Rosto" className="md:p-0 px-10">
@@ -54,6 +73,7 @@ export default function EsteticaRosto() {
           ]}
         />
         <ImageContainer
+          id="hifu"
           image="bg-hifu-rosto"
           title={'Hifu'}
           subTitle={'sub-title-Hifu'}

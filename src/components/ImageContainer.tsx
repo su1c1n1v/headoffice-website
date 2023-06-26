@@ -9,6 +9,7 @@ interface ComponentProps {
   description?: any;
   benefits?: string[];
   revert?: boolean;
+  id?: string;
 }
 
 export default function ImageContainer({
@@ -19,6 +20,7 @@ export default function ImageContainer({
   description,
   revert,
   benefits,
+  id,
 }: ComponentProps) {
   const [textTitle, setTextTitle] = useState<string>('');
   const [textDescription, setTextDescription] = useState<string>('');
@@ -38,6 +40,7 @@ export default function ImageContainer({
     <>
       {/* Container 1 */}
       <div
+        id={id}
         className={`w-full px-10 md:px-0 md:mx-auto h-auto md:h-screen md:flex ${classname} ${
           revert ? 'flex-row-reverse' : ''
         } mb-48 mt-10`}

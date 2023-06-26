@@ -259,5 +259,39 @@
   "sub-title-Balayagem": "Cabelo mais claro e natural",
   "sub-title-Madeixas": "Mudança de colocação e mais luminosidade",
   "sub-title-Mechas criativas": "Visual moderno e único",
-  "sub-title-Extensions": "Cabelo mais comprido em pouco tempo"
+  "sub-title-Extensions": "Cabelo mais comprido em pouco tempo",
+
+  "You might also like": "A gente também tem",
+  "home":{
+    "carrosel-1":{
+      "title":"Headoffice",
+      "description":"A Transformação que Você Merece: Rejuvenesça e Realce sua Beleza na Nossa Clínica de Estética!",
+      "button":"Saiba mais"
+    },
+    "carrosel-2":{
+      "title":"Epilação Laser",
+      "description":"Desperte a Sua Beleza: Liberte-se dos Pelos Indesejados.",
+      "button":"Saiba mais"
+    },
+    "carrosel-3":{
+      "title":"HIFU",
+      "description":"Revolucione Sua Aparência: O Segredo para um Rosto Jovem e sem Rugas.",
+      "button":"Saiba mais"
+    },
+    "carrosel-4":{
+      "title":"RF Sculpt",
+      "description":"Desperte sua Forma Ideal: Redefina seu Corpo, Elimine a Gordura e Estimule seus Músculo!",
+      "button":"Saiba mais"
+    },
+    "carrosel-5":{
+      "title":"Biestimuladores de Colagénio",
+      "description":"Renove sua Juventude: \"Bumbum\" Volumoso e Pele Radiante!",
+      "button":"Saiba mais"
+    },
+    "carrosel-6":{
+      "title":"Brushing",
+      "description":"Deslumbre-se com o Poder do Brushing: Seu Cabelo Transformado!",
+      "button":"Saiba mais"
+    }
+  }
 }

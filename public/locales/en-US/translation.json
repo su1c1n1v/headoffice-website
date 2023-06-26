@@ -259,5 +259,40 @@
   "sub-title-Balayagem": "Lighter hair with reflections",
   "sub-title-Madeixas": "Change the hair colour",
   "sub-title-Mechas criativas": "Unique and modern look",
-  "sub-title-Extensions": "Longer hair in no time"
+
+  "sub-title-Extensions": "Longer hair in no time",
+  "You might also like": "You might also like",
+  
+  "home":{
+    "carrosel-1":{
+      "title":"Welcome to Headoffice",
+      "description":"Discover the Transformation You Deserve: Rejuvenate and Enhance Your Beauty at Our Aesthetics Clinic!",
+      "button":"Find out more"
+    },
+    "carrosel-2":{
+      "title":"Laser epilation",
+      "description":"Awaken Your Beauty: Get rid of unwanted hair.",
+      "button":"Find out more"
+    },
+    "carrosel-3":{
+      "title":"HIFU",
+      "description":"Revolutionize Your Appearance: The Secret to a Young, Wrinkle-Free Face.",
+      "button":"Find out more"
+    },
+    "carrosel-4":{
+      "title":"RF Sculpt",
+      "description":"Awaken Your Ideal Shape: Redefine Your Body, Eliminate Fat and Squeeze Your Muscles.",
+      "button":"Find out more"
+    },
+    "carrosel-5":{
+      "title":"Collagen biostimulators",
+      "description":"Renew your Youth: Voluminous \"Butt\" and Radiant Skin!",
+      "button":"Find out more"
+    },
+    "carrosel-6":{
+      "title":"Brushing",
+      "description":"Be dazzled by the Power of Brushing: Your Hair Transformed!",
+      "button":"Find out more"
+    }
+  }
 }

@@ -55,9 +55,8 @@ export default function Index() {
             title="home.carrosel-5.title"
             description="home.carrosel-5.description"
             button="home.carrosel-5.button"
-            img="Epilação-laser"
+            img="bg-biestimuladores-de-colagenio"
             subtitle="You might also like"
-            color="text-white"
             url="/medicina-estetica/biestimuladores-de-colagenio"
           />
         </Carousel>

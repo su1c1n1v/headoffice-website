@@ -47,6 +47,7 @@ module.exports = {
 
       //Home
       main: "url('/src/assets/img/homepage/home.jpg')",
+      'biestimuladores-de-colagenio': "url('/src/assets/img/homepage/biestimuladores-de-colagenio.png')",
       brushing: "url('/src/assets/img/homepage/Brushing.jpg')",
       HIFU: "url('/src/assets/img/homepage/HIFU.jpg')",
       'Epilação-Laser-main': "url('/src/assets/img/homepage/Epilação Laser.jpeg')",

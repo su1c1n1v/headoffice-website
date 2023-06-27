@@ -58,7 +58,7 @@ export default function Main() {
             </Link>
 
             <div
-              className="md:hidden px-10 my-auto"
+              className="md:hidden md:px-10 px-5 my-auto"
               onClick={() => setShowMenu(true)}
             >
               <Hambuguer className="mr-0 ml-auto w-9 text-gray-secondary cursor-pointer" />
@@ -84,7 +84,6 @@ export default function Main() {
               >
                 {t('Cabelos')}
               </Link>
-              {/* <MenuComponent /> */}
               <MenuDropdown
                 title="Estética"
                 routes={[

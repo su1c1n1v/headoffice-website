@@ -23,7 +23,7 @@ export default function App() {
       <Route path="/" element={<Main />}>
         <Route index element={<Index />} />
         <Route path="contatos" element={<Contatos />} />
-        <Route path="quem-somos" element={<QuemSomos />} />
+        <Route path="quem-somos/:id?" element={<QuemSomos />} />
         <Route path="medicina-estetica/:id?" element={<MedicinaEstetica />} />
         <Route
           path="estetica/estetica-rosto/:id?"

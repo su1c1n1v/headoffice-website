@@ -29,14 +29,14 @@ export default function CarouselRow({
         reverse && 'justify-end'
       }`}
     >
-      <div className="w-1/2 px-5 md:my-20 xl:my-36 flex mx-20 border-y border-yellow-secondary">
+      <div className="md:w-1/2 w-full px-5 md:my-20 xl:my-36 flex md:mx-20 mx-5 border-y border-yellow-secondary">
         <div className="m-auto">
           {subtitle && (
-            <p className="text-2xl font-semibold my-3 text-gray-500">
+            <p className="md:text-2xl text-xl font-semibold my-3 text-gray-500">
               {t(subtitle)}
             </p>
           )}
-          <h1 className="text-6xl font-bold my-4">{t(title)}</h1>
+          <h1 className="md:text-6xl text-4xl font-bold my-4">{t(title)}</h1>
 
           <p
             className={`font-semibold text-md my-3 ${

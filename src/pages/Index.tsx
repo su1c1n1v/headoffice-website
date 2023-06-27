@@ -62,38 +62,30 @@ export default function Index() {
         </Carousel>
       </div>
 
-      {/* Container 1 */}
       <Container
-        url="estetica"
-        classname="bg-estetica1"
-        title="Estética"
-        subTitle="Design único e exclusivo"
-        description="Cada detalhe é minuciosamente pensado junto com o cliente para que
-        o momento seja eternizado em sua memória. Uma lembrança de uma
-        grande história de amor."
+        url="quem-somos"
+        classname="bg-owner"
+        title="home-container.area-1.title"
+        button="home-container.area-1.button"
+        subTitle="home-container.area-1.subtitle"
+        description="home-container.area-1.description"
       />
 
-      {/* Container 2 */}
       <Container
-        url="medicina-estetica"
-        classname="bg-estetica-medica1"
-        revert
-        title="Estética Medica"
-        subTitle="Design único e exclusivo"
-        description="Cada detalhe é minuciosamente pensado junto com o cliente para que
-        o momento seja eternizado em sua memória. Uma lembrança de uma
-        grande história de amor."
+        url="contatos"
+        classname="bg-eventos"
+        button="home-container.area-2.button"
+        title="home-container.area-2.title"
+        subTitle="home-container.area-2.subtitle"
+        description="home-container.area-2.description"
       />
-
-      {/* Container 3 */}
       <Container
-        url="cabelos"
-        classname="bg-cabelo1"
-        title="Cabelos"
-        subTitle="Design único e exclusivo"
-        description="Cada detalhe é minuciosamente pensado junto com o cliente para que
-        o momento seja eternizado em sua memória. Uma lembrança de uma
-        grande história de amor."
+        url="quem-somos/espaco"
+        button="home-container.area-3.button"
+        classname="bg-space"
+        title="home-container.area-3.title"
+        subTitle="home-container.area-3.subtitle"
+        description="home-container.area-3.description"
       />
     </>
   );

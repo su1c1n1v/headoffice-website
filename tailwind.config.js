@@ -55,6 +55,9 @@ module.exports = {
       //Loja
       'loja1-effect': "url('/src/assets/img/loja/loja1-effect2.png')",
       missao: "url('/src/assets/img/loja/Missão.jpeg')",
+      owner: "url('/src/assets/img/loja/owner.jpg')",
+      eventos: "url('/src/assets/img/homepage/Eventos.jpg')",
+      space: "url('/src/assets/img/homepage/space.jpg')",
 
       // estetica corpo
       'radiofrequencia-corporal':

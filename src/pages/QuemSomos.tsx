@@ -11,9 +11,29 @@ import loja6 from '../assets/img/loja/loja6.jpg';
 import loja7 from '../assets/img/loja/loja7.jpg';
 import owner from '../assets/img/loja/owner.jpg';
 import home from '../assets/img/quemsomos/head-office-main.jpg';
+import { useParams } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export default function QuemSomos() {
   const { t } = useTranslation();
+  const params = useParams();
+
+  useEffect(() => {
+    const handleClickScroll = () => {
+      if (!params.id) return;
+      const element = document.getElementById(params.id);
+
+      if (element) {
+        const timer = setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 1000);
+
+        return () => clearTimeout(timer);
+      }
+    };
+
+    handleClickScroll();
+  }, [params.id]);
 
   return (
     <>
@@ -119,7 +139,7 @@ export default function QuemSomos() {
           </div>
         </div>
 
-        <div className="mx-auto h-[30rem] rounded-none mb-20 pb-10">
+        <div id="espaco" className="mx-auto h-[30rem] rounded-none mb-20 pb-10">
           <p className="text-4xl text-yellow-secondary my-10">{t('Espaço')}</p>
           <Carousel slideInterval={5000} className="mb-20">
             <img src={loja1} alt="Image of the store" />
@@ -132,7 +152,7 @@ export default function QuemSomos() {
           </Carousel>
         </div>
 
-        <div className="mx-auto flex w-full my-10">
+        {/* <div className="mx-auto flex w-full my-10">
           <div className="w-1/5 my-auto">
             <img src={loja1} alt="Image of the store" className="w-full p-2" />
             <img src={loja2} alt="Image of the store" className="w-full p-2" />
@@ -160,7 +180,7 @@ export default function QuemSomos() {
             <img src={loja2} alt="Image of the store" className="w-full p-2" />
             <img src={loja3} alt="Image of the store" className="w-full p-2" />
           </div>
-        </div>
+        </div> */}
 
         {/* 
         <div className="mx-auto flex w-full my-10">

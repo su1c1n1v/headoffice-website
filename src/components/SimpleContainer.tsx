@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 interface ComponentProps {
@@ -7,6 +8,7 @@ interface ComponentProps {
   description?: string;
   revert?: boolean;
   url: string;
+  button?: string;
 }
 
 export default function SimpleContainer({
@@ -16,16 +18,19 @@ export default function SimpleContainer({
   description,
   revert,
   url,
+  button,
 }: ComponentProps) {
+  const { t } = useTranslation();
   return (
     <>
       {/* Container 1 */}
       <div
-        className={`md:w-9/12 xl:w-8/12 md:h-80 md:flex mx-10 ${revert && 'flex-row-reverse'
-          } md:mx-auto my-20 md:my-40`}
+        className={`md:w-9/12 xl:w-8/12 md:h-80 md:flex mx-10 ${
+          revert && 'flex-row-reverse'
+        } md:mx-auto my-20 md:my-40`}
       >
         {/* Column 1 */}
-        <div className="relative md:flex items-center justify-center overflow-hidden shadow-2xl w-full h-80 md:h-auto md:w-1/2">
+        <div className="relative md:flex items-center justify-center overflow-hidden shadow-2xl w-full h-96 md:h-auto md:w-1/2">
           <div
             className={`absolute hover:scale-110 w-full h-full ${classname} transition-all duration-500 ease-in-out transform bg-center bg-cover`}
           />
@@ -33,17 +38,19 @@ export default function SimpleContainer({
 
         {/* Column 2 */}
         <div
-          className={`w-full md:w-1/2 ${revert ? 'md:mr-20' : 'md:ml-20'
-            } text-yellow-secondary`}
+          className={`w-full md:w-1/2 ${
+            revert ? 'md:mr-20' : 'md:ml-20'
+          } text-yellow-secondary`}
         >
           <div className={`w-full`}>
-            <p className="uppercase my-5 text-lg">{title}</p>
-            <p className="uppercase text-3xl my-5 font-serif font-medium">
-              {subTitle}
+            <p className="uppercase mb-2 text-lg">{title && t(title)}</p>
+            <p className="uppercase text-2xl mb-5 font-serif font-medium">
+              {subTitle && t(subTitle)}
             </p>
-            <p className="my-5 text-black">{description}</p>
+            <p className="my-5 text-black text-base">
+              {description && t(description)}
+            </p>
             <div className="my-5">
-              {/* <Button vartiant={'black'} title="Ler mais" /> */}
               <Link
                 className="relative shadow-2xl inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-yellow-secondary transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
                 to={url}
@@ -82,7 +89,7 @@ export default function SimpleContainer({
                   </svg>
                 </span>
                 <span className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">
-                  Saber mais
+                  {button && t(button)}
                 </span>
               </Link>
             </div>

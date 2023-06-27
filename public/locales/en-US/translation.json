@@ -294,5 +294,25 @@
       "description":"Be dazzled by the Power of Brushing: Your Hair Transformed!",
       "button":"Find out more"
     }
+  },
+  "home-container":{
+    "area-1":{
+      "title":"Headoffice",
+      "subtitle":"Enhance your natural beauty",
+      "description":"We are a beauty salon and aesthetic clinic dedicated to enhancing your natural beauty and promoting your well-being. From hair cutting and coloring to makeup and facials, we are committed to providing the best beauty services and aesthetic care. We offer customized services to meet your individual needs.",
+      "button":"Find out more"
+    },
+    "area-2":{
+      "title":"Events",
+      "subtitle":"Glamour Party",
+      "description":"We create events that are synonymous of elegance and sophistication. With personalized services we guarantee that every detail is perfect to create a special day. Whether it's a gala or an upscale corporate event, Headoffice is the perfect setting to kick off in style. We take care of your hair, nails and body to create memories that will last forever in an environment where glamor meets excellence.",
+      "button":"Find out more"
+    },
+    "area-3":{
+      "title":"Space",
+      "subtitle":"Unique and exclusive",
+      "description":"Discover an exclusive and unique space, where luxury, elegance and excellence meet to create an unforgettable experience. Enjoy every moment in this haven of sophistication, where every detail has been carefully thought out to make your experience truly memorable.",
+      "button":"Find out more"
+    }
   }
 }

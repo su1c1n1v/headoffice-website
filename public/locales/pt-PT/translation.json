@@ -293,5 +293,26 @@
       "description":"Deslumbre-se com o Poder do Brushing: Seu Cabelo Transformado!",
       "button":"Saiba mais"
     }
+  },
+
+  "home-container":{
+    "area-1":{
+      "title":"Headoffice",
+      "subtitle":"Realçamos a sua beleza natural",
+      "description":"Somos um salão de beleza e clínica estética dedicados a realçar sua beleza natural e promover seu bem-estar. Do corte e coloração de cabelo à maquilhagem e tratamentos faciais, estamos comprometidos em oferecer os melhores serviços de beleza e cuidados estéticos. Oferecemos serviços personalizados para atender às suas necessidades individuais.",
+      "button":"Saiba mais"
+    },
+    "area-2":{
+      "title":"Eventos",
+      "subtitle":"Glamour Party",
+      "description":"Criamos eventos que são sinónimo de elegância e sofisticação. Com serviços personalizados garantimos que cada detalhe seja perfeito para criar um dia especial. Seja uma festa de gala ou um evento corporativo requintado, no Headoffice é o cenário perfeito para iniciar em grande estilo. Cuidamos dos seus cabelos, unhas e corpo para criar memórias que durarão para sempre num ambiente onde o glamour encontra a excelência.",
+      "button":"Saiba mais"
+    },
+    "area-3":{
+      "title":"Espaço",
+      "subtitle":"Único e exclusivo",
+      "description":"Descubra um espaço exclusivo e único, onde o luxo, elegância e excelência se encontram para criar uma experiência inesquecível. Desacelere o tempo e aproveite cada momento neste refúgio de sofisticação, onde cada detalhe foi cuidadosamente pensado para tornar sua estadia verdadeiramente memorável.",
+      "button":"Saiba mais"
+    }
   }
 }

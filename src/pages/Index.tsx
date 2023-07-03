@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <>
       <div className="md:w-11/12 xl:w-8/12 m-auto h-[78.5vh] rounded-none">
-        <Carousel slideInterval={6000}>
+        <Carousel slideInterval={6000} rightControl leftControl>
           <CarouselRow
             title="home.carrosel-1.title"
             description="home.carrosel-1.description"

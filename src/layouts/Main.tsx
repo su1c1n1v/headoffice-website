@@ -198,7 +198,17 @@ export default function Main() {
               ></iframe>
             </div>
             <div className="m-auto w-5 border-t-2 my-5 border-gray-secondary" />
-            <p className="text-center mb-5">© 2023 | {t('rights')}</p>
+            <div className="justify-center m-auto flex text-center text-sm">
+              <p>{t('developed')}</p>
+              <a
+                href="https://github.com/su1c1n1v"
+                className="pl-1 hover:text-yellow-secondary duration-300 hover:underline"
+                target="blank"
+              >
+                Vinícius Costa
+              </a>
+            </div>
+            <p className="text-center">© 2023 | {t('rights')}</p>
           </div>
         </div>
 

@@ -113,7 +113,7 @@ export default function Main() {
       </div>
       <div className="fixed bottom-10 right-10 z-50">
         <Link
-          className="border hover:bg-gray-200 shadow-xl hover:fill-black fill-white text-white flex font-medium rounded-full bg-yellow-secondary px-14 py-4  hover:text-black duration-300"
+          className="border hover:bg-gray-200 shadow-xl hover:fill-black fill-white text-white flex font-medium rounded-full bg-yellow-secondary md:px-14 md:py-4 px-5 py-2  hover:text-black duration-300"
           to="contatos"
         >
           <Baloon className="w-5 mr-4" />
@@ -198,7 +198,17 @@ export default function Main() {
               ></iframe>
             </div>
             <div className="m-auto w-5 border-t-2 my-5 border-gray-secondary" />
-            <p className="text-center mb-5">© 2023 | {t('rights')}</p>
+            <div className="justify-center m-auto flex text-center text-sm">
+              <p>{t('developed')}</p>
+              <a
+                href="https://github.com/su1c1n1v"
+                className="pl-1 hover:text-yellow-secondary duration-300 hover:underline"
+                target="blank"
+              >
+                Vinícius Costa
+              </a>
+            </div>
+            <p className="text-center">© 2023 | {t('rights')}</p>
           </div>
         </div>
 

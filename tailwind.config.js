@@ -94,7 +94,7 @@ module.exports = {
       Hidragloss:
         "url('/src/assets/img/cuidados beleza-container/Hidragloss.jpeg')",
       'Lash-Lifting':
-        "url('/src/assets/img/cuidados beleza-container/Hidragloss.jpeg')",
+        "url('/src/assets/img/cuidados beleza-container/Lash Lifting.jpg')",
       'Brow-Lamination':
         "url('/src/assets/img/cuidados beleza-container/Brow Lamination.jpg')",
 

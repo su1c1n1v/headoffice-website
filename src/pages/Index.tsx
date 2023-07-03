@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <>
       <div className="md:w-11/12 xl:w-8/12 m-auto h-[78.5vh] rounded-none">
-        <Carousel slideInterval={6000}>
+        <Carousel slideInterval={6000} rightControl leftControl>
           <CarouselRow
             title="home.carrosel-1.title"
             description="home.carrosel-1.description"
@@ -21,7 +21,6 @@ export default function Index() {
             description="home.carrosel-2.description"
             button="home.carrosel-2.button"
             img="bg-Epilação-Laser-main"
-            subtitle="You might also like"
             url="/estetica/cuidados-beleza/epilacao-laser"
             reverse
           />
@@ -30,7 +29,6 @@ export default function Index() {
             description="home.carrosel-6.description"
             button="home.carrosel-6.button"
             img="bg-brushing"
-            subtitle="You might also like"
             color="text-white"
             url="cabelos/brushing"
           />
@@ -39,7 +37,6 @@ export default function Index() {
             description="home.carrosel-3.description"
             button="home.carrosel-3.button"
             img="bg-HIFU"
-            subtitle="You might also like"
             url="/estetica/estetica-rosto/hifu"
             reverse
           />
@@ -48,7 +45,6 @@ export default function Index() {
             description="home.carrosel-4.description"
             button="home.carrosel-4.button"
             img="bg-RF-sculpt"
-            subtitle="You might also like"
             url="/estetica/estetica-corpo/rf-sculpt"
           />
           <CarouselRow
@@ -56,7 +52,6 @@ export default function Index() {
             description="home.carrosel-5.description"
             button="home.carrosel-5.button"
             img="bg-biestimuladores-de-colagenio"
-            subtitle="You might also like"
             url="/medicina-estetica/biestimuladores-de-colagenio"
           />
         </Carousel>
@@ -78,6 +73,7 @@ export default function Index() {
         title="home-container.area-2.title"
         subTitle="home-container.area-2.subtitle"
         description="home-container.area-2.description"
+        revert
       />
       <Container
         url="quem-somos/espaco"

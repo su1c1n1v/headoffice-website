@@ -29,7 +29,7 @@ export default function CarouselRow({
         reverse && 'justify-end'
       }`}
     >
-      <div className="md:w-1/2 w-full px-5 md:my-20 xl:my-36 flex md:mx-20 mx-5 border-y border-yellow-secondary">
+      <div className="md:w-1/2 w-full px-5 my-20 md:my-20 xl:my-36 flex md:mx-20 mx-5 border-y border-yellow-secondary">
         <div className="m-auto">
           {subtitle && (
             <p className="md:text-2xl text-xl font-semibold my-3 text-gray-500">

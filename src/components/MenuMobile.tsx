@@ -84,12 +84,12 @@ export default function MenuMobile({
             onClick={close}
             className="text-black p-4 text-center inline-flex items-center hover:text-yellow-secondary duration-300"
             routes={[
-              { name: 'Estética Corpo', route: 'estetica/estetica-corpo' },
               {
                 name: 'Cuidados de Beleza',
                 route: 'estetica/cuidados-beleza',
               },
               { name: 'Estética Rosto', route: 'estetica/estetica-rosto' },
+              { name: 'Estética Corpo', route: 'estetica/estetica-corpo' },
             ]}
           />
         </div>

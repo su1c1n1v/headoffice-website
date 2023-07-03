@@ -73,6 +73,7 @@ export default function Index() {
         title="home-container.area-2.title"
         subTitle="home-container.area-2.subtitle"
         description="home-container.area-2.description"
+        revert
       />
       <Container
         url="quem-somos/espaco"
